@@ -1,15 +1,15 @@
 {
-  "_comment": "Agentens larbara parametrar. run_evening.py justerar 'weights' sma steg baserat pa uppmatt information coefficient (IC) per delkomponent. Andra garna 'risk' manuellt - den delen justeras inte automatiskt.",
-  "version": 1,
+  "_comment": "Agentens larbara parametrar. run_evening.py justerar 'weights' sma steg baserat pa uppmatt information coefficient (IC) per delkomponent. Andra garna 'risk' manuellt - den delen justeras aldrig automatiskt.",
+  "version": 2,
   "last_updated": null,
   "weights": {
     "momentum": 0.25,
     "trend": 0.15,
-    "reversal": 0.10,
+    "reversal": 0.1,
     "volume": 0.05,
-    "fundamental": 0.20,
+    "fundamental": 0.2,
     "sentiment": 0.15,
-    "macro": 0.10
+    "macro": 0.1
   },
   "weight_bounds": {"min": 0.03, "max": 0.45},
   "learning": {
@@ -21,7 +21,9 @@
     "start_capital_sek": 1000000,
     "max_positions": 8,
     "max_weight_per_position": 0.15,
-    "risk_per_trade_pct": 1.5,
+    "max_gross_exposure_pct": 100,
+    "_risk_per_trade_kommentar": "0,5 % med typiska ATR-stopp pa 3-4 % ger positioner runt 12-17 % av kapitalet. Det ligger precis under positionstaket, vilket ar poangen: da far volatilitetsjusteringen faktiskt verka och lugna bolag far storre vikt an skakiga. Med 1,5 % traffade varje position taket och allt blev likaviktat.",
+    "risk_per_trade_pct": 0.5,
     "atr_stop_mult": 1.5,
     "atr_target_mult": 2.5,
     "max_hold_days_day_trade": 1,
