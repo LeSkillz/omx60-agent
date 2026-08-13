@@ -30,7 +30,14 @@ jobs:
   kor:
     runs-on: ubuntu-latest
     steps:
+      # ref: main gor att aven "Re-run jobs" hamtar senaste koden i stallet for
+      # den commit korningen ursprungligen startade pa. Utan detta kor en
+      # omkorning gammal kod och forsoker spara ovanpa en main som hunnit vidare.
+      # fetch-depth: 0 behovs for att rebase ska fungera i sparningssteget.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -81,12 +88,37 @@ jobs:
 
       - name: Spara agentens minne
         run: |
+          set -e
           git config user.name "omx-agent"
           git config user.email "actions@github.com"
           git add -A data config docs memory || true
-          git diff --staged --quiet || git commit -m "Agentkorning ${{ steps.lage.outputs.v }} $(date -u +%Y-%m-%d)"
-          git pull --rebase --autostash || true
-          git push
+
+          if git diff --staged --quiet; then
+            echo "Inget nytt att spara."
+            exit 0
+          fi
+          git commit -m "Agentkorning ${{ steps.lage.outputs.v }} $(date -u +%Y-%m-%dT%H:%M)"
+
+          # Prisfilerna skrivs om i sin helhet varje korning, sa en vanlig
+          # rebase ger add/add-konflikt i varenda CSV. Agentens nyss genererade
+          # filer ar alltid facit - darav -X theirs, som under rebase syftar pa
+          # commiten som spelas upp, alltsa var egen.
+          for forsok in 1 2 3; do
+            if git push; then
+              echo "Sparat."
+              exit 0
+            fi
+            echo "Push avvisad, fjarrgrenen har andrats. Forsok $forsok av 3."
+            git fetch origin main
+            if ! git -c core.editor=true rebase -X theirs origin/main; then
+              echo "Rebase gick inte att losa automatiskt, aterstaller."
+              git rebase --abort || true
+              exit 1
+            fi
+          done
+
+          echo "Kunde inte spara agentens minne efter tre forsok."
+          exit 1
 
       - uses: actions/upload-pages-artifact@v3
         with:
