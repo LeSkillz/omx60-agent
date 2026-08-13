@@ -1,0 +1,296 @@
+"""
+Bygger den levande rapporten: report/index.html
+
+All data bakas in i sidan, sa filen fungerar offline. Kor efter varje
+morgon- och kvallskorning.
+
+Kor:  python3 scripts/build_report.py
+"""
+import datetime as dt
+import json
+
+import numpy as np
+
+import omxagent as A
+
+
+def collect():
+    sig_files = sorted((A.DATA / "signals").glob("[0-9]*.json"))
+    ev_files = sorted(f for f in (A.DATA / "evaluations").glob("[0-9]*.json")
+                      if "_ic" not in f.name and "_weights" not in f.name)
+    latest = A.load_json(sig_files[-1], {}) if sig_files else {}
+    evals = [A.load_json(f, {}) for f in ev_files]
+    p = A.portfolio()
+    strat = A.strategy()
+
+    closed = p["closed_trades"]
+    wins = [t for t in closed if t["pnl_sek"] > 0]
+    losses = [t for t in closed if t["pnl_sek"] <= 0]
+    gw = sum(t["pnl_sek"] for t in wins)
+    gl = -sum(t["pnl_sek"] for t in losses)
+
+    eq = p["equity_curve"]
+    start = strat["risk"]["start_capital_sek"]
+    dd, peak = [], start
+    for e in eq:
+        peak = max(peak, e["equity"])
+        dd.append(round((e["equity"] / peak - 1) * 100, 2))
+
+    daily_rets = []
+    for i in range(1, len(eq)):
+        daily_rets.append(eq[i]["equity"] / eq[i - 1]["equity"] - 1)
+    sharpe = (float(np.mean(daily_rets) / np.std(daily_rets) * np.sqrt(252))
+              if len(daily_rets) > 5 and np.std(daily_rets) > 0 else None)
+
+    ic_hist = []
+    for f in sorted((A.DATA / "evaluations").glob("*_ic.json")):
+        d = A.load_json(f, {})
+        ic_hist.append({"date": d.get("date"), **d.get("ic", {})})
+
+    w_hist = []
+    for f in sorted((A.DATA / "evaluations").glob("*_weights.json")):
+        d = A.load_json(f, {})
+        w_hist.append({"date": d.get("date"), **d.get("weights_after", {})})
+
+    lessons = ""
+    lp = A.MEMORY / "lessons.md"
+    if lp.exists():
+        lessons = lp.read_text(encoding="utf-8")
+
+    return {
+        "built": dt.datetime.now().isoformat(timespec="seconds"),
+        "latest": latest,
+        "evals": evals,
+        "portfolio": {k: p[k] for k in ("equity", "cash", "open_positions",
+                                        "equity_curve")},
+        "closed": closed[-200:],
+        "stats": {
+            "start_capital": start,
+            "equity": p["equity"],
+            "total_return_pct": round((p["equity"] / start - 1) * 100, 2),
+            "n_closed": len(closed),
+            "win_rate": round(len(wins) / len(closed) * 100, 1) if closed else None,
+            "profit_factor": round(gw / gl, 2) if gl > 0 else None,
+            "avg_win": round(gw / len(wins), 0) if wins else None,
+            "avg_loss": round(-gl / len(losses), 0) if losses else None,
+            "max_drawdown_pct": min(dd) if dd else None,
+            "sharpe": round(sharpe, 2) if sharpe else None,
+        },
+        "drawdown": dd,
+        "weights": strat["weights"],
+        "weight_history": w_hist,
+        "ic_history": ic_hist,
+        "lessons": lessons,
+        "components": A.COMPONENTS,
+    }
+
+
+HTML = r"""<!doctype html>
+<html lang="sv"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0e1116">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="OMX60">
+<title>OMX60-agenten</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0e1116;--card:#171b22;--line:#252b36;--tx:#e6e9ef;--dim:#8b94a7;
+--up:#2ecc71;--dn:#e74c3c;--acc:#4a9eff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);
+font:14px/1.55 -apple-system,Segoe UI,Roboto,sans-serif;padding:24px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:15px;margin:0 0 12px;color:var(--dim);
+text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+.sub{color:var(--dim);margin-bottom:20px;font-size:13px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px}
+.kpis{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));
+margin-bottom:20px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+.kpi .l{color:var(--dim);font-size:11px;text-transform:uppercase;letter-spacing:.06em}
+.kpi .v{font-size:22px;font-weight:600;margin-top:4px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th{text-align:left;color:var(--dim);font-weight:600;font-size:11px;
+text-transform:uppercase;letter-spacing:.05em;padding:6px 8px;border-bottom:1px solid var(--line)}
+td{padding:7px 8px;border-bottom:1px solid var(--line)}
+tr:last-child td{border-bottom:none}
+.up{color:var(--up)}.dn{color:var(--dn)}
+.tag{display:inline-block;padding:1px 7px;border-radius:4px;font-size:11px;font-weight:600}
+.long{background:rgba(46,204,113,.15);color:var(--up)}
+.short{background:rgba(231,76,60,.15);color:var(--dn)}
+.bar{height:5px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:3px}
+.bar i{display:block;height:100%;background:var(--acc)}
+.tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+.tabs button{background:var(--card);border:1px solid var(--line);color:var(--dim);
+padding:6px 14px;border-radius:7px;cursor:pointer;font-size:13px}
+.tabs button.on{background:var(--acc);color:#fff;border-color:var(--acc)}
+.pane{display:none}.pane.on{display:block}
+pre{white-space:pre-wrap;font:13px/1.6 ui-monospace,monospace;color:var(--tx)}
+.note{color:var(--dim);font-size:12px;margin-top:10px}
+.warn{background:rgba(231,76,60,.1);border:1px solid rgba(231,76,60,.35);
+border-radius:8px;padding:10px 14px;margin-bottom:18px;font-size:13px}
+canvas{max-height:260px}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -4px;padding:0 4px}
+.scroll table{min-width:520px}
+
+/* --- mobil --- */
+@media (max-width:640px){
+ body{padding:12px 12px calc(12px + env(safe-area-inset-bottom))}
+ h1{font-size:19px}
+ .kpis{grid-template-columns:repeat(2,1fr);gap:8px}
+ .kpi{padding:11px}.kpi .v{font-size:18px}.kpi .l{font-size:10px}
+ .card{padding:14px;border-radius:9px}
+ .grid{grid-template-columns:1fr}
+ .tabs{position:sticky;top:0;z-index:5;background:var(--bg);
+ padding:8px 0;margin:0 0 12px}
+ .tabs button{flex:1 1 auto;padding:9px 8px;font-size:13px;min-height:40px}
+ table{font-size:12px}th{font-size:10px;padding:5px 6px}td{padding:8px 6px}
+ canvas{max-height:210px}
+ .warn{font-size:12px;padding:9px 11px}
+}
+@media (max-width:400px){.kpis{grid-template-columns:1fr 1fr}}
+</style></head><body>
+<div class="warn"><b>Pappershandel.</b> Inga riktiga order laggs. Detta ar en
+modell under utvardering, inte investeringsradgivning.</div>
+<h1>OMX60-agenten</h1>
+<div class="sub" id="sub"></div>
+<div class="kpis" id="kpis"></div>
+<div class="tabs">
+  <button class="on" data-p="idag">Idag</button>
+  <button data-p="portfolj">Portfolj</button>
+  <button data-p="historik">Historik</button>
+  <button data-p="larande">Larande</button>
+</div>
+<div class="pane on" id="p-idag"></div>
+<div class="pane" id="p-portfolj"></div>
+<div class="pane" id="p-historik"></div>
+<div class="pane" id="p-larande"></div>
+<script>const D = __DATA__;</script>
+<script>
+const $=(s)=>document.querySelector(s), esc=(s)=>String(s??"").replace(/[<>&]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]));
+const num=(v,d=2)=>v==null?"&ndash;":Number(v).toLocaleString("sv-SE",{minimumFractionDigits:d,maximumFractionDigits:d});
+const sgn=(v)=>v==null?"":(v>=0?"up":"dn");
+const S=D.stats;
+$("#sub").textContent=`Byggd ${D.built} · ${D.evals.length} utvarderade dagar · ${S.n_closed} avslutade affarer`;
+
+$("#kpis").innerHTML=[
+ ["Portfoljvarde", num(S.equity,0)+" kr"],
+ ["Avkastning", `<span class="${sgn(S.total_return_pct)}">${num(S.total_return_pct)}%</span>`],
+ ["Traffsakerhet", S.win_rate==null?"&ndash;":num(S.win_rate,1)+"%"],
+ ["Profit factor", num(S.profit_factor)],
+ ["Max drawdown", `<span class="dn">${num(S.max_drawdown_pct)}%</span>`],
+ ["Sharpe", num(S.sharpe)],
+].map(([l,v])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div></div>`).join("");
+
+/* ---- Idag ---- */
+const L=D.latest||{};
+function sigTable(rows,title){
+ if(!rows||!rows.length) return `<div class="card"><h2>${title}</h2><div class="note">Inga signaler som klarade troskelvardena.</div></div>`;
+ return `<div class="card"><h2>${title}</h2><div class="scroll"><table><tr><th>Bolag</th><th>Riktn</th><th>Kurs</th>
+ <th>Antal</th><th>Stop</th><th>Mal</th><th>Score</th><th>Konf</th></tr>`+
+ rows.map(r=>`<tr><td><b>${esc(r.name)}</b><div class="note">${esc(r.sector||"")}</div></td>
+ <td><span class="tag ${r.direction}">${r.direction==="long"?"KOP":"BLANK"}</span></td>
+ <td>${num(r.ref_price)}</td><td>${r.shares}</td><td>${num(r.stop)}</td><td>${num(r.target)}</td>
+ <td class="${sgn(r.score)}">${num(r.score)}</td>
+ <td>${num(r.confidence)}<div class="bar"><i style="width:${(r.confidence*100).toFixed(0)}%"></i></div></td></tr>`+
+ (r.rationale?`<tr><td colspan="8" class="note">${esc(r.rationale)}</td></tr>`:"")).join("")+`</table></div></div>`;
+}
+$("#p-idag").innerHTML =
+ (L.macro&&L.macro.notes?`<div class="card" style="margin-bottom:16px"><h2>Omvarldslage</h2><div>${esc(L.macro.notes)}</div></div>`:"")
+ + sigTable(L.day_trades,"Dagens affarer") + `<div style="height:16px"></div>`
+ + sigTable(L.week_trades,"Veckans affarer")
+ + (L.coverage?`<div class="note">Tackning: ${L.coverage.priced} bolag med kursdata, ${L.coverage.qualitative} med kvalitativ analys.</div>`:"");
+
+/* ---- Portfolj ---- */
+const P=D.portfolio;
+$("#p-portfolj").innerHTML=`<div class="card"><h2>Oppna positioner</h2>`+
+ (P.open_positions.length?`<div class="scroll"><table><tr><th>Bolag</th><th>Riktn</th><th>Oppnad</th><th>Entry</th>
+ <th>Senast</th><th>Oreal. P/L</th></tr>`+P.open_positions.map(o=>
+ `<tr><td>${esc(o.name)}</td><td><span class="tag ${o.direction}">${o.direction}</span></td>
+ <td>${o.opened}</td><td>${num(o.entry)}</td><td>${num(o.last_close)}</td>
+ <td class="${sgn(o.open_pnl)}">${num(o.open_pnl,0)} kr</td></tr>`).join("")+`</table></div>`
+ :`<div class="note">Inga oppna positioner.</div>`)+
+ `</div><div style="height:16px"></div>
+ <div class="card"><h2>Senaste avsluten</h2>`+
+ (D.closed.length?`<div class="scroll"><table><tr><th>Bolag</th><th>Riktn</th><th>In</th><th>Ut</th>
+ <th>Orsak</th><th>Dagar</th><th>Resultat</th></tr>`+D.closed.slice().reverse().slice(0,40).map(t=>
+ `<tr><td>${esc(t.name)}</td><td><span class="tag ${t.direction}">${t.direction}</span></td>
+ <td>${num(t.entry)}</td><td>${num(t.exit)}</td><td>${esc(t.reason)}</td><td>${t.held_days}</td>
+ <td class="${sgn(t.pnl_sek)}">${num(t.pnl_pct)}% (${num(t.pnl_sek,0)} kr)</td></tr>`).join("")+`</table></div>`
+ :`<div class="note">Inga avslutade affarer an.</div>`)+`</div>`;
+
+/* ---- Historik ---- */
+$("#p-historik").innerHTML=`<div class="grid">
+ <div class="card"><h2>Portfoljutveckling</h2><canvas id="c1"></canvas></div>
+ <div class="card"><h2>Drawdown</h2><canvas id="c2"></canvas></div>
+ <div class="card"><h2>Traffsakerhet per dag</h2><canvas id="c3"></canvas></div>
+ <div class="card"><h2>Agent mot index (dagsavkastning)</h2><canvas id="c4"></canvas></div></div>`;
+
+/* ---- Larande ---- */
+$("#p-larande").innerHTML=`<div class="grid">
+ <div class="card"><h2>Nuvarande vikter</h2><canvas id="c5"></canvas></div>
+ <div class="card"><h2>Vikternas utveckling</h2><canvas id="c6"></canvas></div>
+ <div class="card" style="grid-column:1/-1"><h2>Information coefficient per komponent</h2>
+ <canvas id="c7"></canvas>
+ <div class="note">IC = rangkorrelation mellan delpoangen och nasta dags faktiska avkastning.
+ Positivt varde betyder att komponenten faktiskt forutsager nagot. Vikterna flyttas
+ langsamt mot de komponenter som haller.</div></div>
+ <div class="card" style="grid-column:1/-1"><h2>Lardomslogg</h2><pre>${esc(D.lessons)||"Tom."}</pre></div></div>`;
+
+/* ---- diagram ---- */
+Chart.defaults.color="#8b94a7"; Chart.defaults.borderColor="#252b36";
+const opt={responsive:true,plugins:{legend:{labels:{boxWidth:10,font:{size:11}}}},
+ scales:{x:{ticks:{maxTicksLimit:8,font:{size:10}}},y:{ticks:{font:{size:10}}}}};
+const eq=P.equity_curve, ed=eq.map(e=>e.date);
+const line=(id,labels,ds,extra={})=>{const el=document.getElementById(id);
+ if(el) new Chart(el,{type:"line",data:{labels,datasets:ds},options:{...opt,...extra}});};
+
+line("c1",ed,[{label:"Portfolj",data:eq.map(e=>e.equity),borderColor:"#4a9eff",
+ backgroundColor:"rgba(74,158,255,.12)",fill:true,tension:.25,pointRadius:0,borderWidth:2}]);
+line("c2",ed,[{label:"Drawdown %",data:D.drawdown,borderColor:"#e74c3c",
+ backgroundColor:"rgba(231,76,60,.15)",fill:true,tension:.2,pointRadius:0,borderWidth:2}]);
+
+const evd=D.evals.map(e=>e.date);
+const hr=document.getElementById("c3");
+if(hr) new Chart(hr,{type:"bar",data:{labels:evd,datasets:[{label:"Traffsakerhet %",
+ data:D.evals.map(e=>e.hit_rate==null?null:e.hit_rate*100),
+ backgroundColor:D.evals.map(e=>(e.hit_rate??0)>=.5?"#2ecc71":"#e74c3c")}]},
+ options:{...opt,scales:{...opt.scales,y:{...opt.scales.y,suggestedMin:0,suggestedMax:100}}}});
+
+line("c4",evd,[
+ {label:"Agent %",data:D.evals.map(e=>e.avg_signed_return_pct),borderColor:"#4a9eff",tension:.2,pointRadius:2,borderWidth:2},
+ {label:"OMX %",data:D.evals.map(e=>e.benchmark_return_pct),borderColor:"#8b94a7",tension:.2,pointRadius:2,borderWidth:2,borderDash:[4,4]}]);
+
+const wEl=document.getElementById("c5");
+if(wEl) new Chart(wEl,{type:"bar",data:{labels:D.components,
+ datasets:[{data:D.components.map(c=>D.weights[c]),backgroundColor:"#4a9eff"}]},
+ options:{...opt,indexAxis:"y",plugins:{legend:{display:false}}}});
+
+const pal=["#4a9eff","#2ecc71","#e74c3c","#f39c12","#9b59b6","#1abc9c","#e67e22"];
+line("c6",D.weight_history.map(w=>w.date),
+ D.components.map((c,i)=>({label:c,data:D.weight_history.map(w=>w[c]),
+ borderColor:pal[i],tension:.2,pointRadius:0,borderWidth:2})));
+line("c7",D.ic_history.map(w=>w.date),
+ D.components.map((c,i)=>({label:c,data:D.ic_history.map(w=>w[c]),
+ borderColor:pal[i],tension:.2,pointRadius:0,borderWidth:1.5})));
+
+document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{
+ document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("on"));
+ document.querySelectorAll(".pane").forEach(x=>x.classList.remove("on"));
+ b.classList.add("on"); $("#p-"+b.dataset.p).classList.add("on");});
+</script></body></html>
+"""
+
+
+def main():
+    d = collect()
+    html = HTML.replace("__DATA__", json.dumps(d, ensure_ascii=False, default=str))
+    out = A.REPORT / "index.html"
+    out.write_text(html, encoding="utf-8")
+    print(f"Rapport skriven: {out}")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
