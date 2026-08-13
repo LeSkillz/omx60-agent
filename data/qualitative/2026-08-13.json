@@ -1,0 +1,223 @@
+{
+  "date": "2026-08-13",
+  "macro": {
+    "market": 0,
+    "sector_scores": {
+      "Industri": 1,
+      "Finans": -1,
+      "Fastighet": -1,
+      "Material": 0,
+      "Halsovard": -1,
+      "Teknik": -1,
+      "Sallankopsvaror": -1,
+      "Dagligvaror": 0,
+      "Telekom": 0
+    },
+    "notes": "Stockholmsbörsen öppnar grönt efter sex raka nedgångsdagar, index ligger ändå 1,5-1,7% under förra veckans rekord. Riksbankens nästa räntebesked kommer 20 augusti; KI-data visar starkare tillväxt men stigande arbetslöshet, vilket ökat marknadens förväntningar på en räntehöjning längre fram, negativt för räntekänsliga fastighetsbolag. Bankerna har fått höjda riktkurser men flera hus (KBW, SB1 Markets) behåller kritiska rekommendationer efter sommarens kursrally, vilket tolkas som en varningssignal snarare än en köpsignal.",
+    "sources": [
+      "https://www.privataaffarer.se/alla-nyheter/borstelegram/borsen-oppnar-uppat-embracer-rapportstiger/",
+      "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13",
+      "https://www.swedbank-aktiellt.se/",
+      "https://www.riksbank.se/",
+      "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-11"
+    ]
+  },
+  "tickers": {
+    "SAAB-B.ST": {
+      "fundamental": 1,
+      "sentiment": 2,
+      "notes": "Barclays höjde rekommendationen från undervikt till övervikt och lyfte riktkursen till 740 kr från 545 kr, en av de större positiva omsvängningarna på börsen denna vecka. RBC inledde samtidigt bevakning (sector perform, 600 kr). Aktien steg 3% på beskedet.",
+      "sources": [
+        "https://efn.se/saab-far-dubbla-bankbesked-barclays-ser-stor-uppsida",
+        "https://www.placera.se/nyheter/saab-stiger-pa-stilla-bors-2026-08-11"
+      ],
+      "events": [
+        "Q3-rapport väntas oktober 2026"
+      ]
+    },
+    "BOL.ST": {
+      "fundamental": -1,
+      "sentiment": 1,
+      "notes": "Q2-rapporten missade förväntningarna i juli vilket ledde till en våg av sänkta riktkurser (bl.a. Morgan Stanley till 473 kr). Aktien steg dock drygt 1% efter att regeringen avslagit överklaganden mot brytningskoncessionen för Laver-projektet, vilket tar bort en osäkerhetsfaktor.",
+      "sources": [
+        "https://www.nordnet.se/aktier/kurser/boliden-bol-xsto",
+        "https://www.placera.se/nyheter/boliden-upp-pa-forsiktig-bors-2026-08-12"
+      ],
+      "events": []
+    },
+    "AZN.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Marknaden reagerade skeptiskt på spekulationer om en stor affär med Bristol Myers Squibb, där analytiker ifrågasätter den strategiska logiken. Aktien var ned nästan en procent i tisdagens handel efter tidigare studiebakslag och en HSBC-nedgradering till behåll.",
+      "sources": [
+        "https://www.marketmate.se/forvaltare-ser-chans-till-revansch-for-astra-zeneca/",
+        "https://www.placera.se/nyheter/saab-stiger-pa-stilla-bors-2026-08-11"
+      ],
+      "events": []
+    },
+    "STOR-B.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "Justerad ebita för Q2 landade på 864 Mkr. Idag köpte styrelseordförande Annette Brodin Rampe aktier för 1,1 miljoner kronor, ett tydligt insynsköp som sticker ut mot en annars svag kursutveckling i småbolagssektorn.",
+      "sources": [
+        "https://www.placera.se/nyheter/saab-stiger-pa-stilla-bors-2026-08-11",
+        "https://www.nordnet.se/marknaden/se"
+      ],
+      "events": []
+    },
+    "VOLCAR-B.ST": {
+      "fundamental": -1,
+      "sentiment": -1,
+      "notes": "Global bilförsäljning sjönk 4% under maj-juli 2026 jämfört med samma period föregående år, och aktien föll 5% på beskedet.",
+      "sources": [
+        "https://www.placera.se/nyheter/astra-zeneca-aterhamtar-sig-pa-gron-bors-2026-08-04"
+      ],
+      "events": []
+    },
+    "HM-B.ST": {
+      "fundamental": -1,
+      "sentiment": -1,
+      "notes": "Aktien var fortsatt förlorare i storbolagsindexet (-1,3%) sedan den tyska konkurrenten Zalando sänkt sin helårsprognos, vilket smittat sentimentet i klädsektorn.",
+      "sources": [
+        "https://www.placera.se/nyheter/astra-zeneca-aterhamtar-sig-pa-gron-bors-2026-08-04",
+        "https://www.nordnet.se/aktier/kurser/hm-b-xsto"
+      ],
+      "events": []
+    },
+    "CAST.ST": {
+      "fundamental": 1,
+      "sentiment": 0,
+      "notes": "Har tecknat avtal om att sälja fastigheter i Malmö, Lund, Helsingborg, Ängelholm och Burlöv till Wihlborgs för 13,3 miljarder kronor, en konkret deleveraging-åtgärd. Barclays höjde tidigare i somras till jämvikt från undervikt.",
+      "sources": [
+        "https://www.placera.se/nyheter/kopstampel-pa-truecaller---har-ar-dagens-rekar-2026-06-24"
+      ],
+      "events": []
+    },
+    "SBB-B.ST": {
+      "fundamental": -1,
+      "sentiment": -1,
+      "notes": "Beskrivs som ett bolag som gått \"från favorit till ifrågasatt\" och handlas med rabatt mot substansvärde, i linje med en fastighetssektor som fortsatt pressas av ränteläget.",
+      "sources": [
+        "https://battreaffarer.nu/ekonomi/aktier/castellum-aktie-fastighetsbolag-omvandling/"
+      ],
+      "events": []
+    },
+    "BALD-B.ST": {
+      "fundamental": -1,
+      "sentiment": -1,
+      "notes": "Hög skuldsättning gör intjäningen mycket räntekänslig, och marknadens förväntningar om en räntehöjning senare i år (enligt KI/Riksbanken-kommentarer) är en motvind för bolaget.",
+      "sources": [
+        "https://www.affarsvarlden.se/analys/balder-ensam-pa-tappan",
+        "https://www.placera.se/nyheter/svagt-uppat-i-stockholm--ferronordic-rusar-pa-rapport-2026-08-12"
+      ],
+      "events": []
+    },
+    "EVO.ST": {
+      "fundamental": -1,
+      "sentiment": -1,
+      "notes": "Brittiska spelmyndigheten övervägde att dra in Evolutions Malta-licens, bolaget löste det med en förlikning på 4,75 miljoner pund; myndigheten pekar på att \"tillväxten står stilla\". Two Sigma har samtidigt ökat en publik blankningsposition till 0,52% av kapitalet.",
+      "sources": [
+        "https://www.dagensps.se/bors-finans/aktier/evolution-riskerade-indragen-licens-koper-sig-ur-hardare-straff/",
+        "https://www.placera.se/nyheter/kopstampel-pa-truecaller---har-ar-dagens-rekar-2026-06-24"
+      ],
+      "events": []
+    },
+    "TRUE-B.ST": {
+      "fundamental": -2,
+      "sentiment": -1,
+      "notes": "Rapporterade ett svagt andra kvartal 2026 med nettoomsättning ned 21% och rörelseresultat (EBIT) ned 53% jämfört med föregående år, ett tydligt trendbrott mot tidigare kvartals tillväxt.",
+      "sources": [
+        "https://www.borskollen.se/aktie/truecaller"
+      ],
+      "events": []
+    },
+    "SSAB-B.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "Järnmalmspriset har rallyat kraftigt under sommaren delvis pga kinesiska produktionsminskningar, vilket höjer råvarukostnaden, men bolaget har i gengäld aviserat höjda plåtpriser. Pareto Securities höjde riktkursen kraftigt till 88 kr från 65 kr i somras.",
+      "sources": [
+        "https://www.metalliskamaterial.se/sv/fakta/jarnmalmspriset-kraftig-upp/",
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-07-27"
+      ],
+      "events": []
+    },
+    "ATCO-A.ST": {
+      "fundamental": 2,
+      "sentiment": 1,
+      "notes": "Q2-rapporten visade rekordorderingång med 26% organisk ordertillväxt drivet av halvledarboomen; ledningen räknar med fortsatt hög aktivitet under Q3. Bernstein höjde riktkursen idag till 240 kr (230) och upprepade outperform.",
+      "sources": [
+        "https://www.investing.com/news/company-news/atlas-copco-q2-2026-slides-record-orders-driven-by-semiconductor-surge-93CH-4795544",
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": [
+        "Q3-rapport"
+      ]
+    },
+    "ATCO-B.ST": {
+      "fundamental": 2,
+      "sentiment": 1,
+      "notes": "Samma bolag som ATCO-A: rekordorderingång i Q2 (+26% organiskt) drivet av halvledarefterfrågan, riktkurs höjd av Bernstein idag till 240 kr.",
+      "sources": [
+        "https://www.investing.com/news/company-news/atlas-copco-q2-2026-slides-record-orders-driven-by-semiconductor-surge-93CH-4795544",
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": []
+    },
+    "VOLV-B.ST": {
+      "fundamental": 1,
+      "sentiment": 0,
+      "notes": "Q2-rapporten visade nettoomsättning på 126,3 miljarder kronor med 7% organisk tillväxt och högsta lönsamheten på flera kvartal (justerad rörelsemarginal 11,7% mot 11,0% föregående år).",
+      "sources": [
+        "https://www.volvogroup.com/en/news-and-media/news/2026/jul/volvo-group--the-second-quarter-2026.html"
+      ],
+      "events": []
+    },
+    "SEB-A.ST": {
+      "fundamental": 1,
+      "sentiment": -1,
+      "notes": "Starkt Q2 med rörelseintäkter upp 9% till 20 055 Mkr. Trots detta sänkte SB1 Markets nyligen rekommendationen från köp till neutral som en försiktighetsåtgärd efter bankernas kursrally under sommaren, och KBW höjde idag riktkursen men upprepade underperform.",
+      "sources": [
+        "https://www.borskollen.se/aktie/seb",
+        "https://www.swedbank-aktiellt.se/",
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": []
+    },
+    "SWED-A.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "KBW höjde idag riktkursen för Swedbank till 355 kr (330) men upprepade samtidigt en underperform-rekommendation, vilket signalerar fortsatt skepsis trots högre målkurs.",
+      "sources": [
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": []
+    },
+    "SHB-A.ST": {
+      "fundamental": -1,
+      "sentiment": -1,
+      "notes": "KBW höjde idag riktkursen till 135 kr (130) men upprepade underperform. Analytiker har tidigare pekat på att banken har ett intäktsproblem snarare än ett kostnadsproblem.",
+      "sources": [
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": []
+    },
+    "NDA-SE.ST": {
+      "fundamental": 1,
+      "sentiment": -1,
+      "notes": "Fundamentalt starkt bolag med lönsamhet över 15% ROE, men SB1 Markets sänkte nyligen rekommendationen från köp till neutral för Nordea som en försiktighetsåtgärd efter den kraftiga kursuppgången under sommaren.",
+      "sources": [
+        "https://www.swedbank-aktiellt.se/"
+      ],
+      "events": []
+    },
+    "HOLM-B.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "JP Morgan höjde riktkursen till 303 kr (286) men upprepade samtidigt en undervikt-rekommendation, vilket antyder att höjningen inte reflekterar en mer positiv grundsyn.",
+      "sources": [
+        "https://www.privataaffarer.se/placeringar/aktierekar/har-ar-tisdagens-aktierekar-YUxf0/"
+      ],
+      "events": []
+    }
+  }
+}

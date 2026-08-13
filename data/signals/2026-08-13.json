@@ -1,0 +1,312 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T09:00:14",
+  "weights_used": {
+    "momentum": 0.25,
+    "trend": 0.15,
+    "reversal": 0.1,
+    "volume": 0.05,
+    "fundamental": 0.2,
+    "sentiment": 0.15,
+    "macro": 0.1
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 20,
+    "missing": []
+  },
+  "macro": {
+    "market": 0,
+    "sector_scores": {
+      "Industri": 1,
+      "Finans": -1,
+      "Fastighet": -1,
+      "Material": 0,
+      "Halsovard": -1,
+      "Teknik": -1,
+      "Sallankopsvaror": -1,
+      "Dagligvaror": 0,
+      "Telekom": 0
+    },
+    "notes": "Stockholmsbörsen öppnar grönt efter sex raka nedgångsdagar, index ligger ändå 1,5-1,7% under förra veckans rekord. Riksbankens nästa räntebesked kommer 20 augusti; KI-data visar starkare tillväxt men stigande arbetslöshet, vilket ökat marknadens förväntningar på en räntehöjning längre fram, negativt för räntekänsliga fastighetsbolag. Bankerna har fått höjda riktkurser men flera hus (KBW, SB1 Markets) behåller kritiska rekommendationer efter sommarens kursrally, vilket tolkas som en varningssignal snarare än en köpsignal.",
+    "sources": [
+      "https://www.privataaffarer.se/alla-nyheter/borstelegram/borsen-oppnar-uppat-embracer-rapportstiger/",
+      "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13",
+      "https://www.swedbank-aktiellt.se/",
+      "https://www.riksbank.se/",
+      "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-11"
+    ]
+  },
+  "day_trades": [
+    {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "day",
+      "score": 0.375,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.303,
+        "trend": 0.757,
+        "reversal": -0.209,
+        "volume": 0.111,
+        "fundamental": 1.0,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "ref_price": 183.8,
+      "shares": 816,
+      "stop": 178.36,
+      "target": 192.87,
+      "max_hold_days": 1,
+      "rationale": "Samma bolag som ATCO-A: rekordorderingång i Q2 (+26% organiskt) drivet av halvledarefterfrågan, riktkurs höjd av Bernstein idag till 240 kr."
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "day",
+      "score": 0.357,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.797,
+        "trend": 0.758,
+        "reversal": -0.325,
+        "volume": 0.208,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.0
+      },
+      "ref_price": 105.6,
+      "shares": 1420,
+      "stop": 101.27,
+      "target": 112.82,
+      "max_hold_days": 1,
+      "rationale": "Järnmalmspriset har rallyat kraftigt under sommaren delvis pga kinesiska produktionsminskningar, vilket höjer råvarukostnaden, men bolaget har i gengäld aviserat höjda plåtpriser. Pareto Securities höjde riktkursen kraftigt till 88 kr från 65 kr i somras."
+    },
+    {
+      "ticker": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "sector": "Teknik",
+      "direction": "short",
+      "horizon": "day",
+      "score": -0.362,
+      "confidence": 0.907,
+      "components": {
+        "momentum": -0.2,
+        "trend": 0.2,
+        "reversal": -0.435,
+        "volume": -0.231,
+        "fundamental": -1.0,
+        "sentiment": -0.5,
+        "macro": -0.35
+      },
+      "ref_price": 19.31,
+      "shares": 7770,
+      "stop": 20.46,
+      "target": 17.37,
+      "max_hold_days": 1,
+      "rationale": "Rapporterade ett svagt andra kvartal 2026 med nettoomsättning ned 21% och rörelseresultat (EBIT) ned 53% jämfört med föregående år, ett tydligt trendbrott mot tidigare kvartals tillväxt."
+    }
+  ],
+  "week_trades": [
+    {
+      "ticker": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.565,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.33,
+        "trend": 0.756,
+        "reversal": -0.27,
+        "volume": -0.172,
+        "fundamental": 1.0,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "ref_price": 211.1,
+      "shares": 710,
+      "stop": 204.25,
+      "target": 222.52,
+      "max_hold_days": 5,
+      "rationale": "Q2-rapporten visade rekordorderingång med 26% organisk ordertillväxt drivet av halvledarboomen; ledningen räknar med fortsatt hög aktivitet under Q3. Bernstein höjde riktkursen idag till 240 kr (230) och upprepade outperform."
+    },
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.457,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.218,
+        "trend": 0.7,
+        "reversal": -0.942,
+        "volume": 0.596,
+        "fundamental": 0.5,
+        "sentiment": 1.0,
+        "macro": 0.35
+      },
+      "ref_price": 690.1,
+      "shares": 217,
+      "stop": 653.89,
+      "target": 750.46,
+      "max_hold_days": 5,
+      "rationale": "Barclays höjde rekommendationen från undervikt till övervikt och lyfte riktkursen till 740 kr från 545 kr, en av de större positiva omsvängningarna på börsen denna vecka. RBC inledde samtidigt bevakning (sector perform, 600 kr). Aktien steg 3% på beskedet."
+    },
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.43,
+      "confidence": 0.814,
+      "components": {
+        "momentum": -0.177,
+        "trend": -0.944,
+        "reversal": 0.135,
+        "volume": 0.02,
+        "fundamental": -0.5,
+        "sentiment": -0.5,
+        "macro": -0.35
+      },
+      "ref_price": 19.48,
+      "shares": 7702,
+      "stop": 20.49,
+      "target": 17.79,
+      "max_hold_days": 5,
+      "rationale": "Global bilförsäljning sjönk 4% under maj-juli 2026 jämfört med samma period föregående år, och aktien föll 5% på beskedet."
+    }
+  ],
+  "top10": [
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.484,
+      "confidence": 0.907
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.47,
+      "confidence": 0.814
+    },
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.466,
+      "confidence": 0.814
+    },
+    {
+      "index": "SAAB-B.ST",
+      "name": "Saab B",
+      "score": 0.38,
+      "confidence": 0.907
+    },
+    {
+      "index": "STOR-B.ST",
+      "name": "Storskogen B",
+      "score": 0.315,
+      "confidence": 0.814
+    },
+    {
+      "index": "VOLV-B.ST",
+      "name": "Volvo B",
+      "score": 0.279,
+      "confidence": 0.907
+    },
+    {
+      "index": "SAND.ST",
+      "name": "Sandvik",
+      "score": 0.207,
+      "confidence": 0.657
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": 0.19,
+      "confidence": 0.564
+    },
+    {
+      "index": "CAST.ST",
+      "name": "Castellum",
+      "score": 0.169,
+      "confidence": 0.629
+    },
+    {
+      "index": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "score": 0.165,
+      "confidence": 0.564
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "EVO.ST",
+      "name": "Evolution",
+      "score": -0.159,
+      "confidence": 0.907
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.163,
+      "confidence": 0.564
+    },
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.17,
+      "confidence": 0.564
+    },
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.171,
+      "confidence": 0.471
+    },
+    {
+      "index": "AFRY.ST",
+      "name": "AFRY",
+      "score": -0.182,
+      "confidence": 0.471
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.26,
+      "confidence": 0.814
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.282,
+      "confidence": 0.907
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.291,
+      "confidence": 0.564
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.381,
+      "confidence": 0.814
+    },
+    {
+      "index": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "score": -0.385,
+      "confidence": 0.907
+    }
+  ]
+}
