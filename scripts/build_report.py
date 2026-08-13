@@ -57,9 +57,12 @@ def collect():
     if lp.exists():
         lessons = lp.read_text(encoding="utf-8")
 
+    pending = A.load_json(A.DATA / "pending.json", {})
+
     return {
         "built": dt.datetime.now().isoformat(timespec="seconds"),
         "latest": latest,
+        "pending": pending,
         "evals": evals,
         "portfolio": {k: p[k] for k in ("equity", "cash", "open_positions",
                                         "equity_curve")},
@@ -157,12 +160,14 @@ modell under utvardering, inte investeringsradgivning.</div>
 <div class="sub" id="sub"></div>
 <div class="kpis" id="kpis"></div>
 <div class="tabs">
-  <button class="on" data-p="idag">Idag</button>
+  <button class="on" data-p="idag">Order</button>
+  <button data-p="bevakning">Bevakning</button>
   <button data-p="portfolj">Portfolj</button>
   <button data-p="historik">Historik</button>
   <button data-p="larande">Larande</button>
 </div>
 <div class="pane on" id="p-idag"></div>
+<div class="pane" id="p-bevakning"></div>
 <div class="pane" id="p-portfolj"></div>
 <div class="pane" id="p-historik"></div>
 <div class="pane" id="p-larande"></div>
@@ -171,7 +176,7 @@ modell under utvardering, inte investeringsradgivning.</div>
 const $=(s)=>document.querySelector(s), esc=(s)=>String(s??"").replace(/[<>&]/g,c=>({"<":"&lt;",">":"&gt;","&":"&amp;"}[c]));
 const num=(v,d=2)=>v==null?"&ndash;":Number(v).toLocaleString("sv-SE",{minimumFractionDigits:d,maximumFractionDigits:d});
 const sgn=(v)=>v==null?"":(v>=0?"up":"dn");
-const S=D.stats;
+const S=D.stats, P=D.portfolio;
 $("#sub").textContent=`Byggd ${D.built} · ${D.evals.length} utvarderade dagar · ${S.n_closed} avslutade affarer`;
 
 $("#kpis").innerHTML=[
@@ -183,27 +188,86 @@ $("#kpis").innerHTML=[
  ["Sharpe", num(S.sharpe)],
 ].map(([l,v])=>`<div class="kpi"><div class="l">${l}</div><div class="v">${v}</div></div>`).join("");
 
-/* ---- Idag ---- */
-const L=D.latest||{};
-function sigTable(rows,title){
- if(!rows||!rows.length) return `<div class="card"><h2>${title}</h2><div class="note">Inga signaler som klarade troskelvardena.</div></div>`;
- return `<div class="card"><h2>${title}</h2><div class="scroll"><table><tr><th>Bolag</th><th>Riktn</th><th>Kurs</th>
- <th>Antal</th><th>Stop</th><th>Mal</th><th>Score</th><th>Konf</th></tr>`+
- rows.map(r=>`<tr><td><b>${esc(r.name)}</b><div class="note">${esc(r.sector||"")}</div></td>
- <td><span class="tag ${r.direction}">${r.direction==="long"?"KOP":"BLANK"}</span></td>
- <td>${num(r.ref_price)}</td><td>${r.shares}</td><td>${num(r.stop)}</td><td>${num(r.target)}</td>
- <td class="${sgn(r.score)}">${num(r.score)}</td>
- <td>${num(r.confidence)}<div class="bar"><i style="width:${(r.confidence*100).toFixed(0)}%"></i></div></td></tr>`+
- (r.rationale?`<tr><td colspan="8" class="note">${esc(r.rationale)}</td></tr>`:"")).join("")+`</table></div></div>`;
+/* ---- Order ---- */
+const L=D.latest||{}, PEND=D.pending||{};
+const orders=(PEND.orders&&PEND.orders.length)?PEND.orders
+            :[].concat(L.day_trades||[],L.week_trades||[]);
+
+function orderCard(r){
+ const kop=r.direction==="long";
+ return `<div class="card" style="margin-bottom:12px">
+ <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap">
+  <div><div style="font-size:17px;font-weight:600">${esc(r.name)}</div>
+   <div class="note" style="margin:0">${esc(r.ticker)} · ${esc(r.sector||"")}</div></div>
+  <span class="tag ${r.direction}" style="font-size:13px;padding:4px 12px">
+   ${kop?"KOP":"BLANKA"}</span></div>
+ <div class="scroll" style="margin-top:12px"><table>
+  <tr><th>Ordertyp</th><th>Antal</th><th>Referens</th><th>Stop</th><th>Mal</th><th>Horisont</th></tr>
+  <tr><td>Marknad vid oppning</td><td><b>${r.indicative_shares??r.shares}</b> st</td>
+   <td>${num(r.ref_price)}</td>
+   <td class="dn">${num(r.stop)}</td><td class="up">${num(r.target)}</td>
+   <td>${r.horizon==="day"?"1 dag":"upp till 5 dagar"}</td></tr>
+ </table></div>
+ <div class="note">Antal, stop och mal ar indikativa och raknas om mot dagens
+ faktiska oppningskurs. Stoppavstand ${num(r.stop_dist)} kr, malavstand
+ ${num(r.target_dist)} kr. Score ${num(r.score)}, konfidens ${num(r.confidence)}.</div>
+ ${r.rationale?`<div class="note">${esc(r.rationale)}</div>`:""}</div>`;
 }
+
 $("#p-idag").innerHTML =
  (L.macro&&L.macro.notes?`<div class="card" style="margin-bottom:16px"><h2>Omvarldslage</h2><div>${esc(L.macro.notes)}</div></div>`:"")
- + sigTable(L.day_trades,"Dagens affarer") + `<div style="height:16px"></div>`
- + sigTable(L.week_trades,"Veckans affarer")
- + (L.coverage?`<div class="note">Tackning: ${L.coverage.priced} bolag med kursdata, ${L.coverage.qualitative} med kvalitativ analys.</div>`:"");
+ + `<h2>Order att lagga vid oppning${PEND.date?" ("+PEND.date+")":""}</h2>`
+ + (orders.length?orders.map(orderCard).join("")
+    :`<div class="card"><div class="note">Inga order idag. Ingen kandidat klarade
+      troskelvardena for score och konfidens.</div></div>`)
+ + (PEND.filled&&PEND.filled.length?`<div class="card"><h2>Utforda idag</h2>
+    <div class="note">${PEND.filled.map(esc).join("<br>")}</div></div>`:"")
+ + (PEND.rejected&&PEND.rejected.length?`<div class="card"><h2>Ej utforda</h2>
+    <div class="note">${PEND.rejected.map(esc).join("<br>")}</div></div>`:"")
+ + (L.coverage?`<div class="note">Tackning: ${L.coverage.priced} bolag med
+    kursdata, ${L.coverage.qualitative} med kvalitativ analys.</div>`:"");
+
+/* ---- Bevakning ---- */
+function watchCard(o){
+ const kop=o.direction==="long", pct=(o.progress??0)*100;
+ const varning=o.action==="Nara stop"?"dn":(o.action==="Nara mal"?"up":"");
+ return `<div class="card" style="margin-bottom:12px">
+ <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap">
+  <div><div style="font-size:17px;font-weight:600">${esc(o.name)}</div>
+   <div class="note" style="margin:0">${esc(o.ticker)} · in ${o.opened} @ ${num(o.entry)}</div></div>
+  <div style="text-align:right">
+   <span class="tag ${o.direction}">${kop?"LANG":"KORT"}</span>
+   <div class="${sgn(o.open_pnl)}" style="font-size:17px;font-weight:600;margin-top:4px">
+    ${num(o.open_pnl_pct)}%</div></div></div>
+
+ <div style="margin-top:14px">
+  <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--dim)">
+   <span>STOP ${num(o.stop)}</span><span>NU ${num(o.last_close)}</span><span>MAL ${num(o.target)}</span></div>
+  <div class="bar" style="height:8px;margin-top:5px;background:linear-gradient(90deg,rgba(231,76,60,.35),rgba(46,204,113,.35))">
+   <i style="width:${pct.toFixed(0)}%;background:var(--tx);opacity:.85"></i></div>
+ </div>
+
+ <div class="scroll" style="margin-top:12px"><table>
+  <tr><th>Salj om kursen faller till</th><th>Ta hem vid</th><th>Dagar kvar</th><th>Lage</th></tr>
+  <tr><td class="dn">${num(o.stop)} (${num(o.to_stop_pct)}%)</td>
+      <td class="up">${num(o.target)} (${num(o.to_target_pct)}%)</td>
+      <td>${o.days_left===0?"stangs idag":o.days_left+" st"}</td>
+      <td class="${varning}"><b>${esc(o.action||"Behall")}</b></td></tr>
+ </table></div>
+ ${o.rationale?`<div class="note">${esc(o.rationale)}</div>`:""}</div>`;
+}
+
+$("#p-bevakning").innerHTML =
+ `<h2>Oppna positioner${P.open_positions[0]&&P.open_positions[0].as_of?" per "+P.open_positions[0].as_of:""}</h2>`
+ + (P.open_positions.length?P.open_positions.map(watchCard).join("")
+    :`<div class="card"><div class="note">Inga oppna positioner just nu.</div></div>`)
+ + `<div class="card"><div class="note">Stoppen ar den niva dar affarsiden anses
+    fel och positionen stangs. Malkursen ar dar vinsten tas hem. Dagar kvar
+    galler tidsexit: nar de tar slut stangs positionen till stangningskursen
+    oavsett var kursen star. Nivaerna ar fasta fran att positionen oppnades och
+    flyttas inte.</div></div>`;
 
 /* ---- Portfolj ---- */
-const P=D.portfolio;
 $("#p-portfolj").innerHTML=`<div class="card"><h2>Oppna positioner</h2>`+
  (P.open_positions.length?`<div class="scroll"><table><tr><th>Bolag</th><th>Riktn</th><th>Oppnad</th><th>Entry</th>
  <th>Senast</th><th>Oreal. P/L</th></tr>`+P.open_positions.map(o=>
