@@ -1,5 +1,11 @@
 """
-Morgonkorning: rakna fram dagens och veckans signaler, oppna pappersositioner.
+Morgonkorning: rakna fram dagens och veckans signaler och lagg dem som
+ORDER ATT UTFORAS VID DAGENS OPPNING.
+
+Positioner oppnas inte har. Morgonkorningen vet inte vad oppningskursen blir,
+och att bokfora kopet till gardagens stangning vore att ge modellen varje natts
+kursrorelse gratis. Kvallskorningen fyller ordrarna till dagens faktiska
+oppningskurs.
 
 Forutsatter att agenten redan har:
   1. skrivit uppdaterad prisdata till data/prices/ (fetch_data.py)
@@ -24,13 +30,8 @@ def company_group(ticker):
 
 def dedupe(day_sig, week_sig):
     """
-    Ett bolag far bara en position, oavsett aktieslag och horisont.
-    Utan detta kan modellen ta ATCO-A och ATCO-B samtidigt och tro att det
-    ar tva oberoende positioner nar det i praktiken ar dubbel exponering
-    mot samma bolag.
-
-    Starkast overtygelse vinner. Returnerar (dagssignaler, veckosignaler,
-    bortsorterade).
+    Ett bolag far bara en order, oavsett aktieslag och horisont.
+    Starkast overtygelse vinner.
     """
     combined = [("day", s) for s in day_sig] + [("week", s) for s in week_sig]
     combined.sort(key=lambda x: -abs(x[1]["score"]))
@@ -40,7 +41,7 @@ def dedupe(day_sig, week_sig):
         g = company_group(s["ticker"])
         if g in seen:
             dropped.append(f"{s['ticker']} ({horizon}, samma bolag som "
-                           f"redan vald position)")
+                           f"redan vald order)")
             continue
         seen.add(g)
         kept.append((horizon, s))
@@ -53,7 +54,6 @@ def dedupe(day_sig, week_sig):
 def main(today=None):
     today = today or dt.date.today().isoformat()
     strat = A.strategy()
-    risk = strat["risk"]
 
     prices, missing = A.load_all_prices()
     if len(prices) < 20:
@@ -80,7 +80,6 @@ def main(today=None):
 
     base = A.build_scores(feats, qual, macro, strat, "base")
     base.to_csv(A.DATA / "signals" / f"{today}_scores.csv")
-    scored = base
 
     day_sig = A.make_signals(A.build_scores(feats, qual, macro, strat, "day"),
                              strat, "day")
@@ -89,6 +88,23 @@ def main(today=None):
     day_sig, week_sig, dropped = dedupe(day_sig, week_sig)
     if dropped:
         print(f"Bortsorterat pga dubbel bolagsexponering: {'; '.join(dropped)}")
+
+    # ---- gor om signalerna till order ----
+    # Stopp- och malavstand ar ATR-baserade och foljer med som avstand, inte som
+    # nivaer. Kvallskorningen lagger dem runt den faktiska oppningskursen.
+    orders = []
+    for s in day_sig + week_sig:
+        atr = max(feats[s["ticker"]]["atr14"], 0.01)
+        orders.append({
+            **s,
+            "signal_date": today,
+            "atr14": round(atr, 4),
+            "stop_dist": round(strat["risk"]["atr_stop_mult"] * atr, 4),
+            "target_dist": round(strat["risk"]["atr_target_mult"] * atr, 4),
+            "order_type": "marknad vid oppning",
+            "indicative_shares": s["shares"],
+        })
+    A.save_json(A.DATA / "pending.json", {"date": today, "orders": orders})
 
     payload = {
         "date": today,
@@ -99,59 +115,17 @@ def main(today=None):
         "macro": macro,
         "day_trades": day_sig,
         "week_trades": week_sig,
-        "top10": scored.head(10)[["name", "score", "confidence"]]
-                       .round(3).reset_index().to_dict("records"),
-        "bottom10": scored.tail(10)[["name", "score", "confidence"]]
-                          .round(3).reset_index().to_dict("records"),
+        "pending_orders": orders,
+        "top10": base.head(10)[["name", "score", "confidence"]]
+                     .round(3).reset_index().to_dict("records"),
+        "bottom10": base.tail(10)[["name", "score", "confidence"]]
+                        .round(3).reset_index().to_dict("records"),
     }
     A.save_json(A.DATA / "signals" / f"{today}.json", payload)
 
-    # ---- oppna pappersositioner ----
-    p = A.portfolio()
-    equity = p["equity"] or risk["start_capital_sek"]
-    open_groups = {company_group(x["ticker"]) for x in p["open_positions"]}
-    gross = sum(abs(x["shares"] * x["entry"]) for x in p["open_positions"])
-    max_gross = equity * risk.get("max_gross_exposure_pct", 100) / 100.0
-
-    cap, opened, skipped = risk["max_positions"], 0, []
-    for s in day_sig + week_sig:
-        if len(p["open_positions"]) >= cap:
-            skipped.append(f"{s['ticker']} (maxantal positioner)")
-            continue
-        g = company_group(s["ticker"])
-        if g in open_groups:
-            skipped.append(f"{s['ticker']} (redan exponering mot bolaget)")
-            continue
-
-        notional = s["shares"] * s["ref_price"]
-        if gross + notional > max_gross:
-            skipped.append(f"{s['ticker']} (bruttoexponeringstak)")
-            continue
-        if s["direction"] == "long" and notional > p["cash"]:
-            skipped.append(f"{s['ticker']} (otillracklig kassa)")
-            continue
-
-        c = A.cost(notional, strat)
-        p["cash"] -= (notional + c) if s["direction"] == "long" else -(notional - c)
-        p["open_positions"].append({
-            "opened": today, "ticker": s["ticker"], "name": s["name"],
-            "direction": s["direction"], "horizon": s["horizon"],
-            "shares": s["shares"], "entry": s["ref_price"],
-            "stop": s["stop"], "target": s["target"],
-            "max_hold_days": s["max_hold_days"], "score": s["score"],
-            "confidence": s["confidence"], "components": s["components"],
-            "entry_cost": round(c, 2),
-        })
-        open_groups.add(g)
-        gross += notional
-        opened += 1
-
-    A.save_portfolio(p)
-    print(f"{len(day_sig)} dagssignaler, {len(week_sig)} veckosignaler, "
-          f"{opened} nya pappersositioner.")
-    print(f"Bruttoexponering {gross/equity*100:.0f}% av kapitalet.")
-    if skipped:
-        print("Ej oppnade: " + "; ".join(skipped))
+    print(f"{len(day_sig)} dagsorder, {len(week_sig)} veckoorder lagda for "
+          f"utforande vid dagens oppning.")
+    print("Positioner bokfors i kvallskorningen till faktisk oppningskurs.")
     return 0
 
 
