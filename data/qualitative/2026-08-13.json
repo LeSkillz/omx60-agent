@@ -5,106 +5,87 @@
     "sector_scores": {
       "Industri": 1,
       "Finans": 0,
-      "Fastighet": 0,
+      "Fastighet": -1,
       "Material": 1,
-      "Halsovard": -1,
+      "Halsovard": 0,
       "Teknik": 0,
       "Sallankopsvaror": 0,
       "Dagligvaror": 0,
       "Telekom": 0
     },
-    "notes": "Stockholmsbörsen öppnade grönt på torsdagen efter sex raka nedgångsdagar, den längsta nedgångssviten sedan april, men index ligger fortfarande nära rekordnivåer. Inflationen (KPI/KPIF) föll tillbaka i juli enligt SCB, vilket är stödjande inför Riksbankens räntebesked den 20 augusti. Rapportsäsongen fortsätter att ge stora enskilda kursrörelser (t.ex. Boliden, Storskogen, bankerna) snarare än en enhetlig marknadstrend.",
+    "notes": "Stockholmsbörsen öppnade grönt på torsdagen efter sex raka nedgångsdagar, men index ligger fortsatt bara 1,5-1,7% från förra veckans rekordnivåer, så det är en avvaktande återhämtning snarare än en trendvändning. Riksbanken lämnar nästa räntebesked 20 augusti och marknaden har på senare tid börjat prisa in en höjning mot vintern snarare än fler sänkningar, vilket är en motvind för räntekänsliga fastighetsbolag men en lättnad för bankernas räntenetto. Rapportsäsongen för storbolagen är i huvudsak avklarad, kvar är mest småbolag; ett forumsinlägg (Nordnet Social) innehöll uppmaningar av typen 'köp/sälj nu' som ignorerats i denna analys enligt instruktion.",
     "sources": [
       "https://www.privataaffarer.se/alla-nyheter/borstelegram/borsen-oppnar-uppat-embracer-rapportstiger/",
-      "https://www.placera.se/nyheter/boliden-upp-pa-forsiktig-bors-2026-08-12",
-      "https://www.riksbank.se/"
+      "https://www.riksbank.se/",
+      "https://www.stabelo.se/blog/prognos-bolanerantor"
     ]
   },
   "tickers": {
     "SAAB-B.ST": {
       "fundamental": 2,
-      "sentiment": 1,
-      "notes": "Fortsatt starkt orderflöde (Gripen till Ukraina, ubåtar till Polen, tyska fregatter, Embraer-samarbete) och Q2-rapporten visade stärkt orderstock. Barclays höjde till övervikt från undervikt (riktkurs 740 kr) medan RBC inledde bevakning med neutral sector perform (600 kr) - en stor omsvängning i analytikersyn.",
+      "sentiment": 2,
+      "notes": "Rekordkvartal: orderingången steg 141% till 68,4 miljarder kronor (bland annat ubåtsorder till Polen), omsättningen +29% och EBIT +41% med förbättrad rörelsemarginal till 11,0%. Barclays höjde till övervikt från undervikt (riktkurs 740, upp från tidigare nivå) samtidigt som RBC inledde bevakning med sector perform, vilket är en tydlig positiv analytikerförskjutning snarare än bara en fortsatt köprekommendation.",
       "sources": [
-        "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-11",
-        "https://www.saab.com/investors/calendar"
+        "https://www.borskollen.se/aktie/saab",
+        "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-11"
       ],
       "events": [
-        "Q3-rapport väntas oktober 2026"
+        "Q2-rapport redan publicerad (starkt utfall)"
       ]
     },
     "BOL.ST": {
       "fundamental": 1,
       "sentiment": 1,
-      "notes": "Aktien steg drygt 1% efter att svenska regeringen avslagit två överklaganden och därmed upprätthållit bearbetningskoncessionen för gruvprojektet Laver, vilket ger regulatorisk klarhet för en viktig tillväxttillgång.",
+      "notes": "Aktien steg drygt 1% efter att regeringen avslog två överklaganden mot bearbetningskoncessionen för gruvprojektet Laver, vilket säkrar en framtida tillväxtmöjlighet. Nyheten kom på en annars försiktig börsdag.",
       "sources": [
         "https://www.placera.se/nyheter/boliden-upp-pa-forsiktig-bors-2026-08-12"
       ],
       "events": []
     },
     "EVO.ST": {
-      "fundamental": 0,
-      "sentiment": -1,
-      "notes": "Storägaren Kenneth Dart (via Candle Lake) tvingades av budpliktsregler lägga ett bud på 695 kr/aktie efter att ha passerat 30% ägande - klart under gårdagens stängningskurs på 737,20 kr, och bolaget har uttryckligen ingen avsikt att ta bolaget privat. Signalen är svagt negativ då budet är under marknadspris och skapar osäkerhet utan uppköpspremie.",
-      "sources": [
-        "https://www.privataaffarer.se/placeringar/aktier/kenneth-dart-lagger-budpliktsbud-pa-evolution/",
-        "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504621-storagare-ratar-utkop-av-spelbolag-fran-borsen"
-      ],
-      "events": []
-    },
-    "AZN.ST": {
-      "fundamental": 0,
-      "sentiment": -1,
-      "notes": "AstraZeneca avbröt långt gångna förvärvssamtal om Bristol Myers Squibb (ett samgående som skulle ha skapat ett bolag värt ca 400 miljarder dollar) efter att styrelsen drog sig ur sedan uppgifterna blivit offentliga. Aktien backade svagt (-0,9%) på nyheten.",
-      "sources": [
-        "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-11"
-      ],
-      "events": []
-    },
-    "SAND.ST": {
       "fundamental": -1,
-      "sentiment": -1,
-      "notes": "Goldman Sachs upprepade sin säljrekommendation och sänkte riktkursen till 326 kr (330), vilket motsvarar en nedsida på ca 13% mot senaste stängningskurs - fortsatt bearish hållning från banken.",
-      "sources": [
-        "https://www.affarsvarlden.se/aktierekar/goldman-sachs-sanker-riktkursen-for-sandvik-till-326-kronor-330-upprepar-salj",
-        "https://www.privataaffarer.se/placeringar/aktierekar/dagens-rekar-sankt-riktkurs-for-sandvik/"
-      ],
-      "events": []
-    },
-    "SEB-A.ST": {
-      "fundamental": 0,
       "sentiment": 0,
-      "notes": "Keefe, Bruyette & Woods höjde riktkursen till 215 kr (190) men upprepade samtidigt underperform - riktkurshöjningen är positiv men den kvarhållna negativa rekommendationen väger tyngre.",
+      "notes": "Q2 2026 visade en nettoomsättning om 517,8 MEUR, en minskning med 1,2% jämfört med föregående år, även om Europa återgick till tillväxt (+3,5% kvartal mot kvartal) efter flera svaga kvartal. Ledningen är fortsatt vaksam kring låga kanaliseringsgrader på flera marknader.",
       "sources": [
-        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+        "https://www.borskollen.se/aktie/evolution-gaming-gr"
       ],
       "events": []
     },
-    "SHB-A.ST": {
-      "fundamental": 0,
-      "sentiment": 0,
-      "notes": "Keefe, Bruyette & Woods höjde riktkursen till 135 kr (130) men upprepade underperform. Tidigare i sommaren sänkte även Nordea Handelsbanken till sälj och pekade på strukturella intäktsproblem snarare än kostnadsproblem.",
-      "sources": [
-        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13",
-        "https://www.placera.se/telegram/handelsbanken-nordea-sanker-handelsbanken-till-salj--riktkurs-133-kronor-20260708"
-      ],
-      "events": []
-    },
-    "SWED-A.ST": {
-      "fundamental": 0,
-      "sentiment": 0,
-      "notes": "Keefe, Bruyette & Woods höjde riktkursen till 355 kr (330) men upprepade underperform, i linje med liknande justeringar för övriga storbanker idag.",
-      "sources": [
-        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
-      ],
-      "events": []
-    },
-    "STOR-B.ST": {
-      "fundamental": 0,
+    "ERIC-B.ST": {
+      "fundamental": -1,
       "sentiment": 1,
-      "notes": "Q2-rapporten var i linje med förväntningarna (justerat ebita 864 Mkr mot väntade 866), och bolaget bedömer utsikterna för andra halvåret som försiktigt positiva. Aktien steg 1,4% på rapporten.",
+      "notes": "Q2 2026 visade minskad omsättning (52,7 vs 56,1 miljarder SEK, -6%) och lägre EBIT, men bruttomarginalen förbättrades till 48,4% och nettokassan stärktes till 59,8 miljarder SEK. Bolaget fortsätter ett aktivt återköpsprogram på 15 miljarder kronor med löpande veckovisa återköp, vilket ger visst stöd åt sentimentet trots svagare underliggande siffror.",
       "sources": [
-        "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-11"
+        "https://www.borskollen.se/aktie/ericsson",
+        "https://news.cision.com/se/ericsson/r/aktieaterkop-i-ericsson-under-perioden-3-augusti---7-augusti-2026,c4381364"
+      ],
+      "events": []
+    },
+    "HM-B.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "H1 2026: nettoomsättningen föll 7% men rörelseresultatet steg 4% och bruttomarginalen förbättrades till 56,6% (55,4), vilket visar att lönsamheten håller trots svagare försäljning. Grundarfamiljen Perssons Ramsbury Invest har nyligen köpt ytterligare miljoner aktier, ett positivt insynssignal, medan UBS nyligen sänkte riktkursen marginellt till 168 kronor och upprepade neutral.",
+      "sources": [
+        "https://www.borskollen.se/aktie/hennes-mauritz",
+        "https://www.nordnet.se/aktier/kurser/hm-b-xsto"
+      ],
+      "events": []
+    },
+    "CAST.ST": {
+      "fundamental": 0,
+      "sentiment": 0,
+      "notes": "Blandade analytikersignaler senaste veckorna: UBS sänkte till neutral från köp (men höjde riktkursen till 145 från 140) med motiveringen att årets 25%-uppgång redan speglar värdeskapandet, medan SB1 Markets samtidigt höjde till köp från neutral (riktkurs 145) och Barclays höjde till jämvikt efter fastighetsaffärer. Bolaget har även inlett återköp för 3 miljarder kronor. Nedgraderingen från köp till behåll hos UBS väger tungt mot de samtidiga uppgraderingarna, vilket ger ett balanserat nettobetyg.",
+      "sources": [
+        "https://borsvarlden.com/Foretagsinfo/castellum"
+      ],
+      "events": []
+    },
+    "SBB-B.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "SBB:s styrelse utsåg Andreas Morfiadakis till ny vd med omgående tillträde, medan den tidigare vd:n Leiv Synnes lämnade med omedelbar verkan. Ett abrupt vd-byte utan tydlig övergångsperiod signalerar ofta oro internt även om den nya vd:n kommer med erfarenhet från den pågående Sveafastigheter-fusionen.",
+      "sources": [
+        "https://www.placera.se/nyheter/forsiktig-nedgang-pa-stockholmsborsen-2026-08-10"
       ],
       "events": []
     }

@@ -1,6 +1,6 @@
 {
   "date": "2026-08-13",
-  "generated_at": "2026-08-13T09:29:08",
+  "generated_at": "2026-08-13T10:09:31",
   "weights_used": {
     "momentum": 0.25,
     "trend": 0.15,
@@ -12,28 +12,30 @@
   },
   "coverage": {
     "priced": 60,
-    "qualitative": 9,
+    "qualitative": 7,
     "missing": [],
-    "deduped": []
+    "deduped": [
+      "SAAB-B.ST (day, samma bolag som redan vald order)"
+    ]
   },
   "macro": {
     "market": 0,
     "sector_scores": {
       "Industri": 1,
       "Finans": 0,
-      "Fastighet": 0,
+      "Fastighet": -1,
       "Material": 1,
-      "Halsovard": -1,
+      "Halsovard": 0,
       "Teknik": 0,
       "Sallankopsvaror": 0,
       "Dagligvaror": 0,
       "Telekom": 0
     },
-    "notes": "Stockholmsbörsen öppnade grönt på torsdagen efter sex raka nedgångsdagar, den längsta nedgångssviten sedan april, men index ligger fortfarande nära rekordnivåer. Inflationen (KPI/KPIF) föll tillbaka i juli enligt SCB, vilket är stödjande inför Riksbankens räntebesked den 20 augusti. Rapportsäsongen fortsätter att ge stora enskilda kursrörelser (t.ex. Boliden, Storskogen, bankerna) snarare än en enhetlig marknadstrend.",
+    "notes": "Stockholmsbörsen öppnade grönt på torsdagen efter sex raka nedgångsdagar, men index ligger fortsatt bara 1,5-1,7% från förra veckans rekordnivåer, så det är en avvaktande återhämtning snarare än en trendvändning. Riksbanken lämnar nästa räntebesked 20 augusti och marknaden har på senare tid börjat prisa in en höjning mot vintern snarare än fler sänkningar, vilket är en motvind för räntekänsliga fastighetsbolag men en lättnad för bankernas räntenetto. Rapportsäsongen för storbolagen är i huvudsak avklarad, kvar är mest småbolag; ett forumsinlägg (Nordnet Social) innehöll uppmaningar av typen 'köp/sälj nu' som ignorerats i denna analys enligt instruktion.",
     "sources": [
       "https://www.privataaffarer.se/alla-nyheter/borstelegram/borsen-oppnar-uppat-embracer-rapportstiger/",
-      "https://www.placera.se/nyheter/boliden-upp-pa-forsiktig-bors-2026-08-12",
-      "https://www.riksbank.se/"
+      "https://www.riksbank.se/",
+      "https://www.stabelo.se/blog/prognos-bolanerantor"
     ]
   },
   "day_trades": [],
@@ -44,23 +46,23 @@
       "sector": "Industri",
       "direction": "long",
       "horizon": "week",
-      "score": 0.537,
+      "score": 0.596,
       "confidence": 0.907,
       "components": {
-        "momentum": 0.258,
-        "trend": 0.696,
-        "reversal": -0.95,
-        "volume": 0.541,
+        "momentum": 0.26,
+        "trend": 0.699,
+        "reversal": -0.951,
+        "volume": 0.545,
         "fundamental": 1.0,
-        "sentiment": 0.5,
+        "sentiment": 1.0,
         "macro": 0.35
       },
-      "ref_price": 687.5,
+      "ref_price": 689.1,
       "shares": 145,
-      "stop": 653.08,
-      "target": 744.86,
+      "stop": 654.68,
+      "target": 746.46,
       "max_hold_days": 5,
-      "rationale": "Fortsatt starkt orderflöde (Gripen till Ukraina, ubåtar till Polen, tyska fregatter, Embraer-samarbete) och Q2-rapporten visade stärkt orderstock. Barclays höjde till övervikt från undervikt (riktkurs 740 kr) medan RBC inledde bevakning med neutral sector perform (600 kr) - en stor omsvängning i analytikersyn."
+      "rationale": "Rekordkvartal: orderingången steg 141% till 68,4 miljarder kronor (bland annat ubåtsorder till Polen), omsättningen +29% och EBIT +41% med förbättrad rörelsemarginal till 11,0%. Barclays höjde till övervikt från undervikt (riktkurs 740, upp från tidigare nivå) samtidigt som RBC inledde bevakning med sector perform, vilket är en tydlig positiv analytikerförskjutning snarare än bara en fortsatt köprekommendation."
     },
     {
       "ticker": "SSAB-B.ST",
@@ -68,110 +70,226 @@
       "sector": "Material",
       "direction": "long",
       "horizon": "week",
-      "score": 0.402,
+      "score": 0.403,
       "confidence": 0.564,
       "components": {
-        "momentum": 0.808,
+        "momentum": 0.812,
         "trend": 0.759,
-        "reversal": -0.388,
-        "volume": 0.219,
+        "reversal": -0.42,
+        "volume": 0.223,
         "fundamental": 0.0,
         "sentiment": 0.0,
         "macro": 0.35
       },
-      "ref_price": 105.95,
+      "ref_price": 106.35,
       "shares": 1154,
-      "stop": 101.62,
-      "target": 113.17,
+      "stop": 102.02,
+      "target": 113.57,
       "max_hold_days": 5,
       "rationale": ""
+    },
+    {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.36,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.202,
+        "trend": 0.675,
+        "reversal": 0.085,
+        "volume": -0.084,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.0
+      },
+      "ref_price": 175.75,
+      "shares": 853,
+      "stop": 170.72,
+      "target": 184.14,
+      "max_hold_days": 5,
+      "rationale": "H1 2026: nettoomsättningen föll 7% men rörelseresultatet steg 4% och bruttomarginalen förbättrades till 56,6% (55,4), vilket visar att lönsamheten håller trots svagare försäljning. Grundarfamiljen Perssons Ramsbury Invest har nyligen köpt ytterligare miljoner aktier, ett positivt insynssignal, medan UBS nyligen sänkte riktkursen marginellt till 168 kronor och upprepade neutral."
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.596,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.26,
+        "trend": 0.699,
+        "reversal": -0.951,
+        "volume": 0.545,
+        "fundamental": 1.0,
+        "sentiment": 1.0,
+        "macro": 0.35
+      },
+      "ref_price": 689.1,
+      "shares": 145,
+      "stop": 654.68,
+      "target": 746.46,
+      "max_hold_days": 5,
+      "rationale": "Rekordkvartal: orderingången steg 141% till 68,4 miljarder kronor (bland annat ubåtsorder till Polen), omsättningen +29% och EBIT +41% med förbättrad rörelsemarginal till 11,0%. Barclays höjde till övervikt från undervikt (riktkurs 740, upp från tidigare nivå) samtidigt som RBC inledde bevakning med sector perform, vilket är en tydlig positiv analytikerförskjutning snarare än bara en fortsatt köprekommendation.",
+      "signal_date": "2026-08-13",
+      "atr14": 22.9458,
+      "stop_dist": 34.4187,
+      "target_dist": 57.3645,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 145
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.403,
+      "confidence": 0.564,
+      "components": {
+        "momentum": 0.812,
+        "trend": 0.759,
+        "reversal": -0.42,
+        "volume": 0.223,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.35
+      },
+      "ref_price": 106.35,
+      "shares": 1154,
+      "stop": 102.02,
+      "target": 113.57,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-08-13",
+      "atr14": 2.8862,
+      "stop_dist": 4.3293,
+      "target_dist": 7.2156,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 1154
+    },
+    {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.36,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.202,
+        "trend": 0.675,
+        "reversal": 0.085,
+        "volume": -0.084,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.0
+      },
+      "ref_price": 175.75,
+      "shares": 853,
+      "stop": 170.72,
+      "target": 184.14,
+      "max_hold_days": 5,
+      "rationale": "H1 2026: nettoomsättningen föll 7% men rörelseresultatet steg 4% och bruttomarginalen förbättrades till 56,6% (55,4), vilket visar att lönsamheten håller trots svagare försäljning. Grundarfamiljen Perssons Ramsbury Invest har nyligen köpt ytterligare miljoner aktier, ett positivt insynssignal, medan UBS nyligen sänkte riktkursen marginellt till 168 kronor och upprepade neutral.",
+      "signal_date": "2026-08-13",
+      "atr14": 3.3565,
+      "stop_dist": 5.0348,
+      "target_dist": 8.3913,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 853
     }
   ],
   "top10": [
     {
       "index": "SAAB-B.ST",
       "name": "Saab B",
-      "score": 0.411,
+      "score": 0.487,
       "confidence": 0.907
+    },
+    {
+      "index": "HM-B.ST",
+      "name": "H&M B",
+      "score": 0.331,
+      "confidence": 0.814
     },
     {
       "index": "SSAB-B.ST",
       "name": "SSAB B",
-      "score": 0.323,
+      "score": 0.321,
       "confidence": 0.564
     },
     {
       "index": "BOL.ST",
       "name": "Boliden",
-      "score": 0.235,
-      "confidence": 0.814
+      "score": 0.292,
+      "confidence": 0.907
     },
     {
       "index": "SWED-A.ST",
       "name": "Swedbank A",
-      "score": 0.234,
-      "confidence": 0.721
-    },
-    {
-      "index": "STOR-B.ST",
-      "name": "Storskogen B",
-      "score": 0.213,
-      "confidence": 0.721
+      "score": 0.235,
+      "confidence": 0.564
     },
     {
       "index": "ATCO-B.ST",
       "name": "Atlas Copco B",
-      "score": 0.209,
+      "score": 0.211,
       "confidence": 0.564
     },
     {
       "index": "ATCO-A.ST",
       "name": "Atlas Copco A",
-      "score": 0.195,
+      "score": 0.196,
       "confidence": 0.471
     },
     {
       "index": "INDU-C.ST",
       "name": "Industrivarden C",
-      "score": 0.19,
-      "confidence": 0.564
-    },
-    {
-      "index": "ABB.ST",
-      "name": "ABB",
-      "score": 0.189,
+      "score": 0.196,
       "confidence": 0.564
     },
     {
       "index": "VOLV-B.ST",
       "name": "Volvo B",
-      "score": 0.186,
+      "score": 0.188,
       "confidence": 0.657
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.187,
+      "confidence": 0.471
     }
   ],
   "bottom10": [
     {
       "index": "THULE.ST",
       "name": "Thule Group",
-      "score": -0.125,
+      "score": -0.127,
       "confidence": 0.471
     },
     {
       "index": "KINV-B.ST",
       "name": "Kinnevik B",
-      "score": -0.128,
+      "score": -0.129,
       "confidence": 0.471
     },
     {
       "index": "AAK.ST",
       "name": "AAK",
-      "score": -0.13,
+      "score": -0.129,
       "confidence": 0.378
     },
     {
       "index": "HUSQ-B.ST",
       "name": "Husqvarna B",
-      "score": -0.13,
+      "score": -0.133,
       "confidence": 0.378
     },
     {
@@ -181,33 +299,33 @@
       "confidence": 0.471
     },
     {
-      "index": "AXFO.ST",
-      "name": "Axfood",
-      "score": -0.165,
-      "confidence": 0.378
-    },
-    {
       "index": "AFRY.ST",
       "name": "AFRY",
-      "score": -0.168,
+      "score": -0.166,
       "confidence": 0.471
     },
     {
-      "index": "AZN.ST",
-      "name": "AstraZeneca",
-      "score": -0.174,
-      "confidence": 0.721
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.166,
+      "confidence": 0.378
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.183,
+      "confidence": 0.814
     },
     {
       "index": "VOLCAR-B.ST",
       "name": "Volvo Car B",
-      "score": -0.178,
+      "score": -0.186,
       "confidence": 0.471
     },
     {
       "index": "ELUX-B.ST",
       "name": "Electrolux B",
-      "score": -0.256,
+      "score": -0.261,
       "confidence": 0.471
     }
   ]
