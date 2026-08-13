@@ -1,0 +1,103 @@
+name: OMX60-agenten
+
+# Cron i GitHub Actions gar alltid i UTC.
+#   05:30 UTC = 07:30 svensk sommartid / 06:30 vintertid  -> fore borsoppning (09:00)
+#   17:05 UTC = 19:05 svensk sommartid / 18:05 vintertid  -> efter stangning (17:30)
+# Bada tiderna ligger ratt aret om trots sommartidsomstallningen.
+on:
+  schedule:
+    - cron: "30 5 * * 1-5"
+    - cron: "5 17 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      lage:
+        description: "Vilket steg som ska koras"
+        required: true
+        default: morgon
+        type: choice
+        options: [morgon, kvall]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: omx-agent
+  cancel-in-progress: false
+
+jobs:
+  kor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Bestam lage
+        id: lage
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "v=${{ inputs.lage }}" >> $GITHUB_OUTPUT
+          elif [ "${{ github.event.schedule }}" = "30 5 * * 1-5" ]; then
+            echo "v=morgon" >> $GITHUB_OUTPUT
+          else
+            echo "v=kvall" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Hamta kursdata
+        working-directory: scripts
+        run: python fetch_data.py
+
+      - name: Kvalitativ research
+        if: steps.lage.outputs.v == 'morgon'
+        working-directory: scripts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python research.py
+        continue-on-error: true
+
+      - name: Morgonanalys
+        if: steps.lage.outputs.v == 'morgon'
+        working-directory: scripts
+        run: python run_morning.py
+
+      - name: Kvallsutvardering
+        if: steps.lage.outputs.v == 'kvall'
+        working-directory: scripts
+        run: python run_evening.py
+
+      - name: Bygg dashboard
+        working-directory: scripts
+        run: |
+          python build_report.py
+          mkdir -p ../docs
+          cp ../report/index.html ../docs/index.html
+
+      - name: Spara agentens minne
+        run: |
+          git config user.name "omx-agent"
+          git config user.email "actions@github.com"
+          git add -A data config docs memory || true
+          git diff --staged --quiet || git commit -m "Agentkorning ${{ steps.lage.outputs.v }} $(date -u +%Y-%m-%d)"
+          git pull --rebase --autostash || true
+          git push
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  publicera:
+    needs: kor
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
