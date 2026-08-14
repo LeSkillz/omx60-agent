@@ -146,7 +146,10 @@ def close_positions(p, prices, today, strat):
         gross = sgn * (exit_px - pos["entry"]) * pos["shares"]
         net = gross - c - pos["entry_cost"]
         p["cash"] += (notional - c) if sgn == 1 else -(notional + c)
-        closed.append({**{k: pos[k] for k in
+        # pos.get() och inte pos[] - positioner som oppnades av en aldre version
+        # saknar falt som tillkommit senare, och en KeyError har skulle stoppa
+        # hela kvallskorningen mitt i.
+        closed.append({**{k: pos.get(k) for k in
                           ("signal_date", "opened", "ticker", "name", "direction",
                            "horizon", "shares", "entry", "score", "confidence",
                            "components")},
