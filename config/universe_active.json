@@ -67,14 +67,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "ASSA-B.ST",
       "name": "Assa Abloy B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
+      "sector": "Finans"
     },
     {
       "ticker": "ABB.ST",
@@ -152,14 +152,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "SKA-B.ST",
       "name": "Skanska B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "CAST.ST",
@@ -192,14 +192,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "sector": "Industri"
     },
     {
       "ticker": "ADDT-B.ST",
@@ -257,13 +257,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "KINV-B.ST",
-      "name": "Kinnevik B",
+      "ticker": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
       "sector": "Finans"
     },
     {
-      "ticker": "LUND-B.ST",
-      "name": "Lundbergforetagen B",
+      "ticker": "KINV-B.ST",
+      "name": "Kinnevik B",
       "sector": "Finans"
     },
     {
