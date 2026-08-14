@@ -1,0 +1,14 @@
+{
+  "equity": 1000000.0,
+  "cash": 1000000,
+  "open_positions": [],
+  "closed_trades": [],
+  "equity_curve": [
+    {
+      "date": "2026-08-14",
+      "equity": 1000000.0,
+      "cash": 1000000,
+      "open_positions": 0
+    }
+  ]
+}

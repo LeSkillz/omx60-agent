@@ -1,0 +1,15 @@
+{
+  "date": "2026-08-14",
+  "n_positions": 0,
+  "hit_rate": null,
+  "avg_signed_return_pct": null,
+  "benchmark_return_pct": null,
+  "equity": 1000000.0,
+  "filled": [],
+  "rejected": [
+    "SSAB-B.ST (ingen kurs for dagen)"
+  ],
+  "closed_trades": [],
+  "detail": [],
+  "ic": {}
+}
