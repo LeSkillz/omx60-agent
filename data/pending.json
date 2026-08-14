@@ -1,8 +1,65 @@
 {
   "date": "2026-08-14",
-  "orders": [],
-  "filled": [],
-  "rejected": [
-    "SSAB-B.ST (ingen kurs for dagen)"
+  "orders": [
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.549,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.292,
+        "trend": 0.708,
+        "reversal": -0.966,
+        "volume": 0.54,
+        "fundamental": 1.0,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "ref_price": 695.2,
+      "shares": 145,
+      "stop": 660.86,
+      "target": 752.43,
+      "max_hold_days": 5,
+      "rationale": "Rekordkvartal Q2 med orderingång upp 141% till 68,4 mdSEK drivet av ubåtsorder till Polen, EBIT upp 41% och orderstock på 317,7 mdSEK. Dessutom nyligen tecknat en fregattorder med tyska TKMS värd cirka 8,7 mdSEK. Aktien steg 2% på fredagsmorgonen.",
+      "signal_date": "2026-08-14",
+      "atr14": 22.8925,
+      "stop_dist": 34.3388,
+      "target_dist": 57.2313,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 145
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.463,
+      "confidence": 0.814,
+      "components": {
+        "momentum": -0.493,
+        "trend": -0.107,
+        "reversal": 0.086,
+        "volume": 0.575,
+        "fundamental": -0.5,
+        "sentiment": -1.0,
+        "macro": -0.7
+      },
+      "ref_price": 3.38,
+      "shares": 22365,
+      "stop": 3.6,
+      "target": 3.0,
+      "max_hold_days": 5,
+      "rationale": "Styrelsen bytte plötsligt VD 10 augusti - Andreas Morfiadakis (grundare av Klarabo) ersatte Leiv Synnes med omedelbar verkan i samband med att bolaget går mot att bli ett renodlat investmentbolag. Nyheten togs emot mycket negativt: B-aktien föll 6,4% samma dag.",
+      "signal_date": "2026-08-14",
+      "atr14": 0.149,
+      "stop_dist": 0.2236,
+      "target_dist": 0.3726,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 22365
+    }
   ]
 }

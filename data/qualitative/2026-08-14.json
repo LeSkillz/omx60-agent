@@ -1,0 +1,204 @@
+{
+  "date": "2026-08-14",
+  "macro": {
+    "market": 0,
+    "sector_scores": {
+      "Industri": 1,
+      "Finans": 0,
+      "Fastighet": -2,
+      "Material": -1,
+      "Halsovard": 0,
+      "Teknik": 0,
+      "Sallankopsvaror": 0,
+      "Dagligvaror": 0,
+      "Telekom": -1
+    },
+    "notes": "Stockholmsbörsen öppnade fredagen trevande med index kring nollstrecket efter en rapportvecka med blandat utfall. Riksbankens nästa räntebesked kommer 20 augusti och marknaden har enligt bankprognoser börjat prisa in en möjlig räntehöjning i vinter snarare än fler sänkningar, vilket är negativt för räntekänsliga fastighetsbolag. Gruvsektorn (Boliden, Epiroc) föll 1-2% på fredagsmorgonen medan Saab steg efter fortsatt stark ordermomentum inom försvar.",
+    "sources": [
+      "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504925-stockholmsborsen-inleder-trevande",
+      "https://www.stabelo.se/blog/prognos-bolanerantor",
+      "https://www.riksbank.se/"
+    ]
+  },
+  "tickers": {
+    "SAAB-B.ST": {
+      "fundamental": 2,
+      "sentiment": 1,
+      "notes": "Rekordkvartal Q2 med orderingång upp 141% till 68,4 mdSEK drivet av ubåtsorder till Polen, EBIT upp 41% och orderstock på 317,7 mdSEK. Dessutom nyligen tecknat en fregattorder med tyska TKMS värd cirka 8,7 mdSEK. Aktien steg 2% på fredagsmorgonen.",
+      "sources": [
+        "https://www.borskollen.se/aktie/saab",
+        "https://www.privataaffarer.se/placeringar/aktier/saab-far-mangmiljardorder/",
+        "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504925-stockholmsborsen-inleder-trevande"
+      ],
+      "events": [
+        "Q2-rapport (rekordorder, ubåtar Polen)",
+        "TKMS-fregattorder ~8,7 mdSEK"
+      ]
+    },
+    "BOL.ST": {
+      "fundamental": 1,
+      "sentiment": -1,
+      "notes": "Svenska regeringen avslog i veckan två överklaganden mot Boliden, vilket minskar tillståndsrisk för verksamheten. Trots detta backade aktien 1-2% på fredagsmorgonen tillsammans med övriga gruvbolag.",
+      "sources": [
+        "https://www.boliden.com/",
+        "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504925-stockholmsborsen-inleder-trevande"
+      ],
+      "events": [
+        "Regeringen avslog överklaganden mot Boliden, 12 aug 2026"
+      ]
+    },
+    "EPI-A.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Epiroc backade 1-2% på fredagsmorgonen tillsammans med Boliden i en svagare handelsdag för gruvrelaterade industribolag.",
+      "sources": [
+        "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504925-stockholmsborsen-inleder-trevande"
+      ],
+      "events": []
+    },
+    "EPI-B.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Samma mönster som EPI-A: aktien föll 1-2% på fredagsmorgonen i linje med övriga gruvsektorn.",
+      "sources": [
+        "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504925-stockholmsborsen-inleder-trevande"
+      ],
+      "events": []
+    },
+    "SSAB-B.ST": {
+      "fundamental": -1,
+      "sentiment": 0,
+      "notes": "Kraftigt stigande järnmalmspris under sommaren har ökat råvarukostnaden för SSAB, delvis kompenserat av att bolaget nyligen aviserat höjda plåtpriser. Malmpris och SSAB-aktie har historiskt hög korrelation.",
+      "sources": [
+        "https://www.metalliskamaterial.se/sv/fakta/jarnmalmspriset-kraftig-upp/"
+      ],
+      "events": []
+    },
+    "EVO.ST": {
+      "fundamental": 0,
+      "sentiment": 0,
+      "notes": "Q2 visade nettoomsättning på 517,8 MEUR, en minskning med 1,2% i euro men konstant-valuta-tillväxt på 2,4%; Europa och Latinamerika återgick till tillväxt efter flera svaga kvartal. Samtidigt skärpte Spelinspektionen från 1 augusti kraven på Spelpaus-kontroller, vilket ökar regulatorisk komplexitet.",
+      "sources": [
+        "https://www.borskollen.se/aktie/evolution-gaming-gr",
+        "https://www.gamblinginsider.com/se/nyheter/101724/nya-regler-spelpaus-kontroller-spelinspektionen-2026"
+      ],
+      "events": [
+        "Skärpta Spelpaus-krav från 1 aug 2026"
+      ]
+    },
+    "NIBE-B.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Capital Fund Management har nyligen tagit en ny publik blankningsposition på 0,50% i Nibe inför Q2-rapporten som väntas 21 augusti, vilket följer på en rad tidigare blankare som byggt och avvecklat positioner under året.",
+      "sources": [
+        "https://www.marketscreener.com/news/capital-fund-management-becomes-a-new-public-short-seller-in-nibe-ce7f50d2de88f526",
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-avslutade-veckan-nedat"
+      ],
+      "events": [
+        "Q2-rapport väntas 21 aug 2026"
+      ]
+    },
+    "SBB-B.ST": {
+      "fundamental": -1,
+      "sentiment": -2,
+      "notes": "Styrelsen bytte plötsligt VD 10 augusti - Andreas Morfiadakis (grundare av Klarabo) ersatte Leiv Synnes med omedelbar verkan i samband med att bolaget går mot att bli ett renodlat investmentbolag. Nyheten togs emot mycket negativt: B-aktien föll 6,4% samma dag.",
+      "sources": [
+        "https://www.privataaffarer.se/privatekonomi/bostad/leiv-synnes-lamnar-andreas-morfiadakis-ny-vd-pa-sbb/",
+        "https://finanstid.se/vd-skifte-i-sbb-nar-man-gar-mot-investmentbolag"
+      ],
+      "events": [
+        "VD-byte 10 aug 2026"
+      ]
+    },
+    "KINV-B.ST": {
+      "fundamental": 1,
+      "sentiment": -1,
+      "notes": "Kinneviks substansvärde steg 6% under Q2 till 107 kr per aktie och bolaget sålde innehav i Mathem, Oda och Youscan som del av portföljstädning. Samtidigt meddelades att finanschef Samuel Sjöström lämnar bolaget i slutet av augusti, vilket tillför ledningsosäkerhet mitt i den pågående vändningen under ny VD Helena Saxon.",
+      "sources": [
+        "https://www.placera.se/nyheter/kinnevik-okat-vinsten--2026-07-07",
+        "https://efn.se/grunden-ar-lagd-nu-ska-saxon-vanda-kurskraschade-kinnevik"
+      ],
+      "events": [
+        "CFO Samuel Sjöström lämnar i slutet av augusti 2026"
+      ]
+    },
+    "ABB.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "ABB redovisade Q2-omsättning i linje med förväntningarna medan Ebita-resultatet var högre än väntat. Bolaget har dessutom lagt ett bud på brittiska Rotork värderat till 5,5 miljarder dollar, vilket stärker portföljen inom industriautomation.",
+      "sources": [
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-pa-vag-upp-efter-rapportmorgon"
+      ],
+      "events": [
+        "Bud på Rotork ~5,5 mdUSD"
+      ]
+    },
+    "INVE-B.ST": {
+      "fundamental": 1,
+      "sentiment": 0,
+      "notes": "Investors justerade substansvärde per aktie uppgick till 397 kronor vid utgången av juni, vilket indikerar fortsatt värdetillväxt i den noterade portföljen (bl.a. Saab, Atlas Copco, ABB).",
+      "sources": [
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-pa-vag-upp-efter-rapportmorgon"
+      ],
+      "events": []
+    },
+    "NDA-SE.ST": {
+      "fundamental": 1,
+      "sentiment": 0,
+      "notes": "Nordea redovisade intäkter i linje med förväntningarna för andra kvartalet, men rörelseresultatet var högre än väntat, vilket indikerar god kostnadskontroll i en miljö med stigande ränteförväntningar.",
+      "sources": [
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-pa-vag-upp-efter-rapportmorgon"
+      ],
+      "events": []
+    },
+    "ERIC-B.ST": {
+      "fundamental": 0,
+      "sentiment": 0,
+      "notes": "Q2 visade minskad omsättning (-6% till 52,7 mdSEK) och lägre EBIT, men stabila marginaler och en stark nettokassa på 59,8 mdSEK möjliggjorde ett kapitalåterförande på 8,2 mdSEK till aktieägarna under kvartalet.",
+      "sources": [
+        "https://www.borskollen.se/aktie/ericsson"
+      ],
+      "events": []
+    },
+    "VOLV-B.ST": {
+      "fundamental": 1,
+      "sentiment": -1,
+      "notes": "Orderingången för tunga klass 8-lastbilar i Nordamerika, en av Volvos viktigaste marknader, ökade 231% i juni, ett starkt underliggande tecken. Aktien har dock nyligen haft en svag handelsdag och var sämst i OMXS30 med -1,8%.",
+      "sources": [
+        "https://www.placera.se/nyheter/kinnevik-okat-vinsten--2026-07-07",
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-avslutade-veckan-nedat"
+      ],
+      "events": []
+    },
+    "SHB-A.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Handelsbanken A var en av de svagaste OMXS30-aktierna nyligen, ned cirka 1,1% under en handelsdag utan tydlig bolagsspecifik nyhet - snarare ett svep över banksektorn.",
+      "sources": [
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-avslutade-veckan-nedat"
+      ],
+      "events": []
+    },
+    "EQT.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "EQT Infrastructure har lagt ett bud på australiska Cleanaway Waste Management om 6,9 miljarder australiska dollar (46,6 mdSEK) med en premie på 32% mot senaste stängningskurs, vilket styrelsen i målbolaget avser rekommendera. Aktien har även utvecklats starkt i den senaste handelsveckan (+1,2% respektive +2,4%).",
+      "sources": [
+        "https://www.affarsvarlden.se/artikel/forsiktig-nedgang-pa-stockholmsborsen",
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-avslutade-veckan-nedat"
+      ],
+      "events": [
+        "Bud på Cleanaway Waste Management, 6,9 mdAUD"
+      ]
+    },
+    "TELIA.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Telia har liksom Tele2 utvecklats svagt i linje med den svaga telekomsektorn på börsen, ned 2,1% under en av de senaste handelsdagarna.",
+      "sources": [
+        "https://www.affarsvarlden.se/artikel/stockholmsborsen-inledde-veckan-pa-rott"
+      ],
+      "events": []
+    }
+  }
+}

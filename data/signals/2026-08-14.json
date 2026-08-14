@@ -1,6 +1,6 @@
 {
   "date": "2026-08-14",
-  "generated_at": "2026-08-14T06:20:23",
+  "generated_at": "2026-08-14T09:36:42",
   "weights_used": {
     "momentum": 0.25,
     "trend": 0.15,
@@ -12,192 +12,267 @@
   },
   "coverage": {
     "priced": 60,
-    "qualitative": 0,
+    "qualitative": 17,
     "missing": [],
-    "deduped": []
+    "deduped": [
+      "SBB-B.ST (day, samma bolag som redan vald order)"
+    ]
   },
-  "macro": {},
+  "macro": {
+    "market": 0,
+    "sector_scores": {
+      "Industri": 1,
+      "Finans": 0,
+      "Fastighet": -2,
+      "Material": -1,
+      "Halsovard": 0,
+      "Teknik": 0,
+      "Sallankopsvaror": 0,
+      "Dagligvaror": 0,
+      "Telekom": -1
+    },
+    "notes": "Stockholmsbörsen öppnade fredagen trevande med index kring nollstrecket efter en rapportvecka med blandat utfall. Riksbankens nästa räntebesked kommer 20 augusti och marknaden har enligt bankprognoser börjat prisa in en möjlig räntehöjning i vinter snarare än fler sänkningar, vilket är negativt för räntekänsliga fastighetsbolag. Gruvsektorn (Boliden, Epiroc) föll 1-2% på fredagsmorgonen medan Saab steg efter fortsatt stark ordermomentum inom försvar.",
+    "sources": [
+      "https://nyheter24.se/nyheter/ekonomi/naringsliv/1504925-stockholmsborsen-inleder-trevande",
+      "https://www.stabelo.se/blog/prognos-bolanerantor",
+      "https://www.riksbank.se/"
+    ]
+  },
   "day_trades": [],
   "week_trades": [
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
       "direction": "long",
       "horizon": "week",
-      "score": 0.367,
-      "confidence": 0.471,
+      "score": 0.549,
+      "confidence": 0.907,
       "components": {
-        "momentum": 0.812,
-        "trend": 0.759,
-        "reversal": -0.42,
-        "volume": 0.223,
-        "fundamental": 0.0,
-        "sentiment": 0.0,
-        "macro": 0.0
+        "momentum": 0.292,
+        "trend": 0.708,
+        "reversal": -0.966,
+        "volume": 0.54,
+        "fundamental": 1.0,
+        "sentiment": 0.5,
+        "macro": 0.35
       },
-      "ref_price": 106.35,
-      "shares": 1154,
-      "stop": 102.02,
-      "target": 113.57,
+      "ref_price": 695.2,
+      "shares": 145,
+      "stop": 660.86,
+      "target": 752.43,
       "max_hold_days": 5,
-      "rationale": ""
+      "rationale": "Rekordkvartal Q2 med orderingång upp 141% till 68,4 mdSEK drivet av ubåtsorder till Polen, EBIT upp 41% och orderstock på 317,7 mdSEK. Dessutom nyligen tecknat en fregattorder med tyska TKMS värd cirka 8,7 mdSEK. Aktien steg 2% på fredagsmorgonen."
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.463,
+      "confidence": 0.814,
+      "components": {
+        "momentum": -0.493,
+        "trend": -0.107,
+        "reversal": 0.086,
+        "volume": 0.575,
+        "fundamental": -0.5,
+        "sentiment": -1.0,
+        "macro": -0.7
+      },
+      "ref_price": 3.38,
+      "shares": 22365,
+      "stop": 3.6,
+      "target": 3.0,
+      "max_hold_days": 5,
+      "rationale": "Styrelsen bytte plötsligt VD 10 augusti - Andreas Morfiadakis (grundare av Klarabo) ersatte Leiv Synnes med omedelbar verkan i samband med att bolaget går mot att bli ett renodlat investmentbolag. Nyheten togs emot mycket negativt: B-aktien föll 6,4% samma dag."
     }
   ],
   "pending_orders": [
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
       "direction": "long",
       "horizon": "week",
-      "score": 0.367,
-      "confidence": 0.471,
+      "score": 0.549,
+      "confidence": 0.907,
       "components": {
-        "momentum": 0.812,
-        "trend": 0.759,
-        "reversal": -0.42,
-        "volume": 0.223,
-        "fundamental": 0.0,
-        "sentiment": 0.0,
-        "macro": 0.0
+        "momentum": 0.292,
+        "trend": 0.708,
+        "reversal": -0.966,
+        "volume": 0.54,
+        "fundamental": 1.0,
+        "sentiment": 0.5,
+        "macro": 0.35
       },
-      "ref_price": 106.35,
-      "shares": 1154,
-      "stop": 102.02,
-      "target": 113.57,
+      "ref_price": 695.2,
+      "shares": 145,
+      "stop": 660.86,
+      "target": 752.43,
       "max_hold_days": 5,
-      "rationale": "",
+      "rationale": "Rekordkvartal Q2 med orderingång upp 141% till 68,4 mdSEK drivet av ubåtsorder till Polen, EBIT upp 41% och orderstock på 317,7 mdSEK. Dessutom nyligen tecknat en fregattorder med tyska TKMS värd cirka 8,7 mdSEK. Aktien steg 2% på fredagsmorgonen.",
       "signal_date": "2026-08-14",
-      "atr14": 2.8862,
-      "stop_dist": 4.3293,
-      "target_dist": 7.2156,
+      "atr14": 22.8925,
+      "stop_dist": 34.3388,
+      "target_dist": 57.2313,
       "order_type": "marknad vid oppning",
-      "indicative_shares": 1154
+      "indicative_shares": 145
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.463,
+      "confidence": 0.814,
+      "components": {
+        "momentum": -0.493,
+        "trend": -0.107,
+        "reversal": 0.086,
+        "volume": 0.575,
+        "fundamental": -0.5,
+        "sentiment": -1.0,
+        "macro": -0.7
+      },
+      "ref_price": 3.38,
+      "shares": 22365,
+      "stop": 3.6,
+      "target": 3.0,
+      "max_hold_days": 5,
+      "rationale": "Styrelsen bytte plötsligt VD 10 augusti - Andreas Morfiadakis (grundare av Klarabo) ersatte Leiv Synnes med omedelbar verkan i samband med att bolaget går mot att bli ett renodlat investmentbolag. Nyheten togs emot mycket negativt: B-aktien föll 6,4% samma dag.",
+      "signal_date": "2026-08-14",
+      "atr14": 0.149,
+      "stop_dist": 0.2236,
+      "target_dist": 0.3726,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 22365
     }
   ],
   "top10": [
     {
-      "index": "SSAB-B.ST",
-      "name": "SSAB B",
-      "score": 0.286,
-      "confidence": 0.471
-    },
-    {
-      "index": "SWED-A.ST",
-      "name": "Swedbank A",
-      "score": 0.235,
-      "confidence": 0.564
-    },
-    {
-      "index": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "score": 0.196,
-      "confidence": 0.564
+      "index": "SAAB-B.ST",
+      "name": "Saab B",
+      "score": 0.42,
+      "confidence": 0.907
     },
     {
       "index": "INVE-B.ST",
       "name": "Investor B",
-      "score": 0.187,
+      "score": 0.298,
+      "confidence": 0.814
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": 0.289,
+      "confidence": 0.814
+    },
+    {
+      "index": "NDA-SE.ST",
+      "name": "Nordea",
+      "score": 0.236,
+      "confidence": 0.629
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.222,
       "confidence": 0.471
+    },
+    {
+      "index": "EQT.ST",
+      "name": "EQT",
+      "score": 0.213,
+      "confidence": 0.721
     },
     {
       "index": "ATCO-B.ST",
       "name": "Atlas Copco B",
-      "score": 0.176,
-      "confidence": 0.471
-    },
-    {
-      "index": "SEB-A.ST",
-      "name": "SEB A",
-      "score": 0.171,
-      "confidence": 0.378
-    },
-    {
-      "index": "SHB-A.ST",
-      "name": "Handelsbanken A",
-      "score": 0.166,
-      "confidence": 0.378
+      "score": 0.2,
+      "confidence": 0.564
     },
     {
       "index": "ATCO-A.ST",
       "name": "Atlas Copco A",
-      "score": 0.161,
-      "confidence": 0.378
-    },
-    {
-      "index": "HM-B.ST",
-      "name": "H&M B",
-      "score": 0.156,
+      "score": 0.198,
       "confidence": 0.471
     },
     {
       "index": "VOLV-B.ST",
       "name": "Volvo B",
-      "score": 0.153,
-      "confidence": 0.564
+      "score": 0.195,
+      "confidence": 0.907
+    },
+    {
+      "index": "SEB-A.ST",
+      "name": "SEB A",
+      "score": 0.169,
+      "confidence": 0.471
     }
   ],
   "bottom10": [
     {
-      "index": "LATO-B.ST",
-      "name": "Latour B",
-      "score": -0.116,
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.125,
+      "confidence": 0.471
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.125,
+      "confidence": 0.378
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.127,
       "confidence": 0.378
     },
     {
       "index": "THULE.ST",
       "name": "Thule Group",
-      "score": -0.127,
+      "score": -0.128,
       "confidence": 0.471
-    },
-    {
-      "index": "KINV-B.ST",
-      "name": "Kinnevik B",
-      "score": -0.129,
-      "confidence": 0.471
-    },
-    {
-      "index": "AAK.ST",
-      "name": "AAK",
-      "score": -0.129,
-      "confidence": 0.378
-    },
-    {
-      "index": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "score": -0.133,
-      "confidence": 0.378
-    },
-    {
-      "index": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "score": -0.133,
-      "confidence": 0.471
-    },
-    {
-      "index": "AXFO.ST",
-      "name": "Axfood",
-      "score": -0.166,
-      "confidence": 0.378
     },
     {
       "index": "VOLCAR-B.ST",
       "name": "Volvo Car B",
-      "score": -0.186,
+      "score": -0.135,
       "confidence": 0.471
     },
     {
-      "index": "AFRY.ST",
-      "name": "AFRY",
-      "score": -0.201,
+      "index": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "score": -0.137,
+      "confidence": 0.657
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.157,
+      "confidence": 0.564
+    },
+    {
+      "index": "SAGA-B.ST",
+      "name": "Sagax B",
+      "score": -0.157,
       "confidence": 0.471
     },
     {
       "index": "ELUX-B.ST",
       "name": "Electrolux B",
-      "score": -0.261,
+      "score": -0.272,
       "confidence": 0.471
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.422,
+      "confidence": 0.814
     }
   ]
 }
