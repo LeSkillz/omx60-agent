@@ -18,7 +18,11 @@ import anthropic
 import omxagent as A
 
 MODEL = "claude-sonnet-5"
-MAX_SEARCHES = 14
+# Varje sokresultat ligger kvar i kontexten och skickas med i alla foljande
+# turer, sa kostnaden vaxer snabbare an linjart med antalet sokningar.
+# Atta breda sokningar ger i praktiken battre tackning an fjorton smala.
+MAX_SEARCHES = 8
+MAX_OUTPUT_TOKENS = 6000
 
 PROMPT = """Du ar analysmotorn i en systematisk handelsmodell for Stockholmsborsen.
 Idag ar {date}.
@@ -45,6 +49,20 @@ disciplinerade och jamforbara over tid - inte entusiastiska.
 4. **Omvarld** - Riksbanken, ECB, Fed, ravarupriser, SEK-kurs, geopolitik och
    sektorspecifika handelser (forsvarsanslag for Saab, jarnmalm for SSAB,
    spelreglering for Evolution, ranteláget for fastighetsbolagen).
+
+## Sokbudget
+
+Du har **hogst {max_searches} sokningar**. Anvand dem brett, inte smalt.
+
+En sokning som "hojda och sankta riktkurser Stockholmsborsen {date}" ger dig
+tio bolag pa en gang. En sokning per bolag ger dig ett, kostar lika mycket och
+tar slut efter atta bolag. Sok pa sammanfattande kallor - borstelegram,
+analyssammanfattningar, dagens vinnare och forlorare, rapportkalender - och
+plocka ut de enskilda bolagen ur dem.
+
+Lagg forslagsvis en sokning pa marknadslage och makro, tva till tre pa
+analytikerandringar och riktkurser, tva till tre pa bolagsnyheter och
+rapporter, och en till tva pa forum och sentiment.
 
 ## Poangskala
 
@@ -159,11 +177,12 @@ def main(date=None):
     client = anthropic.Anthropic()
     resp = client.messages.create(
         model=MODEL,
-        max_tokens=12000,
+        max_tokens=MAX_OUTPUT_TOKENS,
         tools=[{"type": "web_search_20250305", "name": "web_search",
                 "max_uses": MAX_SEARCHES}],
         messages=[{"role": "user",
-                   "content": PROMPT.format(date=date, universe=listing)}],
+                   "content": PROMPT.format(date=date, universe=listing,
+                                            max_searches=MAX_SEARCHES)}],
     )
 
     text = "".join(b.text for b in resp.content if getattr(b, "type", "") == "text")
