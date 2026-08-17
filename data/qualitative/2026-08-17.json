@@ -1,0 +1,176 @@
+{
+  "date": "2026-08-17",
+  "macro": {
+    "market": 0,
+    "sector_scores": {
+      "Industri": 1,
+      "Finans": -1,
+      "Fastighet": -1,
+      "Material": 1,
+      "Halsovard": 0,
+      "Teknik": -1,
+      "Sallankopsvaror": -1,
+      "Dagligvaror": 0,
+      "Telekom": 0
+    },
+    "notes": "Stockholmsbörsen försöker bryta en svit på åtta raka nedgångsdagar med en svag uppgång vid måndagens öppning. SEB:s morgonbrev flaggar för ökad geopolitisk risk kring Hormuzsundet sedan tidsfristen för USA-Iran-överenskommelsen löpt ut. Riksbankens räntebesked kommer 20 augusti - marknaden väntar oförändrad ränta på 1,75 procent men tre av fyra tillfrågade investerare räknar med en höjning innan årsskiftet, vilket håller tillbaka räntekänsliga sektorer som fastigheter. Inga instruktionsliknande uppmaningar identifierade i genomgånget källmaterial.",
+    "sources": [
+      "https://www.privataaffarer.se/alla-nyheter/borstelegram/stockholmsborsen-oppnar-svagt-uppat-jxkAT/",
+      "https://sebgroup.com/sv/press/nyheter/2026/oforandrad-ranta-i-augusti-men-hojning-vantar-i-december"
+    ]
+  },
+  "tickers": {
+    "AZN.ST": {
+      "fundamental": 0,
+      "sentiment": 1,
+      "notes": "Avbröt idag fas 3-studien Evolve-Lung02 för volrustomig efter att en oberoende dataövervakningskommitté bedömt att målen sannolikt inte skulle nås. Samtidigt meddelades positiva överlevnadsdata för Tagrisso/Orpathys-kombinationen och en meningsfull förbättring i Enhertu-studien, vilket sammantaget fick aktien att stiga cirka 1 procent efter en period av kurspress.",
+      "sources": [
+        "https://www.privataaffarer.se/placeringar/aktier/bakslag-for-astra-zeneca-avbryter-studie/",
+        "https://www.privataaffarer.se/alla-nyheter/borstelegram/stockholmsborsen-oppnar-svagt-uppat-jxkAT/"
+      ],
+      "events": [
+        "Fas 3-studie Evolve-Lung02 avbruten 2026-08-17",
+        "Positiva Tagrisso/Orpathys-data 2026-08-17"
+      ]
+    },
+    "SAAB-B.ST": {
+      "fundamental": 2,
+      "sentiment": 2,
+      "notes": "Aktien är mitt i sin längsta uppgångssvit sedan 2024 (elva dagar, cirka +17 procent) efter en rekordstark Q2-rapport med orderingång upp 140,8 procent till 68,4 miljarder kronor och rörelseresultat 15,2 procent bättre än väntat. Barclays vände nyligen från sälj till köp och höjde riktkursen kraftigt från 545 till 740 kronor i en bredare uppgradering av försvarssektorn.",
+      "sources": [
+        "https://www.borskollen.se/nyheter/27/forsvarsjatten-upp-tio-dagar-i-rad-storbanken-dubbelhojer",
+        "https://www.borskollen.se/nyheter/27/saab-krossade-forvantningarna-men-john-skogman-slipper-lamna-borsen",
+        "https://www.privataaffarer.se/alla-nyheter/borstelegram/attonde-nedgangsdagen-i-rad/"
+      ],
+      "events": [
+        "Barclays höjer till köp, riktkurs 740 kr (2026-08-13)"
+      ]
+    },
+    "BOL.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "Svenska regeringen avslog den 12 augusti två överklaganden mot bolagets bearbetningskoncession för kopparfyndigheten Laver, vilket röjer väg för vad som kan bli Europas största koppargruva och dubblad svensk kopparproduktion. Beskedet togs emot väl av bolaget och aktien har handlats starkt i veckorna kring beskedet.",
+      "sources": [
+        "https://www.regeringen.se/pressmeddelanden/2026/08/regeringen-ger-klartecken-for-boliden-att-ga-vidare-med-ny-koppargruva-i-laver/",
+        "https://www.placera.se/nyheter/stockholmsborsen-stiger--volvo-cars-sjunker-2026-08-04"
+      ],
+      "events": [
+        "Regeringsbeslut Laver-koncession 2026-08-12"
+      ]
+    },
+    "VOLCAR-B.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Q2-rapporten visade en förbättring av rörelseresultatet till 0,8 miljarder kronor från -10,0 miljarder föregående år och kostnadsbesparingsmålet nåddes sex månader i förtid, men omsättningen föll 17 procent. Färska försäljningssiffror för maj-juli visade en nedgång på 4 procent i globala volymer, vilket fick aktien att falla drygt 4 procent.",
+      "sources": [
+        "https://www.borskollen.se/aktie/volvo-cars",
+        "https://www.placera.se/nyheter/stockholmsborsen-stiger--volvo-cars-sjunker-2026-08-04"
+      ],
+      "events": [
+        "Försäljningssiffror maj-juli publicerade 2026-08-04"
+      ]
+    },
+    "EVO.ST": {
+      "fundamental": 0,
+      "sentiment": 1,
+      "notes": "Q2-rapporten visade en omsättningsminskning på 1,2 procent men fortsatt stark EBITDA-marginal på 65,9 procent och en återgång till tillväxt i Europa. Trots det svaga toppradsläget toppade aktien tillsammans med Saab storbolagsindexet i mitten av augusti.",
+      "sources": [
+        "https://www.borskollen.se/aktie/evolution-gaming-gr",
+        "https://www.privataaffarer.se/alla-nyheter/borstelegram/attonde-nedgangsdagen-i-rad/"
+      ],
+      "events": [
+        "Q2-rapport 2026 (juli)"
+      ]
+    },
+    "SSAB-B.ST": {
+      "fundamental": 1,
+      "sentiment": 0,
+      "notes": "Sommarens rally i järnmalmspriset, delvis drivet av kinesiska produktionsneddragningar, har ökat råvarukostnaderna men bolaget har i gengäld aviserat höjda plåtpriser. Malmpris och SSAB-aktien har historiskt hög korrelation, vilket indikerar att den underliggande stål- och malmefterfrågan stärks.",
+      "sources": [
+        "https://www.metalliskamaterial.se/sv/fakta/jarnmalmspriset-kraftig-upp/"
+      ],
+      "events": []
+    },
+    "SHB-A.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "Keefe, Bruyette & Woods höjde nyligen riktkursen till 135 kronor (130) men upprepade samtidigt sin underperform-rekommendation - ett tecken på att analytikern ser bankernas kraftiga sommarrally som väl tilltaget snarare än en förändrad grundsyn.",
+      "sources": [
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": [
+        "KBW höjer riktkurs, upprepar underperform (2026-08-13)"
+      ]
+    },
+    "SEB-A.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "KBW höjde riktkursen till 215 kronor (190) men behöll samtidigt sin underperform-rekommendation, i linje med ett mönster där flera storbanker får höjda målkurser utan att analytikerns grundton blir mer positiv efter sommarens kursuppgång.",
+      "sources": [
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": [
+        "KBW höjer riktkurs, upprepar underperform (2026-08-13)"
+      ]
+    },
+    "SWED-A.ST": {
+      "fundamental": 0,
+      "sentiment": -1,
+      "notes": "KBW höjde riktkursen till 355 kronor (330) men upprepade underperform-rekommendationen, samma mönster som för de övriga storbankerna efter en stark börssommar för banksektorn.",
+      "sources": [
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": [
+        "KBW höjer riktkurs, upprepar underperform (2026-08-13)"
+      ]
+    },
+    "MTRS.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "Q2-rapporten visade en exceptionell orderingång på över 137 procent och ökat rörelseresultat till 381 miljoner kronor (360), med book-to-bill på 2,3x drivet av Data Center Technologies. UBS inledde nyligen bevakning med köprekommendation och aktien reagerade med en uppgång på cirka 5,7 procent.",
+      "sources": [
+        "https://www.borskollen.se/aktie/munters",
+        "https://www.investing.com/equities/munters-group-ab"
+      ],
+      "events": [
+        "Q2-rapport 2026-07-17",
+        "UBS inleder bevakning med köp"
+      ]
+    },
+    "ALFA.ST": {
+      "fundamental": 1,
+      "sentiment": 1,
+      "notes": "Bolaget levererade en rekordomsättning på 22 miljarder kronor i Q2 driven av Energy- och Ocean-divisionerna, och har därefter annonserat en flerårig expansion av Richmond-fabriken för att möta ökad efterfrågan från datacenter och AI, vilket bidragit till en stark kursutveckling de senaste tre månaderna.",
+      "sources": [
+        "https://finance.yahoo.com/markets/stocks/articles/alfa-laval-ab-alfvf-q2-150026990.html",
+        "https://simplywall.st/news/se/auto-components"
+      ],
+      "events": [
+        "Q2-rapport rekordomsättning (juli 2026)",
+        "Richmond-expansion annonserad"
+      ]
+    },
+    "SINCH.ST": {
+      "fundamental": 1,
+      "sentiment": -1,
+      "notes": "Q2-rapporten visade en acceleration i organisk omsättningstillväxt till 6 procent och starkt fritt kassaflöde, men aktien föll ändå knappt 5 procent då investerare oroade sig för svagare bruttovinsttrender i Europa och Asien trots förbättrad momentum i Amerika.",
+      "sources": [
+        "https://www.investing.com/news/transcripts/earnings-call-transcript-sinch-shares-fall-after-q2-2026-growth-pickup-93CH-4805024"
+      ],
+      "events": [
+        "Q2-rapport 2026"
+      ]
+    },
+    "ATCO-A.ST": {
+      "fundamental": 0,
+      "sentiment": 1,
+      "notes": "Bernstein höjde nyligen riktkursen till 240 kronor (230) och upprepade sin outperform-rekommendation, en av flera mindre positiva riktkursjusteringar i verkstadssektorn i mitten av augusti.",
+      "sources": [
+        "https://www.placera.se/nyheter/hojda-riktkurser-for-storbankerna-2026-08-13"
+      ],
+      "events": [
+        "Bernstein höjer riktkurs till 240 kr (2026-08-13)"
+      ]
+    }
+  }
+}

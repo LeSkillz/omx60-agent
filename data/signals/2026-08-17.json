@@ -1,0 +1,439 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T08:07:05",
+  "weights_used": {
+    "momentum": 0.25,
+    "trend": 0.15,
+    "reversal": 0.1,
+    "volume": 0.05,
+    "fundamental": 0.2,
+    "sentiment": 0.15,
+    "macro": 0.1
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 13,
+    "missing": [],
+    "deduped": [
+      "SAAB-B.ST (day, samma bolag som redan vald order)"
+    ]
+  },
+  "macro": {
+    "market": 0,
+    "sector_scores": {
+      "Industri": 1,
+      "Finans": -1,
+      "Fastighet": -1,
+      "Material": 1,
+      "Halsovard": 0,
+      "Teknik": -1,
+      "Sallankopsvaror": -1,
+      "Dagligvaror": 0,
+      "Telekom": 0
+    },
+    "notes": "Stockholmsbörsen försöker bryta en svit på åtta raka nedgångsdagar med en svag uppgång vid måndagens öppning. SEB:s morgonbrev flaggar för ökad geopolitisk risk kring Hormuzsundet sedan tidsfristen för USA-Iran-överenskommelsen löpt ut. Riksbankens räntebesked kommer 20 augusti - marknaden väntar oförändrad ränta på 1,75 procent men tre av fyra tillfrågade investerare räknar med en höjning innan årsskiftet, vilket håller tillbaka räntekänsliga sektorer som fastigheter. Inga instruktionsliknande uppmaningar identifierade i genomgånget källmaterial.",
+    "sources": [
+      "https://www.privataaffarer.se/alla-nyheter/borstelegram/stockholmsborsen-oppnar-svagt-uppat-jxkAT/",
+      "https://sebgroup.com/sv/press/nyheter/2026/oforandrad-ranta-i-augusti-men-hojning-vantar-i-december"
+    ]
+  },
+  "day_trades": [],
+  "week_trades": [
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.609,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.303,
+        "trend": 0.7,
+        "reversal": -0.95,
+        "volume": 0.535,
+        "fundamental": 1.0,
+        "sentiment": 1.0,
+        "macro": 0.35
+      },
+      "ref_price": 689.7,
+      "shares": 148,
+      "stop": 655.87,
+      "target": 746.08,
+      "max_hold_days": 5,
+      "rationale": "Aktien är mitt i sin längsta uppgångssvit sedan 2024 (elva dagar, cirka +17 procent) efter en rekordstark Q2-rapport med orderingång upp 140,8 procent till 68,4 miljarder kronor och rörelseresultat 15,2 procent bättre än väntat. Barclays vände nyligen från sälj till köp och höjde riktkursen kraftigt från 545 till 740 kronor i en bredare uppgradering av försvarssektorn."
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.516,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.789,
+        "trend": 0.76,
+        "reversal": -0.816,
+        "volume": 0.264,
+        "fundamental": 0.5,
+        "sentiment": 0.0,
+        "macro": 0.35
+      },
+      "ref_price": 108.7,
+      "shares": 1159,
+      "stop": 104.37,
+      "target": 115.91,
+      "max_hold_days": 5,
+      "rationale": "Sommarens rally i järnmalmspriset, delvis drivet av kinesiska produktionsneddragningar, har ökat råvarukostnaderna men bolaget har i gengäld aviserat höjda plåtpriser. Malmpris och SSAB-aktien har historiskt hög korrelation, vilket indikerar att den underliggande stål- och malmefterfrågan stärks."
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.432,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.43,
+        "trend": 0.48,
+        "reversal": -0.174,
+        "volume": 0.133,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "ref_price": 530.8,
+      "shares": 192,
+      "stop": 504.76,
+      "target": 574.2,
+      "max_hold_days": 5,
+      "rationale": "Svenska regeringen avslog den 12 augusti två överklaganden mot bolagets bearbetningskoncession för kopparfyndigheten Laver, vilket röjer väg för vad som kan bli Europas största koppargruva och dubblad svensk kopparproduktion. Beskedet togs emot väl av bolaget och aktien har handlats starkt i veckorna kring beskedet."
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.361,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.609,
+        "trend": -0.926,
+        "reversal": 0.234,
+        "volume": 0.232,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": -0.35
+      },
+      "ref_price": 3.25,
+      "shares": 22743,
+      "stop": 3.47,
+      "target": 2.88,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.356,
+      "confidence": 0.564,
+      "components": {
+        "momentum": -0.936,
+        "trend": -0.2,
+        "reversal": 0.06,
+        "volume": -0.214,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": -0.35
+      },
+      "ref_price": 29.27,
+      "shares": 2522,
+      "stop": 31.26,
+      "target": 25.95,
+      "max_hold_days": 5,
+      "rationale": ""
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.609,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.303,
+        "trend": 0.7,
+        "reversal": -0.95,
+        "volume": 0.535,
+        "fundamental": 1.0,
+        "sentiment": 1.0,
+        "macro": 0.35
+      },
+      "ref_price": 689.7,
+      "shares": 148,
+      "stop": 655.87,
+      "target": 746.08,
+      "max_hold_days": 5,
+      "rationale": "Aktien är mitt i sin längsta uppgångssvit sedan 2024 (elva dagar, cirka +17 procent) efter en rekordstark Q2-rapport med orderingång upp 140,8 procent till 68,4 miljarder kronor och rörelseresultat 15,2 procent bättre än väntat. Barclays vände nyligen från sälj till köp och höjde riktkursen kraftigt från 545 till 740 kronor i en bredare uppgradering av försvarssektorn.",
+      "signal_date": "2026-08-17",
+      "atr14": 22.5502,
+      "stop_dist": 33.8253,
+      "target_dist": 56.3755,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 148
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.516,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.789,
+        "trend": 0.76,
+        "reversal": -0.816,
+        "volume": 0.264,
+        "fundamental": 0.5,
+        "sentiment": 0.0,
+        "macro": 0.35
+      },
+      "ref_price": 108.7,
+      "shares": 1159,
+      "stop": 104.37,
+      "target": 115.91,
+      "max_hold_days": 5,
+      "rationale": "Sommarens rally i järnmalmspriset, delvis drivet av kinesiska produktionsneddragningar, har ökat råvarukostnaderna men bolaget har i gengäld aviserat höjda plåtpriser. Malmpris och SSAB-aktien har historiskt hög korrelation, vilket indikerar att den underliggande stål- och malmefterfrågan stärks.",
+      "signal_date": "2026-08-17",
+      "atr14": 2.8856,
+      "stop_dist": 4.3285,
+      "target_dist": 7.2141,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 1159
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.432,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.43,
+        "trend": 0.48,
+        "reversal": -0.174,
+        "volume": 0.133,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "ref_price": 530.8,
+      "shares": 192,
+      "stop": 504.76,
+      "target": 574.2,
+      "max_hold_days": 5,
+      "rationale": "Svenska regeringen avslog den 12 augusti två överklaganden mot bolagets bearbetningskoncession för kopparfyndigheten Laver, vilket röjer väg för vad som kan bli Europas största koppargruva och dubblad svensk kopparproduktion. Beskedet togs emot väl av bolaget och aktien har handlats starkt i veckorna kring beskedet.",
+      "signal_date": "2026-08-17",
+      "atr14": 17.3594,
+      "stop_dist": 26.0391,
+      "target_dist": 43.3986,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 192
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.361,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.609,
+        "trend": -0.926,
+        "reversal": 0.234,
+        "volume": 0.232,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": -0.35
+      },
+      "ref_price": 3.25,
+      "shares": 22743,
+      "stop": 3.47,
+      "target": 2.88,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-08-17",
+      "atr14": 0.1472,
+      "stop_dist": 0.2207,
+      "target_dist": 0.3679,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 22743
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.356,
+      "confidence": 0.564,
+      "components": {
+        "momentum": -0.936,
+        "trend": -0.2,
+        "reversal": 0.06,
+        "volume": -0.214,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": -0.35
+      },
+      "ref_price": 29.27,
+      "shares": 2522,
+      "stop": 31.26,
+      "target": 25.95,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-08-17",
+      "atr14": 1.327,
+      "stop_dist": 1.9905,
+      "target_dist": 3.3175,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 2522
+    }
+  ],
+  "top10": [
+    {
+      "index": "SAAB-B.ST",
+      "name": "Saab B",
+      "score": 0.497,
+      "confidence": 0.907
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": 0.379,
+      "confidence": 0.907
+    },
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.378,
+      "confidence": 0.814
+    },
+    {
+      "index": "ALFA.ST",
+      "name": "Alfa Laval",
+      "score": 0.302,
+      "confidence": 0.907
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.274,
+      "confidence": 0.721
+    },
+    {
+      "index": "MTRS.ST",
+      "name": "Munters",
+      "score": 0.246,
+      "confidence": 0.814
+    },
+    {
+      "index": "ALLEI.ST",
+      "name": "Alleima",
+      "score": 0.205,
+      "confidence": 0.471
+    },
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.204,
+      "confidence": 0.471
+    },
+    {
+      "index": "SAND.ST",
+      "name": "Sandvik",
+      "score": 0.198,
+      "confidence": 0.657
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": 0.176,
+      "confidence": 0.471
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.135,
+      "confidence": 0.378
+    },
+    {
+      "index": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "score": -0.137,
+      "confidence": 0.564
+    },
+    {
+      "index": "LATO-B.ST",
+      "name": "Latour B",
+      "score": -0.162,
+      "confidence": 0.471
+    },
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.172,
+      "confidence": 0.657
+    },
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.191,
+      "confidence": 0.378
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.218,
+      "confidence": 0.564
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.222,
+      "confidence": 0.721
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.28,
+      "confidence": 0.564
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.291,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.304,
+      "confidence": 0.564
+    }
+  ]
+}
