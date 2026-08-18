@@ -1,0 +1,203 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T07:26:36",
+  "weights_used": {
+    "momentum": 0.25,
+    "trend": 0.15,
+    "reversal": 0.1,
+    "volume": 0.05,
+    "fundamental": 0.2,
+    "sentiment": 0.15,
+    "macro": 0.1
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.354,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.805,
+        "trend": 0.769,
+        "reversal": -0.92,
+        "volume": 0.226,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 109.5,
+      "shares": 1171,
+      "stop": 105.2,
+      "target": 116.66,
+      "max_hold_days": 5,
+      "rationale": ""
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.354,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.805,
+        "trend": 0.769,
+        "reversal": -0.92,
+        "volume": 0.226,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 109.5,
+      "shares": 1171,
+      "stop": 105.2,
+      "target": 116.66,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-08-18",
+      "atr14": 2.8642,
+      "stop_dist": 4.2963,
+      "target_dist": 7.1606,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 1171
+    }
+  ],
+  "top10": [
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.236,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.201,
+      "confidence": 0.378
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.182,
+      "confidence": 0.471
+    },
+    {
+      "index": "SAVE.ST",
+      "name": "Nordnet",
+      "score": 0.158,
+      "confidence": 0.378
+    },
+    {
+      "index": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "score": 0.157,
+      "confidence": 0.471
+    },
+    {
+      "index": "CAST.ST",
+      "name": "Castellum",
+      "score": 0.148,
+      "confidence": 0.471
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.146,
+      "confidence": 0.564
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.142,
+      "confidence": 0.471
+    },
+    {
+      "index": "AZA.ST",
+      "name": "Avanza Bank",
+      "score": 0.138,
+      "confidence": 0.378
+    },
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.137,
+      "confidence": 0.471
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.121,
+      "confidence": 0.564
+    },
+    {
+      "index": "LATO-B.ST",
+      "name": "Latour B",
+      "score": -0.122,
+      "confidence": 0.378
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.138,
+      "confidence": 0.378
+    },
+    {
+      "index": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "score": -0.142,
+      "confidence": 0.564
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.156,
+      "confidence": 0.378
+    },
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.198,
+      "confidence": 0.378
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.21,
+      "confidence": 0.471
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.232,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.234,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.241,
+      "confidence": 0.471
+    }
+  ]
+}

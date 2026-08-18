@@ -1,13 +1,35 @@
 {
-  "date": "2026-08-17",
-  "orders": [],
-  "filled": [
-    "SSAB-B.ST @ 108.00 (1159 st, gap -0.6%)",
-    "BOL.ST @ 535.00 (192 st, gap +0.8%)",
-    "ELUX-B.ST @ 29.26 (2522 st, gap +0.0%)"
-  ],
-  "rejected": [
-    "SAAB-B.ST (redan exponering mot bolaget)",
-    "SBB-B.ST (redan exponering mot bolaget)"
+  "date": "2026-08-18",
+  "orders": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.354,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.805,
+        "trend": 0.769,
+        "reversal": -0.92,
+        "volume": 0.226,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 109.5,
+      "shares": 1171,
+      "stop": 105.2,
+      "target": 116.66,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-08-18",
+      "atr14": 2.8642,
+      "stop_dist": 4.2963,
+      "target_dist": 7.1606,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 1171
+    }
   ]
 }
