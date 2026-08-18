@@ -1,0 +1,70 @@
+{
+  "date": "2026-08-18",
+  "n_positions": 5,
+  "hit_rate": 0.6,
+  "avg_signed_return_pct": 1.044,
+  "benchmark_return_pct": -0.662,
+  "equity": 1001757.0,
+  "filled": [],
+  "rejected": [
+    "SSAB-B.ST (redan exponering mot bolaget)"
+  ],
+  "closed_trades": [],
+  "detail": [
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "direction": "long",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 0.88,
+      "hit": true
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 6.61,
+      "hit": true
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "direction": "long",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -2.31,
+      "hit": false
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "direction": "long",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -3.14,
+      "hit": false
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 3.18,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": -0.28174492914698535,
+    "trend": -0.210780772436788,
+    "reversal": 0.049680466796332326,
+    "volume": 0.20211169769380385,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": -0.21756043345373718
+  }
+}

@@ -87,14 +87,19 @@
       "sector": "Industri"
     },
     {
+      "ticker": "ESSITY-B.ST",
+      "name": "Essity B",
+      "sector": "Dagligvaror"
+    },
+    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
     },
     {
-      "ticker": "ESSITY-B.ST",
-      "name": "Essity B",
-      "sector": "Dagligvaror"
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "EPI-A.ST",
@@ -105,11 +110,6 @@
       "ticker": "NDA-SE.ST",
       "name": "Nordea",
       "sector": "Finans"
-    },
-    {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "SECU-B.ST",
@@ -222,14 +222,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
-    },
-    {
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
     },
     {
       "ticker": "MTRS.ST",
