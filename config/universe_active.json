@@ -82,14 +82,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "HM-B.ST",
       "name": "H&M B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "ESSITY-B.ST",
@@ -97,14 +97,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material"
-    },
-    {
       "ticker": "EPI-A.ST",
       "name": "Epiroc A",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material"
     },
     {
       "ticker": "NDA-SE.ST",
@@ -212,19 +212,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "VOLCAR-B.ST",
-      "name": "Volvo Car B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
     },
     {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
-      "sector": "Industri"
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "INDT.ST",
@@ -232,14 +227,19 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
       "sector": "Industri"
     },
     {
       "ticker": "LATO-B.ST",
       "name": "Latour B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
     },
     {
       "ticker": "SAGA-B.ST",
@@ -297,19 +297,19 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
+      "ticker": "AFRY.ST",
+      "name": "AFRY",
       "sector": "Industri"
     }
   ],
   "excluded": [
-    "AFRY.ST",
     "ALLEI.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
+    "SWEC-B.ST",
     "VITR.ST",
     "WALL-B.ST",
     "WIHL.ST"
