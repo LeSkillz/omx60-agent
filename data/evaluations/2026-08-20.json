@@ -1,0 +1,150 @@
+{
+  "date": "2026-08-20",
+  "n_positions": 5,
+  "hit_rate": 0.6,
+  "avg_signed_return_pct": 0.688,
+  "benchmark_return_pct": 0.448,
+  "equity": 999660.15,
+  "filled": [],
+  "rejected": [],
+  "closed_trades": [
+    {
+      "signal_date": "2026-08-14",
+      "opened": "2026-08-14",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "direction": "long",
+      "horizon": "week",
+      "shares": 145,
+      "entry": 682.0,
+      "score": 0.549,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.292,
+        "trend": 0.708,
+        "reversal": -0.966,
+        "volume": 0.54,
+        "fundamental": 1.0,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "closed": "2026-08-20",
+      "exit": 666.5,
+      "reason": "tid",
+      "pnl_sek": -2443.03,
+      "pnl_pct": -2.273,
+      "held_days": 5
+    },
+    {
+      "signal_date": "2026-08-14",
+      "opened": "2026-08-14",
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 22361,
+      "entry": 3.48,
+      "score": -0.463,
+      "confidence": 0.814,
+      "components": {
+        "momentum": -0.493,
+        "trend": -0.107,
+        "reversal": 0.086,
+        "volume": 0.575,
+        "fundamental": -0.5,
+        "sentiment": -1.0,
+        "macro": -0.7
+      },
+      "closed": "2026-08-20",
+      "exit": 3.24,
+      "reason": "tid",
+      "pnl_sek": 5261.14,
+      "pnl_pct": 6.954,
+      "held_days": 5
+    },
+    {
+      "signal_date": "2026-08-17",
+      "opened": "2026-08-17",
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "direction": "long",
+      "horizon": "week",
+      "shares": 1159,
+      "entry": 108.0,
+      "score": 0.516,
+      "confidence": 0.814,
+      "components": {
+        "momentum": 0.789,
+        "trend": 0.76,
+        "reversal": -0.816,
+        "volume": 0.264,
+        "fundamental": 0.5,
+        "sentiment": 0.0,
+        "macro": 0.35
+      },
+      "closed": "2026-08-20",
+      "exit": 103.67,
+      "reason": "stop",
+      "pnl_sek": -5263.79,
+      "pnl_pct": -4.009,
+      "held_days": 4
+    }
+  ],
+  "detail": [
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "direction": "long",
+      "horizon": "week",
+      "status": "stangd (tid)",
+      "signed_return_pct": -2.273,
+      "hit": false
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "stangd (tid)",
+      "signed_return_pct": 6.954,
+      "hit": true
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "direction": "long",
+      "horizon": "week",
+      "status": "stangd (stop)",
+      "signed_return_pct": -4.009,
+      "hit": false
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "direction": "long",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 0.82,
+      "hit": true
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 1.95,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": -0.05218188638856444,
+    "trend": 0.0011947929258297502,
+    "reversal": -0.18711012936133808,
+    "volume": -0.02750840534607796,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": -0.05326553578641004
+  }
+}
