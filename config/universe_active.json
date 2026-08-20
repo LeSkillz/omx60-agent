@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19",
+  "generated": "2026-08-20",
   "members": [
     {
       "ticker": "AZN.ST",
@@ -52,13 +52,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "EQT.ST",
+      "name": "EQT",
       "sector": "Finans"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
@@ -67,14 +67,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "HEXA-B.ST",
       "name": "Hexagon B",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
+      "sector": "Finans"
     },
     {
       "ticker": "ABB.ST",
@@ -97,11 +97,6 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
@@ -112,19 +107,24 @@
       "sector": "Finans"
     },
     {
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
+      "sector": "Industri"
+    },
+    {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
-    },
-    {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
-      "sector": "Industri"
     },
     {
       "ticker": "INDU-C.ST",
@@ -187,14 +187,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "GETI-B.ST",
       "name": "Getinge B",
       "sector": "Halsovard"
+    },
+    {
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
+      "sector": "Industri"
     },
     {
       "ticker": "TREL-B.ST",
@@ -207,14 +207,14 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
+    },
+    {
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "VOLCAR-B.ST",
@@ -222,13 +222,13 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "INDT.ST",
-      "name": "Indutrade",
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
       "sector": "Industri"
     },
     {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
+      "ticker": "INDT.ST",
+      "name": "Indutrade",
       "sector": "Industri"
     },
     {
@@ -257,14 +257,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
-    },
-    {
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
     },
     {
       "ticker": "TRUE-B.ST",
@@ -272,14 +272,14 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "STOR-B.ST",
-      "name": "Storskogen B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "STOR-B.ST",
+      "name": "Storskogen B",
+      "sector": "Industri"
     },
     {
       "ticker": "HUSQ-B.ST",
