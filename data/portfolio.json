@@ -1,86 +1,7 @@
 {
-  "equity": 999660.15,
-  "cash": 968451.521933225,
-  "open_positions": [
-    {
-      "signal_date": "2026-08-17",
-      "opened": "2026-08-17",
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "direction": "long",
-      "horizon": "week",
-      "shares": 192,
-      "entry": 535.0,
-      "ref_price": 530.8,
-      "entry_gap_pct": 0.79,
-      "stop": 508.96,
-      "target": 578.4,
-      "stop_dist": 26.0391,
-      "target_dist": 43.3986,
-      "max_hold_days": 5,
-      "score": 0.432,
-      "confidence": 0.907,
-      "components": {
-        "momentum": 0.43,
-        "trend": 0.48,
-        "reversal": -0.174,
-        "volume": 0.133,
-        "fundamental": 0.5,
-        "sentiment": 0.5,
-        "macro": 0.35
-      },
-      "rationale": "Svenska regeringen avslog den 12 augusti två överklaganden mot bolagets bearbetningskoncession för kopparfyndigheten Laver, vilket röjer väg för vad som kan bli Europas största koppargruva och dubblad svensk kopparproduktion. Beskedet togs emot väl av bolaget och aktien har handlats starkt i veckorna kring beskedet.",
-      "entry_cost": 102.72,
-      "last_close": 539.4,
-      "as_of": "2026-08-20",
-      "open_pnl": 844.8,
-      "open_pnl_pct": 0.82,
-      "to_stop_pct": -5.64,
-      "to_target_pct": 7.23,
-      "days_left": 1,
-      "progress": 0.438,
-      "action": "Behall"
-    },
-    {
-      "signal_date": "2026-08-17",
-      "opened": "2026-08-17",
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "direction": "short",
-      "horizon": "week",
-      "shares": 2522,
-      "entry": 29.26,
-      "ref_price": 29.27,
-      "entry_gap_pct": 0.03,
-      "stop": 31.25,
-      "target": 25.94,
-      "stop_dist": 1.9905,
-      "target_dist": 3.3175,
-      "max_hold_days": 5,
-      "score": -0.356,
-      "confidence": 0.564,
-      "components": {
-        "momentum": -0.936,
-        "trend": -0.2,
-        "reversal": 0.06,
-        "volume": -0.214,
-        "fundamental": 0.0,
-        "sentiment": 0.0,
-        "macro": -0.35
-      },
-      "rationale": "",
-      "entry_cost": 73.79,
-      "last_close": 28.69,
-      "as_of": "2026-08-20",
-      "open_pnl": 1437.54,
-      "open_pnl_pct": 1.95,
-      "to_stop_pct": -8.92,
-      "to_target_pct": 9.59,
-      "days_left": 1,
-      "progress": 0.482,
-      "action": "Behall"
-    }
-  ],
+  "equity": 1001000.5,
+  "cash": 1001000.5004830182,
+  "open_positions": [],
   "closed_trades": [
     {
       "signal_date": "2026-08-14",
@@ -162,6 +83,60 @@
       "pnl_sek": -5263.79,
       "pnl_pct": -4.009,
       "held_days": 4
+    },
+    {
+      "signal_date": "2026-08-17",
+      "opened": "2026-08-17",
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "direction": "long",
+      "horizon": "week",
+      "shares": 192,
+      "entry": 535.0,
+      "score": 0.432,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.43,
+        "trend": 0.48,
+        "reversal": -0.174,
+        "volume": 0.133,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "closed": "2026-08-21",
+      "exit": 565.6,
+      "reason": "tid",
+      "pnl_sek": 5663.88,
+      "pnl_pct": 5.72,
+      "held_days": 5
+    },
+    {
+      "signal_date": "2026-08-17",
+      "opened": "2026-08-17",
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 2522,
+      "entry": 29.26,
+      "score": -0.356,
+      "confidence": 0.564,
+      "components": {
+        "momentum": -0.936,
+        "trend": -0.2,
+        "reversal": 0.06,
+        "volume": -0.214,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": -0.35
+      },
+      "closed": "2026-08-21",
+      "exit": 30.08,
+      "reason": "tid",
+      "pnl_sek": -2217.69,
+      "pnl_pct": -2.802,
+      "held_days": 5
     }
   ],
   "equity_curve": [
@@ -194,6 +169,12 @@
       "equity": 999660.15,
       "cash": 968451.52,
       "open_positions": 2
+    },
+    {
+      "date": "2026-08-21",
+      "equity": 1001000.5,
+      "cash": 1001000.5,
+      "open_positions": 0
     }
   ]
 }

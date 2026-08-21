@@ -1,0 +1,96 @@
+{
+  "date": "2026-08-21",
+  "n_positions": 2,
+  "hit_rate": 0.5,
+  "avg_signed_return_pct": 1.459,
+  "benchmark_return_pct": 1.044,
+  "equity": 1001000.5,
+  "filled": [],
+  "rejected": [],
+  "closed_trades": [
+    {
+      "signal_date": "2026-08-17",
+      "opened": "2026-08-17",
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "direction": "long",
+      "horizon": "week",
+      "shares": 192,
+      "entry": 535.0,
+      "score": 0.432,
+      "confidence": 0.907,
+      "components": {
+        "momentum": 0.43,
+        "trend": 0.48,
+        "reversal": -0.174,
+        "volume": 0.133,
+        "fundamental": 0.5,
+        "sentiment": 0.5,
+        "macro": 0.35
+      },
+      "closed": "2026-08-21",
+      "exit": 565.6,
+      "reason": "tid",
+      "pnl_sek": 5663.88,
+      "pnl_pct": 5.72,
+      "held_days": 5
+    },
+    {
+      "signal_date": "2026-08-17",
+      "opened": "2026-08-17",
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 2522,
+      "entry": 29.26,
+      "score": -0.356,
+      "confidence": 0.564,
+      "components": {
+        "momentum": -0.936,
+        "trend": -0.2,
+        "reversal": 0.06,
+        "volume": -0.214,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": -0.35
+      },
+      "closed": "2026-08-21",
+      "exit": 30.08,
+      "reason": "tid",
+      "pnl_sek": -2217.69,
+      "pnl_pct": -2.802,
+      "held_days": 5
+    }
+  ],
+  "detail": [
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "direction": "long",
+      "horizon": "week",
+      "status": "stangd (tid)",
+      "signed_return_pct": 5.72,
+      "hit": true
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "stangd (tid)",
+      "signed_return_pct": -2.802,
+      "hit": false
+    }
+  ],
+  "ic": {
+    "momentum": 0.08679135008766804,
+    "trend": 0.0897136177673875,
+    "reversal": -0.2039158386908241,
+    "volume": 0.17253068381063708,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.06937463471654005
+  }
+}
