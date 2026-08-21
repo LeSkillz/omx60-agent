@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20",
+  "generated": "2026-08-21",
   "members": [
     {
       "ticker": "AZN.ST",
@@ -112,19 +112,24 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
       "sector": "Industri"
     },
     {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industri"
     },
     {
       "ticker": "INDU-C.ST",
@@ -134,11 +139,6 @@
     {
       "ticker": "SKF-B.ST",
       "name": "SKF B",
-      "sector": "Industri"
-    },
-    {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
       "sector": "Industri"
     },
     {
@@ -202,14 +202,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "AZA.ST",
@@ -222,6 +222,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
+    },
+    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
@@ -230,11 +235,6 @@
       "ticker": "INDT.ST",
       "name": "Indutrade",
       "sector": "Industri"
-    },
-    {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
-      "sector": "Finans"
     },
     {
       "ticker": "MTRS.ST",
@@ -267,6 +267,11 @@
       "sector": "Material"
     },
     {
+      "ticker": "STOR-B.ST",
+      "name": "Storskogen B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "TRUE-B.ST",
       "name": "Truecaller B",
       "sector": "Teknik"
@@ -275,11 +280,6 @@
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "STOR-B.ST",
-      "name": "Storskogen B",
-      "sector": "Industri"
     },
     {
       "ticker": "HUSQ-B.ST",
