@@ -7,13 +7,13 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "VOLV-B.ST",
-      "name": "Volvo B",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
       "sector": "Industri"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
+      "ticker": "VOLV-B.ST",
+      "name": "Volvo B",
       "sector": "Industri"
     },
     {
@@ -47,8 +47,8 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
@@ -57,8 +57,8 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "EQT.ST",
+      "name": "EQT",
       "sector": "Finans"
     },
     {
@@ -87,18 +87,23 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
     },
     {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "EPI-A.ST",
       "name": "Epiroc A",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
       "sector": "Industri"
     },
     {
@@ -112,11 +117,6 @@
       "sector": "Finans"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
@@ -127,14 +127,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SKF-B.ST",
       "name": "SKF B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
     },
     {
       "ticker": "SECU-B.ST",
@@ -182,13 +182,13 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
       "sector": "Industri"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
@@ -217,14 +217,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "LATO-B.ST",
       "name": "Latour B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
+      "sector": "Industri"
     },
     {
       "ticker": "VOLCAR-B.ST",

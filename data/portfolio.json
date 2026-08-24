@@ -1,6 +1,6 @@
 {
-  "equity": 1001000.5,
-  "cash": 1001000.5004830182,
+  "equity": 999750.69,
+  "cash": 999750.6853201689,
   "open_positions": [],
   "closed_trades": [
     {
@@ -137,6 +137,33 @@
       "pnl_sek": -2217.69,
       "pnl_pct": -2.802,
       "held_days": 5
+    },
+    {
+      "signal_date": "2026-08-24",
+      "opened": "2026-08-24",
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "direction": "long",
+      "horizon": "day",
+      "shares": 925,
+      "entry": 101.15,
+      "score": 0.352,
+      "confidence": 0.564,
+      "components": {
+        "momentum": 0.642,
+        "trend": 0.273,
+        "reversal": 0.709,
+        "volume": 0.813,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "closed": "2026-08-24",
+      "exit": 100.0,
+      "reason": "tid",
+      "pnl_sek": -1249.81,
+      "pnl_pct": -1.137,
+      "held_days": 1
     }
   ],
   "equity_curve": [
@@ -174,6 +201,12 @@
       "date": "2026-08-21",
       "equity": 1001000.5,
       "cash": 1001000.5,
+      "open_positions": 0
+    },
+    {
+      "date": "2026-08-24",
+      "equity": 999750.69,
+      "cash": 999750.69,
       "open_positions": 0
     }
   ]
