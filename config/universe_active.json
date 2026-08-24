@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21",
+  "generated": "2026-08-24",
   "members": [
     {
       "ticker": "AZN.ST",
@@ -37,14 +37,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "EVO.ST",
-      "name": "Evolution",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
+    },
+    {
+      "ticker": "EVO.ST",
+      "name": "Evolution",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "EQT.ST",
@@ -52,13 +52,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
       "sector": "Finans"
     },
     {
-      "ticker": "SHB-A.ST",
-      "name": "Handelsbanken A",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
@@ -82,19 +82,19 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material"
     },
     {
       "ticker": "EPI-A.ST",
@@ -102,9 +102,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material"
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "NDA-SE.ST",
@@ -122,8 +122,8 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
@@ -134,6 +134,11 @@
     {
       "ticker": "SKF-B.ST",
       "name": "SKF B",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
       "sector": "Industri"
     },
     {
@@ -177,13 +182,13 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
       "sector": "Industri"
     },
     {
@@ -272,14 +277,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TRUE-B.ST",
-      "name": "Truecaller B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "HUSQ-B.ST",
       "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "sector": "Teknik"
     },
     {
       "ticker": "SBB-B.ST",
@@ -295,21 +300,16 @@
       "ticker": "AFRY.ST",
       "name": "AFRY",
       "sector": "Industri"
-    },
-    {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
-      "sector": "Industri"
     }
   ],
   "excluded": [
     "ALLEI.ST",
-    "ATCO-B.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
+    "SWEC-B.ST",
     "VITR.ST",
     "WALL-B.ST",
     "WIHL.ST"
