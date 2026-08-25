@@ -1,7 +1,7 @@
 {
   "_comment": "Agentens larbara parametrar. run_evening.py justerar 'weights' sma steg baserat pa uppmatt information coefficient (IC) per delkomponent. Andra garna 'risk' manuellt - den delen justeras aldrig automatiskt.",
   "version": 2,
-  "last_updated": "2026-08-24",
+  "last_updated": "2026-08-25",
   "weights": {
     "momentum": 0.25,
     "trend": 0.15,

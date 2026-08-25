@@ -1,0 +1,62 @@
+{
+  "date": "2026-08-25",
+  "n_positions": 1,
+  "hit_rate": 1.0,
+  "avg_signed_return_pct": 1.299,
+  "benchmark_return_pct": 0.833,
+  "equity": 1000816.23,
+  "filled": [
+    "SSAB-B.ST @ 100.10 (970 st, gap +0.3%)"
+  ],
+  "rejected": [],
+  "closed_trades": [
+    {
+      "signal_date": "2026-08-25",
+      "opened": "2026-08-25",
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "direction": "long",
+      "horizon": "day",
+      "shares": 970,
+      "entry": 100.1,
+      "score": 0.352,
+      "confidence": 0.564,
+      "components": {
+        "momentum": 0.638,
+        "trend": 0.264,
+        "reversal": 0.716,
+        "volume": 0.832,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "closed": "2026-08-25",
+      "exit": 101.4,
+      "reason": "tid",
+      "pnl_sek": 1065.54,
+      "pnl_pct": 1.299,
+      "held_days": 1
+    }
+  ],
+  "detail": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "direction": "long",
+      "horizon": "day",
+      "status": "stangd (tid)",
+      "signed_return_pct": 1.299,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": -0.012336931606242073,
+    "trend": 0.04357068430321797,
+    "reversal": -0.11331082677985399,
+    "volume": 0.18272249854122088,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": -0.03940038067038572
+  }
+}

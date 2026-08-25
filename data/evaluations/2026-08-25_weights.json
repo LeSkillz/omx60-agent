@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-25",
+  "mean_ic": null,
+  "note": "For fa observationer (8) - vikterna ororda.",
+  "weights_after": {
+    "momentum": 0.25,
+    "trend": 0.15,
+    "reversal": 0.1,
+    "volume": 0.05,
+    "fundamental": 0.2,
+    "sentiment": 0.15,
+    "macro": 0.1
+  }
+}

@@ -87,9 +87,9 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
+      "sector": "Industri"
     },
     {
       "ticker": "SSAB-B.ST",
@@ -97,9 +97,9 @@
       "sector": "Material"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "NIBE-B.ST",
@@ -107,14 +107,19 @@
       "sector": "Industri"
     },
     {
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
+    },
+    {
       "ticker": "NDA-SE.ST",
       "name": "Nordea",
       "sector": "Finans"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
+      "sector": "Industri"
     },
     {
       "ticker": "TELIA.ST",
@@ -124,11 +129,6 @@
     {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
-      "sector": "Industri"
-    },
-    {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
       "sector": "Industri"
     },
     {
@@ -182,6 +182,11 @@
       "sector": "Fastighet"
     },
     {
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "ADDT-B.ST",
       "name": "Addtech B",
       "sector": "Industri"
@@ -189,11 +194,6 @@
     {
       "ticker": "LIFCO-B.ST",
       "name": "Lifco B",
-      "sector": "Industri"
-    },
-    {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
@@ -267,14 +267,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "STOR-B.ST",
-      "name": "Storskogen B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "STOR-B.ST",
+      "name": "Storskogen B",
+      "sector": "Industri"
     },
     {
       "ticker": "HUSQ-B.ST",
