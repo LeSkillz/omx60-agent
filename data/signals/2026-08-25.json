@@ -1,0 +1,203 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T08:00:53",
+  "weights_used": {
+    "momentum": 0.25,
+    "trend": 0.15,
+    "reversal": 0.1,
+    "volume": 0.05,
+    "fundamental": 0.2,
+    "sentiment": 0.15,
+    "macro": 0.1
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "day",
+      "score": 0.352,
+      "confidence": 0.564,
+      "components": {
+        "momentum": 0.638,
+        "trend": 0.264,
+        "reversal": 0.716,
+        "volume": 0.832,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 99.8,
+      "shares": 970,
+      "stop": 94.65,
+      "target": 108.38,
+      "max_hold_days": 1,
+      "rationale": ""
+    }
+  ],
+  "week_trades": [],
+  "pending_orders": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "day",
+      "score": 0.352,
+      "confidence": 0.564,
+      "components": {
+        "momentum": 0.638,
+        "trend": 0.264,
+        "reversal": 0.716,
+        "volume": 0.832,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 99.8,
+      "shares": 970,
+      "stop": 94.65,
+      "target": 108.38,
+      "max_hold_days": 1,
+      "rationale": "",
+      "signal_date": "2026-08-25",
+      "atr14": 3.4321,
+      "stop_dist": 5.1482,
+      "target_dist": 8.5803,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 970
+    }
+  ],
+  "top10": [
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.312,
+      "confidence": 0.564
+    },
+    {
+      "index": "SAVE.ST",
+      "name": "Nordnet",
+      "score": 0.199,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.196,
+      "confidence": 0.564
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.183,
+      "confidence": 0.378
+    },
+    {
+      "index": "AZA.ST",
+      "name": "Avanza Bank",
+      "score": 0.164,
+      "confidence": 0.471
+    },
+    {
+      "index": "SAAB-B.ST",
+      "name": "Saab B",
+      "score": 0.159,
+      "confidence": 0.471
+    },
+    {
+      "index": "NDA-SE.ST",
+      "name": "Nordea",
+      "score": 0.157,
+      "confidence": 0.471
+    },
+    {
+      "index": "SEB-A.ST",
+      "name": "SEB A",
+      "score": 0.151,
+      "confidence": 0.564
+    },
+    {
+      "index": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "score": 0.144,
+      "confidence": 0.471
+    },
+    {
+      "index": "ALFA.ST",
+      "name": "Alfa Laval",
+      "score": 0.143,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.145,
+      "confidence": 0.471
+    },
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.147,
+      "confidence": 0.471
+    },
+    {
+      "index": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "score": -0.154,
+      "confidence": 0.378
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.169,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.194,
+      "confidence": 0.564
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.205,
+      "confidence": 0.378
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.218,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.231,
+      "confidence": 0.378
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.233,
+      "confidence": 0.471
+    },
+    {
+      "index": "AFRY.ST",
+      "name": "AFRY",
+      "score": -0.265,
+      "confidence": 0.471
+    }
+  ]
+}

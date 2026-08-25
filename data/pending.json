@@ -1,8 +1,35 @@
 {
-  "date": "2026-08-24",
-  "orders": [],
-  "filled": [
-    "SSAB-B.ST @ 101.15 (925 st, gap +0.8%)"
-  ],
-  "rejected": []
+  "date": "2026-08-25",
+  "orders": [
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material",
+      "direction": "long",
+      "horizon": "day",
+      "score": 0.352,
+      "confidence": 0.564,
+      "components": {
+        "momentum": 0.638,
+        "trend": 0.264,
+        "reversal": 0.716,
+        "volume": 0.832,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 99.8,
+      "shares": 970,
+      "stop": 94.65,
+      "target": 108.38,
+      "max_hold_days": 1,
+      "rationale": "",
+      "signal_date": "2026-08-25",
+      "atr14": 3.4321,
+      "stop_dist": 5.1482,
+      "target_dist": 8.5803,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 970
+    }
+  ]
 }
