@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25",
+  "generated": "2026-08-26",
   "members": [
     {
       "ticker": "AZN.ST",
@@ -7,13 +7,13 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
+      "ticker": "VOLV-B.ST",
+      "name": "Volvo B",
       "sector": "Industri"
     },
     {
-      "ticker": "VOLV-B.ST",
-      "name": "Volvo B",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
       "sector": "Industri"
     },
     {
@@ -87,14 +87,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
+    },
+    {
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
+      "sector": "Industri"
     },
     {
       "ticker": "HM-B.ST",
@@ -162,14 +162,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "BEIJ-B.ST",
       "name": "Beijer Ref B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "ELUX-B.ST",
@@ -182,8 +182,8 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
@@ -192,8 +192,8 @@
       "sector": "Industri"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
@@ -237,14 +237,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SAGA-B.ST",
       "name": "Sagax B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
     },
     {
       "ticker": "SAVE.ST",
@@ -282,14 +282,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SBB-B.ST",
-      "name": "SBB B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "TRUE-B.ST",
       "name": "Truecaller B",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "BILL.ST",
@@ -297,19 +297,19 @@
       "sector": "Material"
     },
     {
-      "ticker": "AFRY.ST",
-      "name": "AFRY",
+      "ticker": "SWEC-B.ST",
+      "name": "Sweco B",
       "sector": "Industri"
     }
   ],
   "excluded": [
+    "AFRY.ST",
     "ALLEI.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
-    "SWEC-B.ST",
     "VITR.ST",
     "WALL-B.ST",
     "WIHL.ST"
