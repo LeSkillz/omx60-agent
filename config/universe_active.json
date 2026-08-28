@@ -22,6 +22,11 @@
       "sector": "Finans"
     },
     {
+      "ticker": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "sector": "Industri"
+    },
+    {
       "ticker": "ERIC-B.ST",
       "name": "Ericsson B",
       "sector": "Teknik"
@@ -295,17 +300,12 @@
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "BILL.ST",
-      "name": "Billerud",
-      "sector": "Material"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
-    "ATCO-A.ST",
+    "BILL.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",
