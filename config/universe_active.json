@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-31",
   "members": [
     {
       "ticker": "AZN.ST",
@@ -172,11 +172,6 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
@@ -300,12 +295,17 @@
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "BILL.ST",
+      "name": "Billerud",
+      "sector": "Material"
     }
   ],
   "excluded": [
+    "AAK.ST",
     "AFRY.ST",
     "ALLEI.ST",
-    "BILL.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",

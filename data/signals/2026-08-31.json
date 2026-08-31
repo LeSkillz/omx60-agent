@@ -1,0 +1,147 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T05:33:38",
+  "weights_used": {
+    "momentum": 0.25,
+    "trend": 0.15,
+    "reversal": 0.1,
+    "volume": 0.05,
+    "fundamental": 0.2,
+    "sentiment": 0.15,
+    "macro": 0.1
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.236,
+      "confidence": 0.471
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.198,
+      "confidence": 0.564
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.191,
+      "confidence": 0.564
+    },
+    {
+      "index": "SAVE.ST",
+      "name": "Nordnet",
+      "score": 0.186,
+      "confidence": 0.471
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.177,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.177,
+      "confidence": 0.564
+    },
+    {
+      "index": "SEB-A.ST",
+      "name": "SEB A",
+      "score": 0.177,
+      "confidence": 0.378
+    },
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.175,
+      "confidence": 0.471
+    },
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.171,
+      "confidence": 0.564
+    },
+    {
+      "index": "SAND.ST",
+      "name": "Sandvik",
+      "score": 0.167,
+      "confidence": 0.471
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "score": -0.1,
+      "confidence": 0.378
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.101,
+      "confidence": 0.378
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.11,
+      "confidence": 0.378
+    },
+    {
+      "index": "VITR.ST",
+      "name": "Vitrolife",
+      "score": -0.115,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWEC-B.ST",
+      "name": "Sweco B",
+      "score": -0.123,
+      "confidence": 0.471
+    },
+    {
+      "index": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "score": -0.123,
+      "confidence": 0.471
+    },
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.162,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.188,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.19,
+      "confidence": 0.471
+    },
+    {
+      "index": "SBB-B.ST",
+      "name": "SBB B",
+      "score": -0.245,
+      "confidence": 0.471
+    }
+  ]
+}
