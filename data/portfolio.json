@@ -247,6 +247,12 @@
       "equity": 1000816.23,
       "cash": 1000816.23,
       "open_positions": 0
+    },
+    {
+      "date": "2026-08-31",
+      "equity": 1000816.23,
+      "cash": 1000816.23,
+      "open_positions": 0
     }
   ]
 }
