@@ -102,11 +102,6 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
@@ -117,14 +112,14 @@
       "sector": "Telekom"
     },
     {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
+    },
+    {
       "ticker": "SKF-B.ST",
       "name": "SKF B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "BALD-B.ST",
-      "name": "Balder B",
-      "sector": "Fastighet"
     },
     {
       "ticker": "LATO-B.ST",
@@ -135,6 +130,11 @@
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "BALD-B.ST",
+      "name": "Balder B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "ATCO-B.ST",
@@ -152,14 +152,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SAGA-B.ST",
       "name": "Sagax B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industri"
     },
     {
       "ticker": "CAST.ST",
@@ -187,14 +187,19 @@
       "sector": "Dagligvaror"
     },
     {
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
-      "sector": "Industri"
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "LIFCO-B.ST",
@@ -205,11 +210,6 @@
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
-    },
-    {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
     },
     {
       "ticker": "VOLCAR-B.ST",
@@ -237,11 +237,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "MTRS.ST",
       "name": "Munters",
       "sector": "Industri"
@@ -250,6 +245,11 @@
       "ticker": "LUND-B.ST",
       "name": "Lundbergforetagen B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
+      "sector": "Industri"
     },
     {
       "ticker": "SAVE.ST",
@@ -262,14 +262,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
-    },
-    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
     },
     {
       "ticker": "TRUE-B.ST",
@@ -287,30 +287,30 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "VITR.ST",
-      "name": "Vitrolife",
-      "sector": "Halsovard"
-    },
-    {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
-      "sector": "Industri"
+      "ticker": "BILL.ST",
+      "name": "Billerud",
+      "sector": "Material"
     },
     {
       "ticker": "SBB-B.ST",
       "name": "SBB B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "VITR.ST",
+      "name": "Vitrolife",
+      "sector": "Halsovard"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
-    "BILL.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
+    "SWEC-B.ST",
     "WALL-B.ST",
     "WIHL.ST"
   ]
