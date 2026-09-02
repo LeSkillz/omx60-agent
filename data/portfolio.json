@@ -1,7 +1,47 @@
 {
-  "equity": 1000816.23,
-  "cash": 1000816.233280374,
-  "open_positions": [],
+  "equity": 1001219.69,
+  "cash": 1083515.8102254977,
+  "open_positions": [
+    {
+      "signal_date": "2026-09-02",
+      "opened": "2026-09-02",
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 3039,
+      "entry": 27.24,
+      "ref_price": 27.4,
+      "entry_gap_pct": 0.58,
+      "stop": 28.89,
+      "target": 24.5,
+      "stop_dist": 1.6462,
+      "target_dist": 2.7436,
+      "max_hold_days": 5,
+      "score": -0.357,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.63,
+        "trend": -1.0,
+        "reversal": 0.629,
+        "volume": -0.557,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "rationale": "",
+      "entry_cost": 82.78,
+      "last_close": 27.08,
+      "as_of": "2026-09-02",
+      "open_pnl": 486.24,
+      "open_pnl_pct": 0.59,
+      "to_stop_pct": -6.68,
+      "to_target_pct": 9.53,
+      "days_left": 4,
+      "progress": 0.412,
+      "action": "Behall"
+    }
+  ],
   "closed_trades": [
     {
       "signal_date": "2026-08-14",
@@ -259,6 +299,12 @@
       "equity": 1000816.23,
       "cash": 1000816.23,
       "open_positions": 0
+    },
+    {
+      "date": "2026-09-02",
+      "equity": 1001219.69,
+      "cash": 1083515.81,
+      "open_positions": 1
     }
   ]
 }

@@ -1,35 +1,8 @@
 {
   "date": "2026-09-02",
-  "orders": [
-    {
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "sector": "Sallankopsvaror",
-      "direction": "short",
-      "horizon": "week",
-      "score": -0.357,
-      "confidence": 0.471,
-      "components": {
-        "momentum": -0.63,
-        "trend": -1.0,
-        "reversal": 0.629,
-        "volume": -0.557,
-        "fundamental": 0.0,
-        "sentiment": 0.0,
-        "macro": 0.0
-      },
-      "ref_price": 27.4,
-      "shares": 3039,
-      "stop": 29.05,
-      "target": 24.66,
-      "max_hold_days": 5,
-      "rationale": "",
-      "signal_date": "2026-09-02",
-      "atr14": 1.0975,
-      "stop_dist": 1.6462,
-      "target_dist": 2.7436,
-      "order_type": "marknad vid oppning",
-      "indicative_shares": 3039
-    }
-  ]
+  "orders": [],
+  "filled": [
+    "ELUX-B.ST @ 27.24 (3039 st, gap +0.6%)"
+  ],
+  "rejected": []
 }

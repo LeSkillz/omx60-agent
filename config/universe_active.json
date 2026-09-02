@@ -7,9 +7,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Halsovard"
+      "ticker": "INVE-B.ST",
+      "name": "Investor B",
+      "sector": "Finans"
     },
     {
       "ticker": "SAAB-B.ST",
@@ -17,9 +17,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INVE-B.ST",
-      "name": "Investor B",
-      "sector": "Finans"
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Halsovard"
     },
     {
       "ticker": "ATCO-A.ST",
@@ -77,23 +77,23 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HEXA-B.ST",
-      "name": "Hexagon B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon B",
+      "sector": "Teknik"
     },
     {
       "ticker": "NIBE-B.ST",
       "name": "NIBE B",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
       "sector": "Industri"
     },
     {
@@ -142,14 +142,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
-    },
-    {
       "ticker": "ALFA.ST",
       "name": "Alfa Laval",
       "sector": "Industri"
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
     },
     {
       "ticker": "SAGA-B.ST",
@@ -202,14 +202,14 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "sector": "Industri"
     },
     {
       "ticker": "VOLCAR-B.ST",
@@ -227,9 +227,9 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "sector": "Sallankopsvaror"
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
     },
     {
       "ticker": "INDT.ST",
@@ -237,14 +237,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
-      "sector": "Industri"
-    },
-    {
       "ticker": "LUND-B.ST",
       "name": "Lundbergforetagen B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "EPI-B.ST",
