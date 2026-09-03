@@ -82,14 +82,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "HEXA-B.ST",
-      "name": "Hexagon B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "NIBE-B.ST",
       "name": "NIBE B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon B",
+      "sector": "Teknik"
     },
     {
       "ticker": "EPI-A.ST",
@@ -137,24 +137,24 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ALFA.ST",
       "name": "Alfa Laval",
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "sector": "Industri"
     },
     {
       "ticker": "SAGA-B.ST",
       "name": "Sagax B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
     },
     {
       "ticker": "SECU-B.ST",
@@ -187,13 +187,13 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
       "sector": "Industri"
     },
     {
@@ -207,14 +207,14 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "sector": "Industri"
     },
     {
       "ticker": "AXFO.ST",
@@ -232,14 +232,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDT.ST",
-      "name": "Indutrade",
-      "sector": "Industri"
-    },
-    {
       "ticker": "LUND-B.ST",
       "name": "Lundbergforetagen B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "INDT.ST",
+      "name": "Indutrade",
+      "sector": "Industri"
     },
     {
       "ticker": "ELUX-B.ST",
@@ -297,20 +297,20 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "VITR.ST",
-      "name": "Vitrolife",
-      "sector": "Halsovard"
+      "ticker": "FABG.ST",
+      "name": "Fabege",
+      "sector": "Fastighet"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
     "DOM.ST",
-    "FABG.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
     "SWEC-B.ST",
+    "VITR.ST",
     "WALL-B.ST",
     "WIHL.ST"
   ]
