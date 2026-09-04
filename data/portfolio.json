@@ -1,5 +1,5 @@
 {
-  "equity": 999548.24,
+  "equity": 999274.73,
   "cash": 1083515.8102254977,
   "open_positions": [
     {
@@ -31,14 +31,14 @@
       },
       "rationale": "",
       "entry_cost": 82.78,
-      "last_close": 27.63,
-      "as_of": "2026-09-03",
-      "open_pnl": -1185.21,
-      "open_pnl_pct": -1.43,
-      "to_stop_pct": -4.56,
-      "to_target_pct": 11.33,
-      "days_left": 3,
-      "progress": 0.287,
+      "last_close": 27.72,
+      "as_of": "2026-09-04",
+      "open_pnl": -1458.72,
+      "open_pnl_pct": -1.76,
+      "to_stop_pct": -4.22,
+      "to_target_pct": 11.62,
+      "days_left": 2,
+      "progress": 0.267,
       "action": "Behall"
     }
   ],
@@ -309,6 +309,12 @@
     {
       "date": "2026-09-03",
       "equity": 999548.24,
+      "cash": 1083515.81,
+      "open_positions": 1
+    },
+    {
+      "date": "2026-09-04",
+      "equity": 999274.73,
       "cash": 1083515.81,
       "open_positions": 1
     }

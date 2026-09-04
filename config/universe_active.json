@@ -12,14 +12,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "AZN.ST",
       "name": "AstraZeneca",
       "sector": "Halsovard"
+    },
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri"
     },
     {
       "ticker": "ATCO-A.ST",
@@ -142,11 +142,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SAGA-B.ST",
       "name": "Sagax B",
       "sector": "Fastighet"
@@ -157,8 +152,8 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
@@ -170,6 +165,11 @@
       "ticker": "SCA-B.ST",
       "name": "SCA B",
       "sector": "Material"
+    },
+    {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industri"
     },
     {
       "ticker": "SKA-B.ST",
@@ -197,24 +197,24 @@
       "sector": "Industri"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
-    },
-    {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
     },
     {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
+    },
+    {
       "ticker": "LIFCO-B.ST",
       "name": "Lifco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "AXFO.ST",
@@ -297,19 +297,19 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
-      "sector": "Fastighet"
+      "ticker": "SWEC-B.ST",
+      "name": "Sweco B",
+      "sector": "Industri"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
     "DOM.ST",
+    "FABG.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
-    "SWEC-B.ST",
     "VITR.ST",
     "WALL-B.ST",
     "WIHL.ST"
