@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04",
+  "generated": "2026-09-07",
   "members": [
     {
       "ticker": "VOLV-B.ST",
@@ -212,14 +212,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "AZA.ST",
