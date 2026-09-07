@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-07",
+  "n_positions": 1,
+  "hit_rate": 0.0,
+  "avg_signed_return_pct": -0.95,
+  "benchmark_return_pct": 0.236,
+  "equity": 999943.31,
+  "filled": [],
+  "rejected": [],
+  "closed_trades": [],
+  "detail": [
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -0.95,
+      "hit": false
+    }
+  ],
+  "ic": {
+    "momentum": 0.31396843950905906,
+    "trend": 0.08867455888926154,
+    "reversal": 0.21355932203389832,
+    "volume": 0.10269448845643717,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.28585622443015785
+  }
+}
