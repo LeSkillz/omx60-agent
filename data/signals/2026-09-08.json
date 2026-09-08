@@ -1,0 +1,203 @@
+{
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08T05:38:59",
+  "weights_used": {
+    "momentum": 0.2255,
+    "trend": 0.1275,
+    "reversal": 0.0784,
+    "volume": 0.0686,
+    "fundamental": 0.2157,
+    "sentiment": 0.1667,
+    "macro": 0.1176
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.369,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.739,
+        "trend": -1.0,
+        "reversal": 0.281,
+        "volume": -0.807,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 27.5,
+      "shares": 3270,
+      "stop": 29.03,
+      "target": 24.95,
+      "max_hold_days": 5,
+      "rationale": ""
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.369,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.739,
+        "trend": -1.0,
+        "reversal": 0.281,
+        "volume": -0.807,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 27.5,
+      "shares": 3270,
+      "stop": 29.03,
+      "target": 24.95,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-09-08",
+      "atr14": 1.019,
+      "stop_dist": 1.5285,
+      "target_dist": 2.5475,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 3270
+    }
+  ],
+  "top10": [
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.212,
+      "confidence": 0.471
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.166,
+      "confidence": 0.378
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": 0.157,
+      "confidence": 0.471
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.156,
+      "confidence": 0.471
+    },
+    {
+      "index": "STOR-B.ST",
+      "name": "Storskogen B",
+      "score": 0.152,
+      "confidence": 0.471
+    },
+    {
+      "index": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "score": 0.151,
+      "confidence": 0.471
+    },
+    {
+      "index": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
+      "score": 0.148,
+      "confidence": 0.471
+    },
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.142,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.139,
+      "confidence": 0.378
+    },
+    {
+      "index": "SAND.ST",
+      "name": "Sandvik",
+      "score": 0.132,
+      "confidence": 0.471
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "SECU-B.ST",
+      "name": "Securitas B",
+      "score": -0.093,
+      "confidence": 0.471
+    },
+    {
+      "index": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "score": -0.099,
+      "confidence": 0.564
+    },
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.106,
+      "confidence": 0.471
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.119,
+      "confidence": 0.378
+    },
+    {
+      "index": "SWEC-B.ST",
+      "name": "Sweco B",
+      "score": -0.136,
+      "confidence": 0.471
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.137,
+      "confidence": 0.378
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.14,
+      "confidence": 0.471
+    },
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.175,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.178,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.327,
+      "confidence": 0.471
+    }
+  ]
+}
