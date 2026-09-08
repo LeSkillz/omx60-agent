@@ -1,47 +1,7 @@
 {
-  "equity": 999943.31,
-  "cash": 1083515.8102254977,
-  "open_positions": [
-    {
-      "signal_date": "2026-09-02",
-      "opened": "2026-09-02",
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "direction": "short",
-      "horizon": "week",
-      "shares": 3039,
-      "entry": 27.24,
-      "ref_price": 27.4,
-      "entry_gap_pct": 0.58,
-      "stop": 28.89,
-      "target": 24.5,
-      "stop_dist": 1.6462,
-      "target_dist": 2.7436,
-      "max_hold_days": 5,
-      "score": -0.357,
-      "confidence": 0.471,
-      "components": {
-        "momentum": -0.63,
-        "trend": -1.0,
-        "reversal": 0.629,
-        "volume": -0.557,
-        "fundamental": 0.0,
-        "sentiment": 0.0,
-        "macro": 0.0
-      },
-      "rationale": "",
-      "entry_cost": 82.78,
-      "last_close": 27.5,
-      "as_of": "2026-09-07",
-      "open_pnl": -790.14,
-      "open_pnl_pct": -0.95,
-      "to_stop_pct": -5.05,
-      "to_target_pct": 10.91,
-      "days_left": 1,
-      "progress": 0.317,
-      "action": "Behall"
-    }
-  ],
+  "equity": 1000255.2,
+  "cash": 1000255.2002425169,
+  "open_positions": [],
   "closed_trades": [
     {
       "signal_date": "2026-08-14",
@@ -231,6 +191,33 @@
       "pnl_sek": 1065.54,
       "pnl_pct": 1.299,
       "held_days": 1
+    },
+    {
+      "signal_date": "2026-09-02",
+      "opened": "2026-09-02",
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 3039,
+      "entry": 27.24,
+      "score": -0.357,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.63,
+        "trend": -1.0,
+        "reversal": 0.629,
+        "volume": -0.557,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "closed": "2026-09-08",
+      "exit": 27.37,
+      "reason": "tid",
+      "pnl_sek": -561.03,
+      "pnl_pct": -0.477,
+      "held_days": 5
     }
   ],
   "equity_curve": [
@@ -323,6 +310,12 @@
       "equity": 999943.31,
       "cash": 1083515.81,
       "open_positions": 1
+    },
+    {
+      "date": "2026-09-08",
+      "equity": 1000255.2,
+      "cash": 1000255.2,
+      "open_positions": 0
     }
   ]
 }

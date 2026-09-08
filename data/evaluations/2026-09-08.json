@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-08",
+  "n_positions": 1,
+  "hit_rate": 0.0,
+  "avg_signed_return_pct": -0.477,
+  "benchmark_return_pct": 0.616,
+  "equity": 1000255.2,
+  "filled": [],
+  "rejected": [
+    "ELUX-B.ST (redan exponering mot bolaget)"
+  ],
+  "closed_trades": [
+    {
+      "signal_date": "2026-09-02",
+      "opened": "2026-09-02",
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 3039,
+      "entry": 27.24,
+      "score": -0.357,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.63,
+        "trend": -1.0,
+        "reversal": 0.629,
+        "volume": -0.557,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "closed": "2026-09-08",
+      "exit": 27.37,
+      "reason": "tid",
+      "pnl_sek": -561.03,
+      "pnl_pct": -0.477,
+      "held_days": 5
+    }
+  ],
+  "detail": [
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "stangd (tid)",
+      "signed_return_pct": -0.477,
+      "hit": false
+    }
+  ],
+  "ic": {
+    "momentum": 0.052237458152556523,
+    "trend": 0.09558353853171021,
+    "reversal": -0.0052793175792477335,
+    "volume": -0.02325678323068607,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.09497214466246712
+  }
+}

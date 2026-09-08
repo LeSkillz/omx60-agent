@@ -7,14 +7,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INVE-B.ST",
-      "name": "Investor B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "AZN.ST",
       "name": "AstraZeneca",
       "sector": "Halsovard"
+    },
+    {
+      "ticker": "INVE-B.ST",
+      "name": "Investor B",
+      "sector": "Finans"
     },
     {
       "ticker": "SAAB-B.ST",
@@ -57,13 +57,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "EQT.ST",
+      "name": "EQT",
       "sector": "Finans"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
@@ -77,24 +77,24 @@
       "sector": "Industri"
     },
     {
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
       "sector": "Industri"
     },
     {
       "ticker": "HEXA-B.ST",
       "name": "Hexagon B",
       "sector": "Teknik"
-    },
-    {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
     },
     {
       "ticker": "HM-B.ST",
@@ -142,14 +142,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "INDU-C.ST",
@@ -167,13 +167,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
+      "ticker": "SKA-B.ST",
+      "name": "Skanska B",
       "sector": "Industri"
     },
     {
-      "ticker": "SKA-B.ST",
-      "name": "Skanska B",
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
       "sector": "Industri"
     },
     {
@@ -182,14 +182,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "ADDT-B.ST",
@@ -197,14 +197,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "LIFCO-B.ST",
@@ -242,6 +242,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
+    },
+    {
       "ticker": "ELUX-B.ST",
       "name": "Electrolux B",
       "sector": "Sallankopsvaror"
@@ -250,11 +255,6 @@
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
     },
     {
       "ticker": "KINV-B.ST",
@@ -277,8 +277,8 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "STOR-B.ST",
-      "name": "Storskogen B",
+      "ticker": "SWEC-B.ST",
+      "name": "Sweco B",
       "sector": "Industri"
     },
     {
@@ -287,19 +287,19 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
+      "ticker": "STOR-B.ST",
+      "name": "Storskogen B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "BILL.ST",
-      "name": "Billerud",
-      "sector": "Material"
     },
     {
       "ticker": "FABG.ST",
       "name": "Fabege",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "BILL.ST",
+      "name": "Billerud",
+      "sector": "Material"
     }
   ],
   "excluded": [
