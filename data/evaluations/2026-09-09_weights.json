@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-09",
+  "mean_ic": {
+    "momentum": -0.005739637824958334,
+    "trend": 0.04681679986365236,
+    "reversal": -0.08792578187138292,
+    "volume": 0.05213966393049271,
+    "fundamental": 0.14054405525780922,
+    "sentiment": 0.12507634871402423,
+    "macro": 0.13099438749876188
+  },
+  "note": "Vikter justerade mot uppmatt IC.",
+  "weights_after": {
+    "momentum": 0.1766,
+    "trend": 0.0919,
+    "reversal": 0.0363,
+    "volume": 0.1024,
+    "fundamental": 0.2444,
+    "sentiment": 0.1976,
+    "macro": 0.1508
+  }
+}
