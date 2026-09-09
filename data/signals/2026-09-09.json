@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T05:38:17",
+  "weights_used": {
+    "momentum": 0.2015,
+    "trend": 0.1054,
+    "reversal": 0.0573,
+    "volume": 0.0869,
+    "fundamental": 0.2311,
+    "sentiment": 0.183,
+    "macro": 0.1349
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.18,
+      "confidence": 0.378
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.176,
+      "confidence": 0.471
+    },
+    {
+      "index": "STOR-B.ST",
+      "name": "Storskogen B",
+      "score": 0.143,
+      "confidence": 0.564
+    },
+    {
+      "index": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "score": 0.133,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.132,
+      "confidence": 0.378
+    },
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.124,
+      "confidence": 0.471
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": 0.121,
+      "confidence": 0.471
+    },
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.12,
+      "confidence": 0.471
+    },
+    {
+      "index": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
+      "score": 0.113,
+      "confidence": 0.471
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.108,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "score": -0.086,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWEC-B.ST",
+      "name": "Sweco B",
+      "score": -0.099,
+      "confidence": 0.471
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.105,
+      "confidence": 0.378
+    },
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.111,
+      "confidence": 0.564
+    },
+    {
+      "index": "SECU-B.ST",
+      "name": "Securitas B",
+      "score": -0.117,
+      "confidence": 0.471
+    },
+    {
+      "index": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "score": -0.12,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.131,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.139,
+      "confidence": 0.471
+    },
+    {
+      "index": "AXFO.ST",
+      "name": "Axfood",
+      "score": -0.161,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.325,
+      "confidence": 0.471
+    }
+  ]
+}
