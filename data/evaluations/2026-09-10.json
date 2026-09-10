@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-10",
+  "n_positions": 0,
+  "hit_rate": null,
+  "avg_signed_return_pct": null,
+  "benchmark_return_pct": -0.411,
+  "equity": 1000255.2,
+  "filled": [],
+  "rejected": [],
+  "closed_trades": [],
+  "detail": [],
+  "ic": {
+    "momentum": 0.07924423450958602,
+    "trend": 0.03701079481872622,
+    "reversal": 0.13698249513753824,
+    "volume": -0.10380661294804115,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.02095026396221173
+  }
+}
