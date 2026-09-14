@@ -42,14 +42,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "EVO.ST",
-      "name": "Evolution",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "EVO.ST",
+      "name": "Evolution",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "SHB-A.ST",
@@ -82,14 +82,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ESSITY-B.ST",
-      "name": "Essity B",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "EPI-A.ST",
       "name": "Epiroc A",
       "sector": "Industri"
+    },
+    {
+      "ticker": "ESSITY-B.ST",
+      "name": "Essity B",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "HEXA-B.ST",
@@ -112,14 +112,14 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
+    },
+    {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
     },
     {
       "ticker": "ALFA.ST",
@@ -217,14 +217,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "AZA.ST",
@@ -262,24 +262,24 @@
       "sector": "Finans"
     },
     {
+      "ticker": "THULE.ST",
+      "name": "Thule Group",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "HOLM-B.ST",
       "name": "Holmen B",
       "sector": "Material"
     },
     {
-      "ticker": "THULE.ST",
-      "name": "Thule Group",
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
     },
     {
       "ticker": "TRUE-B.ST",
       "name": "Truecaller B",
       "sector": "Teknik"
-    },
-    {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "BILL.ST",
