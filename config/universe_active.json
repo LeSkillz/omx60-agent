@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14",
+  "generated": "2026-09-15",
   "members": [
     {
       "ticker": "VOLV-B.ST",
@@ -7,14 +7,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "INVE-B.ST",
       "name": "Investor B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Halsovard"
     },
     {
       "ticker": "ATCO-A.ST",
@@ -37,24 +37,24 @@
       "sector": "Teknik"
     },
     {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Finans"
+    },
+    {
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
       "sector": "Finans"
     },
     {
       "ticker": "EVO.ST",
       "name": "Evolution",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "SHB-A.ST",
-      "name": "Handelsbanken A",
-      "sector": "Finans"
     },
     {
       "ticker": "SEB-A.ST",
@@ -82,14 +82,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
+      "sector": "Industri"
     },
     {
       "ticker": "HEXA-B.ST",
@@ -97,19 +97,19 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "SKF-B.ST",
       "name": "SKF B",
       "sector": "Industri"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
     },
     {
       "ticker": "SSAB-B.ST",
@@ -117,9 +117,9 @@
       "sector": "Material"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "ALFA.ST",
@@ -157,14 +157,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "CAST.ST",
-      "name": "Castellum",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "SKA-B.ST",
       "name": "Skanska B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "CAST.ST",
+      "name": "Castellum",
+      "sector": "Fastighet"
     },
     {
       "ticker": "SECU-B.ST",
@@ -207,6 +207,11 @@
       "sector": "Sallankopsvaror"
     },
     {
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
+      "sector": "Dagligvaror"
+    },
+    {
       "ticker": "LIFCO-B.ST",
       "name": "Lifco B",
       "sector": "Industri"
@@ -215,11 +220,6 @@
       "ticker": "MTRS.ST",
       "name": "Munters",
       "sector": "Industri"
-    },
-    {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
-      "sector": "Dagligvaror"
     },
     {
       "ticker": "SINCH.ST",
@@ -247,11 +247,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ELUX-B.ST",
       "name": "Electrolux B",
       "sector": "Sallankopsvaror"
@@ -260,6 +255,11 @@
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
+      "sector": "Industri"
     },
     {
       "ticker": "THULE.ST",
@@ -292,9 +292,9 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
-      "sector": "Industri"
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "WIHL.ST",
@@ -309,8 +309,8 @@
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
-    "SBB-B.ST",
     "STOR-B.ST",
+    "SWEC-B.ST",
     "VITR.ST",
     "WALL-B.ST"
   ]
