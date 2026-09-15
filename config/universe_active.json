@@ -102,24 +102,24 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "NDA-SE.ST",
       "name": "Nordea",
       "sector": "Finans"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material"
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "TEL2-B.ST",
       "name": "Tele2 B",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material"
     },
     {
       "ticker": "ALFA.ST",
@@ -132,14 +132,14 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "BALD-B.ST",
       "name": "Balder B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
     },
     {
       "ticker": "ATCO-B.ST",
@@ -237,14 +237,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "LUND-B.ST",
-      "name": "Lundbergforetagen B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "INDT.ST",
       "name": "Indutrade",
       "sector": "Industri"
+    },
+    {
+      "ticker": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
+      "sector": "Finans"
     },
     {
       "ticker": "ELUX-B.ST",
@@ -292,13 +292,13 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "SBB-B.ST",
-      "name": "SBB B",
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
       "sector": "Fastighet"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
+      "ticker": "SBB-B.ST",
+      "name": "SBB B",
       "sector": "Fastighet"
     }
   ],
