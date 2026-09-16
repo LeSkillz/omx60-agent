@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "members": [
     {
       "ticker": "VOLV-B.ST",
@@ -22,13 +22,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
+      "ticker": "SAND.ST",
+      "name": "Sandvik",
       "sector": "Industri"
     },
     {
-      "ticker": "SAND.ST",
-      "name": "Sandvik",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
       "sector": "Industri"
     },
     {
@@ -112,14 +112,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
+    },
+    {
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "ALFA.ST",
@@ -167,14 +167,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "INDU-C.ST",
       "name": "Industrivarden C",
       "sector": "Finans"
+    },
+    {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industri"
     },
     {
       "ticker": "TREL-B.ST",
@@ -212,13 +212,13 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
@@ -227,24 +227,24 @@
       "sector": "Teknik"
     },
     {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
+    },
+    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
+      "ticker": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
       "sector": "Finans"
     },
     {
       "ticker": "INDT.ST",
       "name": "Indutrade",
       "sector": "Industri"
-    },
-    {
-      "ticker": "LUND-B.ST",
-      "name": "Lundbergforetagen B",
-      "sector": "Finans"
     },
     {
       "ticker": "ELUX-B.ST",
@@ -277,14 +277,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "TRUE-B.ST",
-      "name": "Truecaller B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "BILL.ST",
       "name": "Billerud",
       "sector": "Material"
+    },
+    {
+      "ticker": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "sector": "Teknik"
     },
     {
       "ticker": "FABG.ST",
@@ -297,18 +297,18 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "SBB-B.ST",
-      "name": "SBB B",
-      "sector": "Fastighet"
+      "ticker": "ALLEI.ST",
+      "name": "Alleima",
+      "sector": "Material"
     }
   ],
   "excluded": [
     "AFRY.ST",
-    "ALLEI.ST",
     "DOM.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
+    "SBB-B.ST",
     "STOR-B.ST",
     "SWEC-B.ST",
     "VITR.ST",
