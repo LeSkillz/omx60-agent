@@ -102,11 +102,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
-    },
-    {
       "ticker": "HM-B.ST",
       "name": "H&M B",
       "sector": "Sallankopsvaror"
@@ -117,9 +112,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
-      "sector": "Telekom"
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
     },
     {
       "ticker": "TEL2-B.ST",
@@ -127,8 +122,18 @@
       "sector": "Telekom"
     },
     {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom"
+    },
+    {
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
+      "sector": "Material"
+    },
+    {
+      "ticker": "SCA-B.ST",
+      "name": "SCA B",
       "sector": "Material"
     },
     {
@@ -140,11 +145,6 @@
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "SCA-B.ST",
-      "name": "SCA B",
-      "sector": "Material"
     },
     {
       "ticker": "LATO-B.ST",
@@ -187,13 +187,13 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
       "sector": "Industri"
     },
     {
@@ -207,13 +207,13 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
@@ -232,11 +232,6 @@
       "sector": "Finans"
     },
     {
-      "ticker": "INDT.ST",
-      "name": "Indutrade",
-      "sector": "Industri"
-    },
-    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
@@ -245,6 +240,11 @@
       "ticker": "LUND-B.ST",
       "name": "Lundbergforetagen B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "INDT.ST",
+      "name": "Indutrade",
+      "sector": "Industri"
     },
     {
       "ticker": "ELUX-B.ST",
