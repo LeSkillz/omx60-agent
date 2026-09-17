@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-16",
+  "generated": "2026-09-17",
   "members": [
     {
       "ticker": "VOLV-B.ST",
@@ -82,14 +82,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
+      "sector": "Industri"
     },
     {
       "ticker": "HEXA-B.ST",
@@ -107,14 +107,19 @@
       "sector": "Finans"
     },
     {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "ALFA.ST",
       "name": "Alfa Laval",
       "sector": "Industri"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom"
     },
     {
       "ticker": "TEL2-B.ST",
@@ -125,11 +130,6 @@
       "ticker": "SSAB-B.ST",
       "name": "SSAB B",
       "sector": "Material"
-    },
-    {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
-      "sector": "Telekom"
     },
     {
       "ticker": "BALD-B.ST",
@@ -172,18 +172,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
       "sector": "Industri"
     },
     {
@@ -197,6 +192,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "AAK.ST",
       "name": "AAK",
       "sector": "Dagligvaror"
@@ -205,11 +205,6 @@
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
-      "sector": "Dagligvaror"
     },
     {
       "ticker": "MTRS.ST",
@@ -222,6 +217,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
+      "sector": "Dagligvaror"
+    },
+    {
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
@@ -232,14 +232,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
-    },
-    {
       "ticker": "INDT.ST",
       "name": "Indutrade",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
     },
     {
       "ticker": "LUND-B.ST",
