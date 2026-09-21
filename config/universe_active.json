@@ -67,14 +67,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
-      "sector": "Finans"
-    },
-    {
       "ticker": "TEL2-B.ST",
       "name": "Tele2 B",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "EQT.ST",
+      "name": "EQT",
+      "sector": "Finans"
     },
     {
       "ticker": "ABB.ST",
@@ -102,14 +102,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "NDA-SE.ST",
       "name": "Nordea",
       "sector": "Finans"
+    },
+    {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "NIBE-B.ST",
