@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21",
+  "generated": "2026-09-22",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -22,9 +22,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAND.ST",
-      "name": "Sandvik",
-      "sector": "Industri"
+      "ticker": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "sector": "Teknik"
     },
     {
       "ticker": "SAAB-B.ST",
@@ -32,9 +32,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ERIC-B.ST",
-      "name": "Ericsson B",
-      "sector": "Teknik"
+      "ticker": "SAND.ST",
+      "name": "Sandvik",
+      "sector": "Industri"
     },
     {
       "ticker": "SWED-A.ST",
@@ -47,14 +47,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
-    },
-    {
       "ticker": "SHB-A.ST",
       "name": "Handelsbanken A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
     },
     {
       "ticker": "ASSA-B.ST",
@@ -102,14 +102,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
-    },
-    {
       "ticker": "HM-B.ST",
       "name": "H&M B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
     },
     {
       "ticker": "NIBE-B.ST",
@@ -127,14 +127,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SCA-B.ST",
-      "name": "SCA B",
-      "sector": "Material"
-    },
-    {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SCA-B.ST",
+      "name": "SCA B",
+      "sector": "Material"
     },
     {
       "ticker": "BALD-B.ST",
@@ -162,6 +162,11 @@
       "sector": "Fastighet"
     },
     {
+      "ticker": "SKA-B.ST",
+      "name": "Skanska B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
@@ -172,19 +177,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SKA-B.ST",
-      "name": "Skanska B",
-      "sector": "Industri"
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
     },
     {
       "ticker": "AAK.ST",
@@ -197,11 +197,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
@@ -210,6 +205,11 @@
       "ticker": "SAVE.ST",
       "name": "Nordnet",
       "sector": "Finans"
+    },
+    {
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "sector": "Industri"
     },
     {
       "ticker": "MTRS.ST",
