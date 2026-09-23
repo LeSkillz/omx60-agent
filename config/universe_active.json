@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22",
+  "generated": "2026-09-23",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -47,14 +47,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SHB-A.ST",
-      "name": "Handelsbanken A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
+    },
+    {
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "sector": "Finans"
     },
     {
       "ticker": "ASSA-B.ST",
@@ -87,19 +87,14 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
+      "sector": "Industri"
     },
     {
       "ticker": "SKF-B.ST",
@@ -107,14 +102,14 @@
       "sector": "Industri"
     },
     {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "NDA-SE.ST",
       "name": "Nordea",
       "sector": "Finans"
-    },
-    {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
-      "sector": "Industri"
     },
     {
       "ticker": "TELIA.ST",
@@ -127,14 +122,19 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
       "sector": "Industri"
     },
     {
       "ticker": "SCA-B.ST",
       "name": "SCA B",
       "sector": "Material"
+    },
+    {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "sector": "Industri"
     },
     {
       "ticker": "BALD-B.ST",
@@ -182,14 +182,19 @@
       "sector": "Halsovard"
     },
     {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror"
+    },
+    {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
       "sector": "Industri"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
     },
     {
       "ticker": "ADDT-B.ST",
@@ -200,11 +205,6 @@
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
     },
     {
       "ticker": "BEIJ-B.ST",
