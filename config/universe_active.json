@@ -47,14 +47,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
-    },
-    {
       "ticker": "SHB-A.ST",
       "name": "Handelsbanken A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
     },
     {
       "ticker": "ASSA-B.ST",
@@ -97,14 +97,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "HM-B.ST",
       "name": "H&M B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
+      "sector": "Industri"
     },
     {
       "ticker": "NDA-SE.ST",
