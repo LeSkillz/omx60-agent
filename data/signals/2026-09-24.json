@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-24",
+  "generated_at": "2026-09-24T10:18:12",
+  "weights_used": {
+    "momentum": 0.0813,
+    "trend": 0.1714,
+    "reversal": 0.0291,
+    "volume": 0.0597,
+    "fundamental": 0.2333,
+    "sentiment": 0.2077,
+    "macro": 0.2175
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "SSAB-B.ST",
+      "name": "SSAB B",
+      "score": 0.158,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.157,
+      "confidence": 0.471
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.155,
+      "confidence": 0.471
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.152,
+      "confidence": 0.471
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": 0.15,
+      "confidence": 0.378
+    },
+    {
+      "index": "INDT.ST",
+      "name": "Indutrade",
+      "score": 0.143,
+      "confidence": 0.471
+    },
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.138,
+      "confidence": 0.378
+    },
+    {
+      "index": "NDA-SE.ST",
+      "name": "Nordea",
+      "score": 0.136,
+      "confidence": 0.378
+    },
+    {
+      "index": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "score": 0.133,
+      "confidence": 0.471
+    },
+    {
+      "index": "SEB-A.ST",
+      "name": "SEB A",
+      "score": 0.13,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "score": -0.112,
+      "confidence": 0.564
+    },
+    {
+      "index": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "score": -0.117,
+      "confidence": 0.471
+    },
+    {
+      "index": "SECU-B.ST",
+      "name": "Securitas B",
+      "score": -0.119,
+      "confidence": 0.471
+    },
+    {
+      "index": "MTRS.ST",
+      "name": "Munters",
+      "score": -0.125,
+      "confidence": 0.378
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.131,
+      "confidence": 0.378
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.139,
+      "confidence": 0.378
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.149,
+      "confidence": 0.378
+    },
+    {
+      "index": "SAGA-B.ST",
+      "name": "Sagax B",
+      "score": -0.164,
+      "confidence": 0.471
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.192,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.259,
+      "confidence": 0.471
+    }
+  ]
+}
