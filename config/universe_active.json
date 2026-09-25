@@ -102,6 +102,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
+    },
+    {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
@@ -115,11 +120,6 @@
       "ticker": "ALFA.ST",
       "name": "Alfa Laval",
       "sector": "Industri"
-    },
-    {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
     },
     {
       "ticker": "NIBE-B.ST",
@@ -157,14 +157,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "CAST.ST",
-      "name": "Castellum",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "CAST.ST",
+      "name": "Castellum",
+      "sector": "Fastighet"
     },
     {
       "ticker": "SKA-B.ST",
@@ -217,14 +217,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "LIFCO-B.ST",
       "name": "Lifco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "SINCH.ST",
@@ -257,14 +257,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "KINV-B.ST",
-      "name": "Kinnevik B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "sector": "Finans"
     },
     {
       "ticker": "ELUX-B.ST",
@@ -292,13 +292,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
       "sector": "Fastighet"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
+      "ticker": "FABG.ST",
+      "name": "Fabege",
       "sector": "Fastighet"
     }
   ],
