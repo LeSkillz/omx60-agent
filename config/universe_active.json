@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -102,14 +102,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
+      "sector": "Industri"
     },
     {
       "ticker": "ALFA.ST",
@@ -127,14 +127,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SCA-B.ST",
-      "name": "SCA B",
-      "sector": "Material"
-    },
-    {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SCA-B.ST",
+      "name": "SCA B",
+      "sector": "Material"
     },
     {
       "ticker": "BALD-B.ST",
@@ -177,14 +177,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "AAK.ST",
       "name": "AAK",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "SECU-B.ST",
@@ -217,14 +217,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "sector": "Industri"
     },
     {
       "ticker": "SINCH.ST",
@@ -292,13 +292,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
+      "ticker": "FABG.ST",
+      "name": "Fabege",
       "sector": "Fastighet"
     },
     {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
       "sector": "Fastighet"
     }
   ],
