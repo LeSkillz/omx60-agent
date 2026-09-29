@@ -2,14 +2,14 @@
   "generated": "2026-09-29",
   "members": [
     {
-      "ticker": "INVE-B.ST",
-      "name": "Investor B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "VOLV-B.ST",
       "name": "Volvo B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "INVE-B.ST",
+      "name": "Investor B",
+      "sector": "Finans"
     },
     {
       "ticker": "AZN.ST",
@@ -22,11 +22,6 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
@@ -34,6 +29,11 @@
     {
       "ticker": "ATCO-A.ST",
       "name": "Atlas Copco A",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
       "sector": "Industri"
     },
     {
@@ -87,14 +87,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "HEXA-B.ST",
-      "name": "Hexagon B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "EPI-A.ST",
       "name": "Epiroc A",
       "sector": "Industri"
+    },
+    {
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon B",
+      "sector": "Teknik"
     },
     {
       "ticker": "ESSITY-B.ST",
@@ -192,13 +192,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
