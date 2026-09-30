@@ -22,11 +22,6 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
@@ -34,6 +29,11 @@
     {
       "ticker": "ATCO-A.ST",
       "name": "Atlas Copco A",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
       "sector": "Industri"
     },
     {
@@ -157,14 +157,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "INDU-C.ST",
@@ -207,11 +207,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "VOLCAR-B.ST",
-      "name": "Volvo Car B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
@@ -220,6 +215,11 @@
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "INDT.ST",
@@ -292,13 +292,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
+      "ticker": "FABG.ST",
+      "name": "Fabege",
       "sector": "Fastighet"
     },
     {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
       "sector": "Fastighet"
     }
   ],
