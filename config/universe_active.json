@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "members": [
     {
       "ticker": "VOLV-B.ST",
@@ -22,6 +22,11 @@
       "sector": "Teknik"
     },
     {
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
@@ -29,11 +34,6 @@
     {
       "ticker": "ATCO-A.ST",
       "name": "Atlas Copco A",
-      "sector": "Industri"
-    },
-    {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
       "sector": "Industri"
     },
     {
@@ -67,14 +67,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
-      "sector": "Finans"
-    },
-    {
       "ticker": "TEL2-B.ST",
       "name": "Tele2 B",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "EQT.ST",
+      "name": "EQT",
+      "sector": "Finans"
     },
     {
       "ticker": "ABB.ST",
@@ -122,13 +122,13 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
       "sector": "Industri"
     },
     {
@@ -162,14 +162,14 @@
       "sector": "Dagligvaror"
     },
     {
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "INDU-C.ST",
       "name": "Industrivarden C",
       "sector": "Finans"
-    },
-    {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
     },
     {
       "ticker": "SAVE.ST",
@@ -177,9 +177,9 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
-      "sector": "Industri"
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "BALD-B.ST",
@@ -192,24 +192,24 @@
       "sector": "Industri"
     },
     {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
+    },
+    {
       "ticker": "BEIJ-B.ST",
       "name": "Beijer Ref B",
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
-      "sector": "Industri"
     },
     {
       "ticker": "AXFO.ST",
@@ -227,14 +227,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "HOLM-B.ST",
       "name": "Holmen B",
       "sector": "Material"
+    },
+    {
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "LATO-B.ST",
