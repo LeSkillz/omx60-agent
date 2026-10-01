@@ -27,13 +27,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SAAB-B.ST",
-      "name": "Saab B",
+      "ticker": "ATCO-A.ST",
+      "name": "Atlas Copco A",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-A.ST",
-      "name": "Atlas Copco A",
+      "ticker": "SAAB-B.ST",
+      "name": "Saab B",
       "sector": "Industri"
     },
     {
@@ -57,14 +57,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SEB-A.ST",
       "name": "SEB A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
     },
     {
       "ticker": "TEL2-B.ST",
@@ -87,14 +87,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "HEXA-B.ST",
-      "name": "Hexagon B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "EPI-A.ST",
       "name": "Epiroc A",
       "sector": "Industri"
+    },
+    {
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon B",
+      "sector": "Teknik"
     },
     {
       "ticker": "ESSITY-B.ST",
@@ -247,14 +247,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "THULE.ST",
-      "name": "Thule Group",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "THULE.ST",
+      "name": "Thule Group",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "ELUX-B.ST",
@@ -297,17 +297,17 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "JM.ST",
-      "name": "JM",
-      "sector": "Sallankopsvaror"
+      "ticker": "FABG.ST",
+      "name": "Fabege",
+      "sector": "Fastighet"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
     "DOM.ST",
-    "FABG.ST",
     "INSTAL.ST",
+    "JM.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
