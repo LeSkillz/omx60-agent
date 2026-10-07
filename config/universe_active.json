@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06",
+  "generated": "2026-10-07",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -17,14 +17,14 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Halsovard"
     },
     {
       "ticker": "ATCO-A.ST",
@@ -52,14 +52,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "EVO.ST",
       "name": "Evolution",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
     },
     {
       "ticker": "BOL.ST",
@@ -117,14 +117,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom"
     },
     {
       "ticker": "NIBE-B.ST",
@@ -157,14 +157,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "CAST.ST",
-      "name": "Castellum",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "INDU-C.ST",
       "name": "Industrivarden C",
       "sector": "Finans"
+    },
+    {
+      "ticker": "CAST.ST",
+      "name": "Castellum",
+      "sector": "Fastighet"
     },
     {
       "ticker": "SAVE.ST",
@@ -172,14 +172,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "AAK.ST",
       "name": "AAK",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "MTRS.ST",
@@ -197,14 +197,19 @@
       "sector": "Teknik"
     },
     {
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "BALD-B.ST",
       "name": "Balder B",
       "sector": "Fastighet"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
-      "sector": "Industri"
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "BEIJ-B.ST",
@@ -215,11 +220,6 @@
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
-    },
-    {
-      "ticker": "VOLCAR-B.ST",
-      "name": "Volvo Car B",
-      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "INDT.ST",

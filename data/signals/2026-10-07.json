@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T11:54:14",
+  "weights_used": {
+    "momentum": 0.0635,
+    "trend": 0.1933,
+    "reversal": 0.0291,
+    "volume": 0.0593,
+    "fundamental": 0.232,
+    "sentiment": 0.2065,
+    "macro": 0.2162
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "score": 0.18,
+      "confidence": 0.471
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.178,
+      "confidence": 0.471
+    },
+    {
+      "index": "SKF-B.ST",
+      "name": "SKF B",
+      "score": 0.161,
+      "confidence": 0.471
+    },
+    {
+      "index": "EPI-A.ST",
+      "name": "Epiroc A",
+      "score": 0.158,
+      "confidence": 0.471
+    },
+    {
+      "index": "ALFA.ST",
+      "name": "Alfa Laval",
+      "score": 0.157,
+      "confidence": 0.471
+    },
+    {
+      "index": "NIBE-B.ST",
+      "name": "NIBE B",
+      "score": 0.151,
+      "confidence": 0.378
+    },
+    {
+      "index": "ATCO-A.ST",
+      "name": "Atlas Copco A",
+      "score": 0.15,
+      "confidence": 0.378
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.141,
+      "confidence": 0.378
+    },
+    {
+      "index": "EPI-B.ST",
+      "name": "Epiroc B",
+      "score": 0.136,
+      "confidence": 0.471
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": 0.133,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.139,
+      "confidence": 0.471
+    },
+    {
+      "index": "ERIC-B.ST",
+      "name": "Ericsson B",
+      "score": -0.15,
+      "confidence": 0.471
+    },
+    {
+      "index": "WIHL.ST",
+      "name": "Wihlborgs",
+      "score": -0.151,
+      "confidence": 0.378
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.165,
+      "confidence": 0.471
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.172,
+      "confidence": 0.378
+    },
+    {
+      "index": "SAGA-B.ST",
+      "name": "Sagax B",
+      "score": -0.187,
+      "confidence": 0.564
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.194,
+      "confidence": 0.471
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.21,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.211,
+      "confidence": 0.564
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.233,
+      "confidence": 0.471
+    }
+  ]
+}
