@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -67,14 +67,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
-      "sector": "Finans"
-    },
-    {
       "ticker": "TEL2-B.ST",
       "name": "Tele2 B",
       "sector": "Telekom"
+    },
+    {
+      "ticker": "EQT.ST",
+      "name": "EQT",
+      "sector": "Finans"
     },
     {
       "ticker": "ABB.ST",
@@ -162,14 +162,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
-    },
-    {
       "ticker": "GETI-B.ST",
       "name": "Getinge B",
       "sector": "Halsovard"
+    },
+    {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
     },
     {
       "ticker": "CAST.ST",
@@ -247,14 +247,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
     },
     {
       "ticker": "LUND-B.ST",
@@ -262,14 +262,19 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "FABG.ST",
+      "name": "Fabege",
+      "sector": "Fastighet"
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "SWEC-B.ST",
@@ -285,11 +290,6 @@
       "ticker": "TRUE-B.ST",
       "name": "Truecaller B",
       "sector": "Teknik"
-    },
-    {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
-      "sector": "Fastighet"
     },
     {
       "ticker": "JM.ST",
