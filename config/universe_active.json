@@ -22,14 +22,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "ATCO-A.ST",
       "name": "Atlas Copco A",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Halsovard"
     },
     {
       "ticker": "SAAB-B.ST",
@@ -132,14 +132,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SCA-B.ST",
-      "name": "SCA B",
-      "sector": "Material"
-    },
-    {
       "ticker": "SKA-B.ST",
       "name": "Skanska B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SCA-B.ST",
+      "name": "SCA B",
+      "sector": "Material"
     },
     {
       "ticker": "SSAB-B.ST",
