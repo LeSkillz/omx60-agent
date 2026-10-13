@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -37,14 +37,14 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "SAND.ST",
-      "name": "Sandvik",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SHB-A.ST",
       "name": "Handelsbanken A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "SAND.ST",
+      "name": "Sandvik",
+      "sector": "Industri"
     },
     {
       "ticker": "SEB-A.ST",
@@ -107,13 +107,13 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "ALFA.ST",
-      "name": "Alfa Laval",
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
+      "ticker": "ALFA.ST",
+      "name": "Alfa Laval",
       "sector": "Industri"
     },
     {
@@ -187,14 +187,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
     },
     {
       "ticker": "LIFCO-B.ST",
@@ -212,9 +212,9 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "BALD-B.ST",
-      "name": "Balder B",
-      "sector": "Fastighet"
+      "ticker": "INDT.ST",
+      "name": "Indutrade",
+      "sector": "Industri"
     },
     {
       "ticker": "AXFO.ST",
@@ -222,9 +222,9 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "INDT.ST",
-      "name": "Indutrade",
-      "sector": "Industri"
+      "ticker": "BALD-B.ST",
+      "name": "Balder B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "AZA.ST",
@@ -252,6 +252,11 @@
       "sector": "Finans"
     },
     {
+      "ticker": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
+      "sector": "Finans"
+    },
+    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
@@ -259,11 +264,6 @@
     {
       "ticker": "LATO-B.ST",
       "name": "Latour B",
-      "sector": "Finans"
-    },
-    {
-      "ticker": "LUND-B.ST",
-      "name": "Lundbergforetagen B",
       "sector": "Finans"
     },
     {
@@ -292,14 +292,14 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "BILL.ST",
-      "name": "Billerud",
-      "sector": "Material"
-    },
-    {
       "ticker": "WIHL.ST",
       "name": "Wihlborgs",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "BILL.ST",
+      "name": "Billerud",
+      "sector": "Material"
     }
   ],
   "excluded": [
