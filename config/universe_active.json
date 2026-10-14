@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -37,9 +37,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAND.ST",
-      "name": "Sandvik",
-      "sector": "Industri"
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
+      "sector": "Finans"
     },
     {
       "ticker": "SHB-A.ST",
@@ -47,9 +47,9 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
-      "sector": "Finans"
+      "ticker": "SAND.ST",
+      "name": "Sandvik",
+      "sector": "Industri"
     },
     {
       "ticker": "ASSA-B.ST",
@@ -57,9 +57,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "EVO.ST",
@@ -67,9 +67,9 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
     },
     {
       "ticker": "EQT.ST",
@@ -152,19 +152,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
       "sector": "Industri"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
     },
     {
       "ticker": "SAVE.ST",
@@ -175,6 +170,11 @@
       "ticker": "CAST.ST",
       "name": "Castellum",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "AAK.ST",
@@ -262,24 +262,24 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "FABG.ST",
       "name": "Fabege",
       "sector": "Fastighet"
     },
     {
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "sector": "Sallankopsvaror"
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
     },
     {
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "HUSQ-B.ST",
@@ -297,17 +297,17 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "BILL.ST",
-      "name": "Billerud",
-      "sector": "Material"
+      "ticker": "JM.ST",
+      "name": "JM",
+      "sector": "Sallankopsvaror"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
+    "BILL.ST",
     "DOM.ST",
     "INSTAL.ST",
-    "JM.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
