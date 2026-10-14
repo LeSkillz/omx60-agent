@@ -57,6 +57,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
+    },
+    {
       "ticker": "TEL2-B.ST",
       "name": "Tele2 B",
       "sector": "Telekom"
@@ -65,11 +70,6 @@
       "ticker": "EVO.ST",
       "name": "Evolution",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
     },
     {
       "ticker": "EQT.ST",
@@ -147,13 +147,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
       "sector": "Industri"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
@@ -197,13 +197,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
@@ -222,14 +222,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "BALD-B.ST",
-      "name": "Balder B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
+    },
+    {
+      "ticker": "BALD-B.ST",
+      "name": "Balder B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "HOLM-B.ST",
@@ -272,14 +272,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ELUX-B.ST",
       "name": "Electrolux B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "SWEC-B.ST",
+      "name": "Sweco B",
+      "sector": "Industri"
     },
     {
       "ticker": "HUSQ-B.ST",
