@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15",
+  "generated": "2026-10-16",
   "members": [
     {
       "ticker": "ERIC-B.ST",
@@ -22,14 +22,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "AZN.ST",
       "name": "AstraZeneca",
       "sector": "Halsovard"
+    },
+    {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Finans"
     },
     {
       "ticker": "SEB-A.ST",
@@ -62,19 +62,9 @@
       "sector": "Material"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "EQT.ST",
       "name": "EQT",
       "sector": "Finans"
-    },
-    {
-      "ticker": "EVO.ST",
-      "name": "Evolution",
-      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "NDA-SE.ST",
@@ -97,6 +87,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "EVO.ST",
+      "name": "Evolution",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "HEXA-B.ST",
       "name": "Hexagon B",
       "sector": "Teknik"
@@ -107,8 +102,18 @@
       "sector": "Dagligvaror"
     },
     {
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
+    },
+    {
       "ticker": "ALFA.ST",
       "name": "Alfa Laval",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
@@ -122,11 +127,6 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "NIBE-B.ST",
       "name": "NIBE B",
       "sector": "Industri"
@@ -135,6 +135,11 @@
       "ticker": "SKA-B.ST",
       "name": "Skanska B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material"
     },
     {
       "ticker": "SCA-B.ST",
@@ -147,9 +152,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material"
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
     },
     {
       "ticker": "TREL-B.ST",
@@ -157,14 +162,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
+      "sector": "Industri"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "GETI-B.ST",
@@ -182,18 +187,13 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
@@ -202,9 +202,19 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
-      "sector": "Industri"
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
+    },
+    {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
+    },
+    {
+      "ticker": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "sector": "Finans"
     },
     {
       "ticker": "INDT.ST",
@@ -217,11 +227,6 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
-    },
-    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
@@ -232,9 +237,9 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "KINV-B.ST",
-      "name": "Kinnevik B",
-      "sector": "Finans"
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
+      "sector": "Industri"
     },
     {
       "ticker": "SAGA-B.ST",
@@ -242,28 +247,8 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
-    },
-    {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "LUND-B.ST",
       "name": "Lundbergforetagen B",
-      "sector": "Finans"
-    },
-    {
-      "ticker": "THULE.ST",
-      "name": "Thule Group",
-      "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
       "sector": "Finans"
     },
     {
@@ -272,8 +257,28 @@
       "sector": "Fastighet"
     },
     {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
+    },
+    {
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
+    },
+    {
+      "ticker": "THULE.ST",
+      "name": "Thule Group",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "ELUX-B.ST",
       "name": "Electrolux B",
+      "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
     },
     {
@@ -282,8 +287,8 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
+      "ticker": "JM.ST",
+      "name": "JM",
       "sector": "Sallankopsvaror"
     },
     {
@@ -292,26 +297,21 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
-      "sector": "Fastighet"
-    },
-    {
-      "ticker": "JM.ST",
-      "name": "JM",
-      "sector": "Sallankopsvaror"
+      "ticker": "BILL.ST",
+      "name": "Billerud",
+      "sector": "Material"
     }
   ],
   "excluded": [
     "AFRY.ST",
     "ALLEI.ST",
-    "BILL.ST",
     "DOM.ST",
     "INSTAL.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
     "VITR.ST",
-    "WALL-B.ST"
+    "WALL-B.ST",
+    "WIHL.ST"
   ]
 }
