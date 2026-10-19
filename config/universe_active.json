@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-19",
   "members": [
     {
       "ticker": "ERIC-B.ST",
@@ -12,13 +12,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "VOLV-B.ST",
-      "name": "Volvo B",
+      "ticker": "ATCO-A.ST",
+      "name": "Atlas Copco A",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-A.ST",
-      "name": "Atlas Copco A",
+      "ticker": "VOLV-B.ST",
+      "name": "Volvo B",
       "sector": "Industri"
     },
     {
@@ -62,13 +62,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
       "sector": "Finans"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
+      "ticker": "EQT.ST",
+      "name": "EQT",
       "sector": "Finans"
     },
     {
@@ -112,13 +112,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
@@ -137,14 +137,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SCA-B.ST",
-      "name": "SCA B",
-      "sector": "Material"
-    },
-    {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SCA-B.ST",
+      "name": "SCA B",
+      "sector": "Material"
     },
     {
       "ticker": "SSAB-B.ST",
@@ -177,14 +177,14 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "LIFCO-B.ST",
       "name": "Lifco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror"
     },
     {
       "ticker": "CAST.ST",
@@ -192,14 +192,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
     },
     {
       "ticker": "SAVE.ST",
@@ -207,8 +207,8 @@
       "sector": "Finans"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
       "sector": "Industri"
     },
     {
@@ -227,14 +227,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "VOLCAR-B.ST",
-      "name": "Volvo Car B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "BALD-B.ST",
       "name": "Balder B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "EPI-B.ST",
@@ -252,11 +252,6 @@
       "sector": "Finans"
     },
     {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
-    },
-    {
       "ticker": "FABG.ST",
       "name": "Fabege",
       "sector": "Fastighet"
@@ -265,6 +260,11 @@
       "ticker": "LATO-B.ST",
       "name": "Latour B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
     },
     {
       "ticker": "THULE.ST",
@@ -287,14 +287,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TRUE-B.ST",
-      "name": "Truecaller B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "JM.ST",
       "name": "JM",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
+      "sector": "Fastighet"
     },
     {
       "ticker": "BILL.ST",
@@ -310,8 +310,8 @@
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
+    "TRUE-B.ST",
     "VITR.ST",
-    "WALL-B.ST",
-    "WIHL.ST"
+    "WALL-B.ST"
   ]
 }
