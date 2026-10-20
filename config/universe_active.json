@@ -57,6 +57,11 @@
       "sector": "Finans"
     },
     {
+      "ticker": "ABB.ST",
+      "name": "ABB",
+      "sector": "Industri"
+    },
+    {
       "ticker": "ASSA-B.ST",
       "name": "Assa Abloy B",
       "sector": "Industri"
@@ -65,11 +70,6 @@
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
-    },
-    {
-      "ticker": "ABB.ST",
-      "name": "ABB",
-      "sector": "Industri"
     },
     {
       "ticker": "EQT.ST",
@@ -112,13 +112,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
@@ -172,11 +172,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "GETI-B.ST",
       "name": "Getinge B",
       "sector": "Halsovard"
@@ -185,6 +180,11 @@
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
+    },
+    {
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "CAST.ST",
@@ -262,6 +262,11 @@
       "sector": "Finans"
     },
     {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
+    },
+    {
       "ticker": "ELUX-B.ST",
       "name": "Electrolux B",
       "sector": "Sallankopsvaror"
@@ -270,11 +275,6 @@
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
     },
     {
       "ticker": "HUSQ-B.ST",
