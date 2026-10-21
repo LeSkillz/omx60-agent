@@ -7,19 +7,24 @@
       "sector": "Teknik"
     },
     {
-      "ticker": "INVE-B.ST",
-      "name": "Investor B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "ATCO-A.ST",
       "name": "Atlas Copco A",
       "sector": "Industri"
     },
     {
+      "ticker": "INVE-B.ST",
+      "name": "Investor B",
+      "sector": "Finans"
+    },
+    {
       "ticker": "VOLV-B.ST",
       "name": "Volvo B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Finans"
     },
     {
       "ticker": "AZN.ST",
@@ -29,11 +34,6 @@
     {
       "ticker": "SEB-A.ST",
       "name": "SEB A",
-      "sector": "Finans"
-    },
-    {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
@@ -107,13 +107,13 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "ALFA.ST",
-      "name": "Alfa Laval",
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
+      "ticker": "ALFA.ST",
+      "name": "Alfa Laval",
       "sector": "Industri"
     },
     {
@@ -142,11 +142,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material"
-    },
-    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
@@ -154,6 +149,11 @@
     {
       "ticker": "SCA-B.ST",
       "name": "SCA B",
+      "sector": "Material"
+    },
+    {
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
       "sector": "Material"
     },
     {
@@ -182,6 +182,11 @@
       "sector": "Finans"
     },
     {
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
@@ -192,19 +197,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
-    },
-    {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
-      "sector": "Industri"
     },
     {
       "ticker": "AAK.ST",
@@ -287,14 +287,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "WIHL.ST",
       "name": "Wihlborgs",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "SWEC-B.ST",
+      "name": "Sweco B",
+      "sector": "Industri"
     },
     {
       "ticker": "TRUE-B.ST",
