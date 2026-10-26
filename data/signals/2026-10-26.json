@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T11:21:01",
+  "weights_used": {
+    "momentum": 0.0325,
+    "trend": 0.2172,
+    "reversal": 0.0284,
+    "volume": 0.0284,
+    "fundamental": 0.2458,
+    "sentiment": 0.2187,
+    "macro": 0.2291
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "SKF-B.ST",
+      "name": "SKF B",
+      "score": 0.173,
+      "confidence": 0.471
+    },
+    {
+      "index": "SCA-B.ST",
+      "name": "SCA B",
+      "score": 0.172,
+      "confidence": 0.471
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.17,
+      "confidence": 0.378
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.169,
+      "confidence": 0.471
+    },
+    {
+      "index": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "score": 0.159,
+      "confidence": 0.471
+    },
+    {
+      "index": "TELIA.ST",
+      "name": "Telia",
+      "score": 0.157,
+      "confidence": 0.471
+    },
+    {
+      "index": "ESSITY-B.ST",
+      "name": "Essity B",
+      "score": 0.156,
+      "confidence": 0.285
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.153,
+      "confidence": 0.378
+    },
+    {
+      "index": "CAST.ST",
+      "name": "Castellum",
+      "score": 0.147,
+      "confidence": 0.378
+    },
+    {
+      "index": "SKA-B.ST",
+      "name": "Skanska B",
+      "score": 0.145,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "VOLV-B.ST",
+      "name": "Volvo B",
+      "score": -0.129,
+      "confidence": 0.378
+    },
+    {
+      "index": "SAVE.ST",
+      "name": "Nordnet",
+      "score": -0.132,
+      "confidence": 0.471
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.138,
+      "confidence": 0.564
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.143,
+      "confidence": 0.378
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": -0.145,
+      "confidence": 0.285
+    },
+    {
+      "index": "THULE.ST",
+      "name": "Thule Group",
+      "score": -0.164,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.17,
+      "confidence": 0.378
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.18,
+      "confidence": 0.471
+    },
+    {
+      "index": "MTRS.ST",
+      "name": "Munters",
+      "score": -0.183,
+      "confidence": 0.378
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.191,
+      "confidence": 0.378
+    }
+  ]
+}
