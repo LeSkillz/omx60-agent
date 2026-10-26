@@ -22,13 +22,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
@@ -287,14 +287,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "AFRY.ST",
       "name": "AFRY",
       "sector": "Industri"
+    },
+    {
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
+      "sector": "Fastighet"
     },
     {
       "ticker": "SWEC-B.ST",
