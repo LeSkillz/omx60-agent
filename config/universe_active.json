@@ -22,13 +22,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
@@ -42,14 +42,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "SAND.ST",
       "name": "Sandvik",
       "sector": "Industri"
+    },
+    {
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Halsovard"
     },
     {
       "ticker": "ABB.ST",
@@ -62,14 +62,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
-    },
-    {
       "ticker": "ASSA-B.ST",
       "name": "Assa Abloy B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
     },
     {
       "ticker": "EQT.ST",
@@ -172,19 +172,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "GETI-B.ST",
       "name": "Getinge B",
       "sector": "Halsovard"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "sector": "Industri"
     },
     {
       "ticker": "CAST.ST",
@@ -197,18 +192,23 @@
       "sector": "Industri"
     },
     {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
+    },
+    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
+      "ticker": "AAK.ST",
+      "name": "AAK",
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "AAK.ST",
-      "name": "AAK",
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
       "sector": "Dagligvaror"
     },
     {
@@ -247,14 +247,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "LUND-B.ST",
-      "name": "Lundbergforetagen B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "ELUX-B.ST",
       "name": "Electrolux B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "LUND-B.ST",
+      "name": "Lundbergforetagen B",
+      "sector": "Finans"
     },
     {
       "ticker": "FABG.ST",
@@ -267,14 +267,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "LATO-B.ST",
       "name": "Latour B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "THULE.ST",
@@ -292,14 +292,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
+      "sector": "Fastighet"
     }
   ],
   "excluded": [
