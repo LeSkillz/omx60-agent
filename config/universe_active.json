@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27",
+  "generated": "2026-10-28",
   "members": [
     {
       "ticker": "ATCO-A.ST",
@@ -22,13 +22,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
@@ -37,14 +37,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SHB-A.ST",
-      "name": "Handelsbanken A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SAND.ST",
       "name": "Sandvik",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "sector": "Finans"
     },
     {
       "ticker": "AZN.ST",
@@ -62,14 +62,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
+    },
+    {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
     },
     {
       "ticker": "EQT.ST",
@@ -92,11 +92,6 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
@@ -105,6 +100,11 @@
       "ticker": "SKF-B.ST",
       "name": "SKF B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "TEL2-B.ST",
@@ -127,14 +127,19 @@
       "sector": "Sallankopsvaror"
     },
     {
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "SECU-B.ST",
       "name": "Securitas B",
       "sector": "Industri"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
-      "sector": "Industri"
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
+      "sector": "Material"
     },
     {
       "ticker": "SCA-B.ST",
@@ -147,13 +152,8 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
-      "sector": "Material"
-    },
-    {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
@@ -162,8 +162,8 @@
       "sector": "Finans"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
@@ -182,24 +182,24 @@
       "sector": "Industri"
     },
     {
-      "ticker": "CAST.ST",
-      "name": "Castellum",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "MTRS.ST",
       "name": "Munters",
       "sector": "Industri"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
+      "ticker": "CAST.ST",
+      "name": "Castellum",
+      "sector": "Fastighet"
     },
     {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
     },
     {
       "ticker": "AAK.ST",
@@ -212,14 +212,14 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
+    },
+    {
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "SAVE.ST",
@@ -267,14 +267,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "HUSQ-B.ST",
       "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
     },
     {
       "ticker": "THULE.ST",

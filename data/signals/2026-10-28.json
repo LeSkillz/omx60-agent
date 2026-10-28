@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T11:28:42",
+  "weights_used": {
+    "momentum": 0.0516,
+    "trend": 0.2063,
+    "reversal": 0.0287,
+    "volume": 0.0287,
+    "fundamental": 0.2427,
+    "sentiment": 0.2159,
+    "macro": 0.2262
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.183,
+      "confidence": 0.471
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.168,
+      "confidence": 0.378
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.162,
+      "confidence": 0.471
+    },
+    {
+      "index": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "score": 0.162,
+      "confidence": 0.471
+    },
+    {
+      "index": "SKF-B.ST",
+      "name": "SKF B",
+      "score": 0.159,
+      "confidence": 0.378
+    },
+    {
+      "index": "TELIA.ST",
+      "name": "Telia",
+      "score": 0.156,
+      "confidence": 0.471
+    },
+    {
+      "index": "NIBE-B.ST",
+      "name": "NIBE B",
+      "score": 0.153,
+      "confidence": 0.378
+    },
+    {
+      "index": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "score": 0.153,
+      "confidence": 0.471
+    },
+    {
+      "index": "SINCH.ST",
+      "name": "Sinch",
+      "score": 0.151,
+      "confidence": 0.378
+    },
+    {
+      "index": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "score": 0.148,
+      "confidence": 0.471
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "score": -0.116,
+      "confidence": 0.378
+    },
+    {
+      "index": "ADDT-B.ST",
+      "name": "Addtech B",
+      "score": -0.116,
+      "confidence": 0.378
+    },
+    {
+      "index": "AZA.ST",
+      "name": "Avanza Bank",
+      "score": -0.124,
+      "confidence": 0.471
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.132,
+      "confidence": 0.471
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": -0.137,
+      "confidence": 0.285
+    },
+    {
+      "index": "BALD-B.ST",
+      "name": "Balder B",
+      "score": -0.14,
+      "confidence": 0.564
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.174,
+      "confidence": 0.378
+    },
+    {
+      "index": "FABG.ST",
+      "name": "Fabege",
+      "score": -0.183,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.183,
+      "confidence": 0.378
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.192,
+      "confidence": 0.378
+    }
+  ]
+}
