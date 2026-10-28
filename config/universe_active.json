@@ -22,13 +22,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
@@ -62,24 +62,24 @@
       "sector": "Finans"
     },
     {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
     },
     {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
+      "ticker": "EPI-A.ST",
+      "name": "Epiroc A",
       "sector": "Industri"
     },
     {
       "ticker": "EQT.ST",
       "name": "EQT",
       "sector": "Finans"
-    },
-    {
-      "ticker": "EPI-A.ST",
-      "name": "Epiroc A",
-      "sector": "Industri"
     },
     {
       "ticker": "HEXA-B.ST",
@@ -92,13 +92,13 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
@@ -192,14 +192,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "VOLCAR-B.ST",
-      "name": "Volvo Car B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "AZA.ST",
       "name": "Avanza Bank",
       "sector": "Finans"
+    },
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "AAK.ST",
@@ -217,23 +217,23 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SINCH.ST",
-      "name": "Sinch",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "SAVE.ST",
       "name": "Nordnet",
       "sector": "Finans"
     },
     {
-      "ticker": "BALD-B.ST",
-      "name": "Balder B",
-      "sector": "Fastighet"
+      "ticker": "SINCH.ST",
+      "name": "Sinch",
+      "sector": "Teknik"
     },
     {
       "ticker": "SAGA-B.ST",
       "name": "Sagax B",
+      "sector": "Fastighet"
+    },
+    {
+      "ticker": "BALD-B.ST",
+      "name": "Balder B",
       "sector": "Fastighet"
     },
     {
