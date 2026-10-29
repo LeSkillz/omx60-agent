@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28",
+  "generated": "2026-10-29",
   "members": [
     {
       "ticker": "ATCO-A.ST",
@@ -27,14 +27,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SAAB-B.ST",
       "name": "Saab B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Finans"
     },
     {
       "ticker": "SAND.ST",
@@ -92,13 +92,13 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
@@ -157,14 +157,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
-    },
-    {
       "ticker": "TREL-B.ST",
       "name": "Trelleborg B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
     },
     {
       "ticker": "ADDT-B.ST",
@@ -192,14 +192,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
-    },
-    {
       "ticker": "VOLCAR-B.ST",
       "name": "Volvo Car B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
     },
     {
       "ticker": "AAK.ST",
@@ -217,14 +217,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SINCH.ST",
       "name": "Sinch",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
     },
     {
       "ticker": "SAGA-B.ST",
@@ -262,14 +262,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
-    },
-    {
       "ticker": "HUSQ-B.ST",
       "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
     },
     {
       "ticker": "LATO-B.ST",
@@ -287,13 +287,13 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "AFRY.ST",
-      "name": "AFRY",
+      "ticker": "SWEC-B.ST",
+      "name": "Sweco B",
       "sector": "Industri"
     },
     {
-      "ticker": "SWEC-B.ST",
-      "name": "Sweco B",
+      "ticker": "AFRY.ST",
+      "name": "AFRY",
       "sector": "Industri"
     },
     {
