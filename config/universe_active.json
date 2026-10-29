@@ -42,19 +42,24 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SHB-A.ST",
-      "name": "Handelsbanken A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "AZN.ST",
       "name": "AstraZeneca",
       "sector": "Halsovard"
     },
     {
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "sector": "Finans"
+    },
+    {
       "ticker": "ABB.ST",
       "name": "ABB",
       "sector": "Industri"
+    },
+    {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
     },
     {
       "ticker": "NDA-SE.ST",
@@ -65,11 +70,6 @@
       "ticker": "ASSA-B.ST",
       "name": "Assa Abloy B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
     },
     {
       "ticker": "EPI-A.ST",
@@ -107,14 +107,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "ALFA.ST",
       "name": "Alfa Laval",
       "sector": "Industri"
+    },
+    {
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "TELIA.ST",
@@ -152,13 +152,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "TREL-B.ST",
+      "name": "Trelleborg B",
       "sector": "Industri"
     },
     {
-      "ticker": "TREL-B.ST",
-      "name": "Trelleborg B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
@@ -182,14 +182,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
-      "sector": "Industri"
-    },
-    {
       "ticker": "CAST.ST",
       "name": "Castellum",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri"
     },
     {
       "ticker": "VOLCAR-B.ST",
@@ -227,23 +227,23 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "BALD-B.ST",
       "name": "Balder B",
       "sector": "Fastighet"
     },
     {
-      "ticker": "INDT.ST",
-      "name": "Indutrade",
-      "sector": "Industri"
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "INDT.ST",
+      "name": "Indutrade",
       "sector": "Industri"
     },
     {
@@ -262,14 +262,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "HOLM-B.ST",
       "name": "Holmen B",
       "sector": "Material"
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "LATO-B.ST",
