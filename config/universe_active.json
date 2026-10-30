@@ -32,14 +32,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "AZN.ST",
-      "name": "AstraZeneca",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
+    },
+    {
+      "ticker": "AZN.ST",
+      "name": "AstraZeneca",
+      "sector": "Halsovard"
     },
     {
       "ticker": "SAND.ST",
@@ -107,13 +107,13 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
+      "ticker": "TELIA.ST",
+      "name": "Telia",
       "sector": "Telekom"
     },
     {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
       "sector": "Telekom"
     },
     {
@@ -227,14 +227,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "INDT.ST",
