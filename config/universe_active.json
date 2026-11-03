@@ -32,13 +32,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAND.ST",
-      "name": "Sandvik",
+      "ticker": "ABB.ST",
+      "name": "ABB",
       "sector": "Industri"
     },
     {
-      "ticker": "ABB.ST",
-      "name": "ABB",
+      "ticker": "SAND.ST",
+      "name": "Sandvik",
       "sector": "Industri"
     },
     {
@@ -62,14 +62,14 @@
       "sector": "Material"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
-    },
-    {
       "ticker": "ASSA-B.ST",
       "name": "Assa Abloy B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
     },
     {
       "ticker": "EQT.ST",
@@ -97,11 +97,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "HM-B.ST",
       "name": "H&M B",
       "sector": "Sallankopsvaror"
@@ -115,6 +110,11 @@
       "ticker": "SKF-B.ST",
       "name": "SKF B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom"
     },
     {
       "ticker": "TEL2-B.ST",
@@ -147,13 +147,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
+      "ticker": "SKA-B.ST",
+      "name": "Skanska B",
       "sector": "Industri"
     },
     {
-      "ticker": "SKA-B.ST",
-      "name": "Skanska B",
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
       "sector": "Industri"
     },
     {
@@ -167,11 +167,6 @@
       "sector": "Finans"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "ADDT-B.ST",
       "name": "Addtech B",
       "sector": "Industri"
@@ -180,6 +175,11 @@
       "ticker": "CAST.ST",
       "name": "Castellum",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "BEIJ-B.ST",
@@ -217,14 +217,19 @@
       "sector": "Finans"
     },
     {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
+    },
+    {
       "ticker": "BALD-B.ST",
       "name": "Balder B",
       "sector": "Fastighet"
     },
     {
-      "ticker": "EPI-B.ST",
-      "name": "Epiroc B",
-      "sector": "Industri"
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "INDT.ST",
@@ -232,14 +237,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
-    },
-    {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
+      "ticker": "EPI-B.ST",
+      "name": "Epiroc B",
+      "sector": "Industri"
     },
     {
       "ticker": "SINCH.ST",
@@ -257,14 +257,14 @@
       "sector": "Finans"
     },
     {
+      "ticker": "LATO-B.ST",
+      "name": "Latour B",
+      "sector": "Finans"
+    },
+    {
       "ticker": "FABG.ST",
       "name": "Fabege",
       "sector": "Fastighet"
-    },
-    {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "HOLM-B.ST",
@@ -272,9 +272,9 @@
       "sector": "Material"
     },
     {
-      "ticker": "LATO-B.ST",
-      "name": "Latour B",
-      "sector": "Finans"
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "THULE.ST",
@@ -287,19 +287,19 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "AFRY.ST",
-      "name": "AFRY",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
     },
     {
-      "ticker": "WIHL.ST",
-      "name": "Wihlborgs",
-      "sector": "Fastighet"
+      "ticker": "AFRY.ST",
+      "name": "AFRY",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "sector": "Teknik"
     }
   ],
   "excluded": [
@@ -310,8 +310,8 @@
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
-    "TRUE-B.ST",
     "VITR.ST",
-    "WALL-B.ST"
+    "WALL-B.ST",
+    "WIHL.ST"
   ]
 }
