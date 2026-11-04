@@ -1,4 +1,6 @@
 {
   "date": "2026-11-04",
-  "orders": []
+  "orders": [],
+  "filled": [],
+  "rejected": []
 }
