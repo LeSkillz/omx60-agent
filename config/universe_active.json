@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04",
+  "generated": "2026-11-05",
   "members": [
     {
       "ticker": "ATCO-A.ST",
@@ -42,13 +42,13 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
       "sector": "Finans"
     },
     {
-      "ticker": "SWED-A.ST",
-      "name": "Swedbank A",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
@@ -62,14 +62,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "NDA-SE.ST",
       "name": "Nordea",
       "sector": "Finans"
+    },
+    {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
     },
     {
       "ticker": "EQT.ST",
@@ -162,18 +162,18 @@
       "sector": "Industri"
     },
     {
-      "ticker": "INDU-C.ST",
-      "name": "Industrivarden C",
-      "sector": "Finans"
-    },
-    {
       "ticker": "CAST.ST",
       "name": "Castellum",
       "sector": "Fastighet"
     },
     {
-      "ticker": "ADDT-B.ST",
-      "name": "Addtech B",
+      "ticker": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "sector": "Finans"
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
@@ -182,8 +182,8 @@
       "sector": "Halsovard"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "ADDT-B.ST",
+      "name": "Addtech B",
       "sector": "Industri"
     },
     {
@@ -207,11 +207,6 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "AXFO.ST",
-      "name": "Axfood",
-      "sector": "Dagligvaror"
-    },
-    {
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
@@ -222,14 +217,14 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "INDT.ST",
-      "name": "Indutrade",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SAVE.ST",
       "name": "Nordnet",
       "sector": "Finans"
+    },
+    {
+      "ticker": "INDT.ST",
+      "name": "Indutrade",
+      "sector": "Industri"
     },
     {
       "ticker": "EPI-B.ST",
@@ -262,28 +257,18 @@
       "sector": "Finans"
     },
     {
-      "ticker": "HOLM-B.ST",
-      "name": "Holmen B",
-      "sector": "Material"
-    },
-    {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
-      "sector": "Fastighet"
-    },
-    {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "JM.ST",
-      "name": "JM",
+      "ticker": "HOLM-B.ST",
+      "name": "Holmen B",
+      "sector": "Material"
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
     },
     {
@@ -297,14 +282,29 @@
       "sector": "Teknik"
     },
     {
+      "ticker": "FABG.ST",
+      "name": "Fabege",
+      "sector": "Fastighet"
+    },
+    {
+      "ticker": "JM.ST",
+      "name": "JM",
+      "sector": "Sallankopsvaror"
+    },
+    {
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "BILL.ST",
+      "name": "Billerud",
+      "sector": "Material"
     }
   ],
   "excluded": [
     "ALLEI.ST",
-    "BILL.ST",
+    "AXFO.ST",
     "DOM.ST",
     "INSTAL.ST",
     "NOLA-B.ST",
