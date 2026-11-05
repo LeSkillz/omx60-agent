@@ -62,14 +62,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "NDA-SE.ST",
-      "name": "Nordea",
-      "sector": "Finans"
-    },
-    {
       "ticker": "ASSA-B.ST",
       "name": "Assa Abloy B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "NDA-SE.ST",
+      "name": "Nordea",
+      "sector": "Finans"
     },
     {
       "ticker": "EQT.ST",
@@ -177,14 +177,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
-    },
-    {
       "ticker": "ADDT-B.ST",
       "name": "Addtech B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "BEIJ-B.ST",
@@ -207,6 +207,11 @@
       "sector": "Sallankopsvaror"
     },
     {
+      "ticker": "AXFO.ST",
+      "name": "Axfood",
+      "sector": "Dagligvaror"
+    },
+    {
       "ticker": "KINV-B.ST",
       "name": "Kinnevik B",
       "sector": "Finans"
@@ -214,6 +219,11 @@
     {
       "ticker": "BALD-B.ST",
       "name": "Balder B",
+      "sector": "Fastighet"
+    },
+    {
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
       "sector": "Fastighet"
     },
     {
@@ -230,11 +240,6 @@
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
     },
     {
       "ticker": "SINCH.ST",
@@ -287,24 +292,19 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "JM.ST",
-      "name": "JM",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "SWEC-B.ST",
       "name": "Sweco B",
       "sector": "Industri"
     },
     {
-      "ticker": "BILL.ST",
-      "name": "Billerud",
-      "sector": "Material"
+      "ticker": "JM.ST",
+      "name": "JM",
+      "sector": "Sallankopsvaror"
     }
   ],
   "excluded": [
     "ALLEI.ST",
-    "AXFO.ST",
+    "BILL.ST",
     "DOM.ST",
     "INSTAL.ST",
     "NOLA-B.ST",
