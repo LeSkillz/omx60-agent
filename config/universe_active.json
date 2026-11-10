@@ -47,14 +47,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
-      "sector": "Finans"
-    },
-    {
       "ticker": "BOL.ST",
       "name": "Boliden",
       "sector": "Material"
+    },
+    {
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
+      "sector": "Finans"
     },
     {
       "ticker": "SHB-A.ST",
@@ -142,14 +142,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "SCA-B.ST",
       "name": "SCA B",
       "sector": "Material"
+    },
+    {
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
+      "sector": "Industri"
     },
     {
       "ticker": "CAST.ST",

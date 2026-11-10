@@ -3,11 +3,20 @@
   "n_positions": 0,
   "hit_rate": null,
   "avg_signed_return_pct": null,
-  "benchmark_return_pct": null,
+  "benchmark_return_pct": 0.541,
   "equity": 1000255.2,
   "filled": [],
   "rejected": [],
   "closed_trades": [],
   "detail": [],
-  "ic": {}
+  "ic": {
+    "momentum": -0.02684078910808558,
+    "trend": -0.013229572495403541,
+    "reversal": -0.21678243956654633,
+    "volume": 0.1856626840789108,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": -0.023617671575437624
+  }
 }
