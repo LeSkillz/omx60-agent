@@ -2,11 +2,6 @@
   "generated": "2026-11-11",
   "members": [
     {
-      "ticker": "ATCO-A.ST",
-      "name": "Atlas Copco A",
-      "sector": "Industri"
-    },
-    {
       "ticker": "INVE-B.ST",
       "name": "Investor B",
       "sector": "Finans"
@@ -300,13 +295,18 @@
       "ticker": "WIHL.ST",
       "name": "Wihlborgs",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "FABG.ST",
+      "name": "Fabege",
+      "sector": "Fastighet"
     }
   ],
   "excluded": [
     "ALLEI.ST",
+    "ATCO-A.ST",
     "BILL.ST",
     "DOM.ST",
-    "FABG.ST",
     "INSTAL.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
