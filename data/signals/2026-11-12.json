@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T13:54:18",
+  "weights_used": {
+    "momentum": 0.0299,
+    "trend": 0.1827,
+    "reversal": 0.0299,
+    "volume": 0.0299,
+    "fundamental": 0.2307,
+    "sentiment": 0.2431,
+    "macro": 0.2537
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [],
+  "pending_orders": [],
+  "top10": [
+    {
+      "index": "NIBE-B.ST",
+      "name": "NIBE B",
+      "score": 0.161,
+      "confidence": 0.564
+    },
+    {
+      "index": "CAST.ST",
+      "name": "Castellum",
+      "score": 0.154,
+      "confidence": 0.564
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.151,
+      "confidence": 0.471
+    },
+    {
+      "index": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "score": 0.146,
+      "confidence": 0.564
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.144,
+      "confidence": 0.471
+    },
+    {
+      "index": "INDT.ST",
+      "name": "Indutrade",
+      "score": 0.143,
+      "confidence": 0.471
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.142,
+      "confidence": 0.471
+    },
+    {
+      "index": "AZN.ST",
+      "name": "AstraZeneca",
+      "score": 0.141,
+      "confidence": 0.471
+    },
+    {
+      "index": "SKA-B.ST",
+      "name": "Skanska B",
+      "score": 0.139,
+      "confidence": 0.471
+    },
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.136,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": -0.05,
+      "confidence": 0.285
+    },
+    {
+      "index": "MTRS.ST",
+      "name": "Munters",
+      "score": -0.1,
+      "confidence": 0.471
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": -0.1,
+      "confidence": 0.378
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.1,
+      "confidence": 0.471
+    },
+    {
+      "index": "EPI-A.ST",
+      "name": "Epiroc A",
+      "score": -0.114,
+      "confidence": 0.471
+    },
+    {
+      "index": "EPI-B.ST",
+      "name": "Epiroc B",
+      "score": -0.114,
+      "confidence": 0.378
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.136,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.141,
+      "confidence": 0.378
+    },
+    {
+      "index": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "score": -0.143,
+      "confidence": 0.471
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.198,
+      "confidence": 0.471
+    }
+  ]
+}
