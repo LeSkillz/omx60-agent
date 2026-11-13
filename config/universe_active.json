@@ -7,13 +7,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ABB.ST",
-      "name": "ABB",
+      "ticker": "ATCO-A.ST",
+      "name": "Atlas Copco A",
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-A.ST",
-      "name": "Atlas Copco A",
+      "ticker": "ABB.ST",
+      "name": "ABB",
       "sector": "Industri"
     },
     {
@@ -107,14 +107,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "HM-B.ST",
       "name": "H&M B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom"
     },
     {
       "ticker": "EVO.ST",
@@ -127,13 +127,13 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "SKA-B.ST",
-      "name": "Skanska B",
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
       "sector": "Industri"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
+      "ticker": "SKA-B.ST",
+      "name": "Skanska B",
       "sector": "Industri"
     },
     {

@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-13",
+  "signal_file": "2026-11-13_scores.csv",
+  "n": 60,
+  "ic": {
+    "momentum": 0.01622672964712419,
+    "trend": 0.35199114596787007,
+    "reversal": -0.15498749652681298,
+    "volume": 0.07379827729924979,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.35559877743817725
+  }
+}
