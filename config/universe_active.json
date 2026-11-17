@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -50,11 +50,6 @@
       "ticker": "SWED-A.ST",
       "name": "Swedbank A",
       "sector": "Finans"
-    },
-    {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
-      "sector": "Industri"
     },
     {
       "ticker": "SHB-A.ST",
@@ -300,12 +295,17 @@
       "ticker": "JM.ST",
       "name": "JM",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "FABG.ST",
+      "name": "Fabege",
+      "sector": "Fastighet"
     }
   ],
   "excluded": [
+    "ASSA-B.ST",
     "BILL.ST",
     "DOM.ST",
-    "FABG.ST",
     "INSTAL.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
