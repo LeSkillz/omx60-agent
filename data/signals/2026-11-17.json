@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T14:44:36",
+  "weights_used": {
+    "momentum": 0.0944,
+    "trend": 0.2555,
+    "reversal": 0.0311,
+    "volume": 0.041,
+    "fundamental": 0.1802,
+    "sentiment": 0.1933,
+    "macro": 0.2045
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": []
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.384,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.956,
+        "volume": -0.089,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.77,
+      "shares": 5943,
+      "stop": 11.61,
+      "target": 9.37,
+      "max_hold_days": 5,
+      "rationale": ""
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.384,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.956,
+        "volume": -0.089,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.77,
+      "shares": 5943,
+      "stop": 11.61,
+      "target": 9.37,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-17",
+      "atr14": 0.561,
+      "stop_dist": 0.8415,
+      "target_dist": 1.4025,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 5943
+    }
+  ],
+  "top10": [
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.238,
+      "confidence": 0.471
+    },
+    {
+      "index": "INVE-B.ST",
+      "name": "Investor B",
+      "score": 0.225,
+      "confidence": 0.471
+    },
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.222,
+      "confidence": 0.471
+    },
+    {
+      "index": "SKA-B.ST",
+      "name": "Skanska B",
+      "score": 0.221,
+      "confidence": 0.471
+    },
+    {
+      "index": "INDU-C.ST",
+      "name": "Industrivarden C",
+      "score": 0.199,
+      "confidence": 0.564
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.196,
+      "confidence": 0.378
+    },
+    {
+      "index": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "score": 0.195,
+      "confidence": 0.471
+    },
+    {
+      "index": "TELIA.ST",
+      "name": "Telia",
+      "score": 0.193,
+      "confidence": 0.378
+    },
+    {
+      "index": "SECU-B.ST",
+      "name": "Securitas B",
+      "score": 0.193,
+      "confidence": 0.471
+    },
+    {
+      "index": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "score": 0.192,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "EPI-A.ST",
+      "name": "Epiroc A",
+      "score": -0.128,
+      "confidence": 0.285
+    },
+    {
+      "index": "SAND.ST",
+      "name": "Sandvik",
+      "score": -0.137,
+      "confidence": 0.285
+    },
+    {
+      "index": "EPI-B.ST",
+      "name": "Epiroc B",
+      "score": -0.142,
+      "confidence": 0.285
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": -0.157,
+      "confidence": 0.285
+    },
+    {
+      "index": "ALLEI.ST",
+      "name": "Alleima",
+      "score": -0.158,
+      "confidence": 0.285
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": -0.161,
+      "confidence": 0.378
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.214,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.248,
+      "confidence": 0.378
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.267,
+      "confidence": 0.471
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.324,
+      "confidence": 0.471
+    }
+  ]
+}

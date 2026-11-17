@@ -7,11 +7,6 @@
       "sector": "Finans"
     },
     {
-      "ticker": "ABB.ST",
-      "name": "ABB",
-      "sector": "Industri"
-    },
-    {
       "ticker": "VOLV-B.ST",
       "name": "Volvo B",
       "sector": "Industri"
@@ -19,6 +14,11 @@
     {
       "ticker": "ATCO-A.ST",
       "name": "Atlas Copco A",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "ABB.ST",
+      "name": "ABB",
       "sector": "Industri"
     },
     {
@@ -52,6 +52,11 @@
       "sector": "Finans"
     },
     {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "SHB-A.ST",
       "name": "Handelsbanken A",
       "sector": "Finans"
@@ -77,14 +82,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ATCO-B.ST",
-      "name": "Atlas Copco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "HEXA-B.ST",
       "name": "Hexagon B",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "sector": "Industri"
     },
     {
       "ticker": "ESSITY-B.ST",
@@ -117,9 +122,9 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "TEL2-B.ST",
-      "name": "Tele2 B",
-      "sector": "Telekom"
+      "ticker": "NIBE-B.ST",
+      "name": "NIBE B",
+      "sector": "Industri"
     },
     {
       "ticker": "SKA-B.ST",
@@ -127,9 +132,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "NIBE-B.ST",
-      "name": "NIBE B",
-      "sector": "Industri"
+      "ticker": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "sector": "Telekom"
     },
     {
       "ticker": "SSAB-B.ST",
@@ -207,9 +212,9 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
+      "ticker": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "BALD-B.ST",
@@ -217,9 +222,9 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "ELUX-B.ST",
-      "name": "Electrolux B",
-      "sector": "Sallankopsvaror"
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
     },
     {
       "ticker": "INDT.ST",
@@ -295,17 +300,12 @@
       "ticker": "JM.ST",
       "name": "JM",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "FABG.ST",
-      "name": "Fabege",
-      "sector": "Fastighet"
     }
   ],
   "excluded": [
-    "ASSA-B.ST",
     "BILL.ST",
     "DOM.ST",
+    "FABG.ST",
     "INSTAL.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
