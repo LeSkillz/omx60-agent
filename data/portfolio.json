@@ -1,7 +1,47 @@
 {
-  "equity": 1000255.2,
-  "cash": 1000255.2002425169,
-  "open_positions": [],
+  "equity": 1000666.16,
+  "cash": 1064672.2709573244,
+  "open_positions": [
+    {
+      "signal_date": "2026-11-17",
+      "opened": "2026-11-17",
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "direction": "short",
+      "horizon": "week",
+      "shares": 5943,
+      "entry": 10.85,
+      "ref_price": 10.77,
+      "entry_gap_pct": -0.74,
+      "stop": 11.69,
+      "target": 9.45,
+      "stop_dist": 0.8415,
+      "target_dist": 1.4025,
+      "max_hold_days": 5,
+      "score": -0.384,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.956,
+        "volume": -0.089,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "rationale": "",
+      "entry_cost": 64.48,
+      "last_close": 10.77,
+      "as_of": "2026-11-17",
+      "open_pnl": 475.44,
+      "open_pnl_pct": 0.74,
+      "to_stop_pct": -8.54,
+      "to_target_pct": 12.26,
+      "days_left": 4,
+      "progress": 0.411,
+      "action": "Behall"
+    }
+  ],
   "closed_trades": [
     {
       "signal_date": "2026-08-14",
@@ -601,9 +641,9 @@
     },
     {
       "date": "2026-11-17",
-      "equity": 1000255.2,
-      "cash": 1000255.2,
-      "open_positions": 0
+      "equity": 1000666.16,
+      "cash": 1064672.27,
+      "open_positions": 1
     }
   ]
 }

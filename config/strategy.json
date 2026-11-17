@@ -3,13 +3,13 @@
   "version": 2,
   "last_updated": "2026-11-17",
   "weights": {
-    "momentum": 0.0944,
-    "trend": 0.2555,
-    "reversal": 0.0311,
-    "volume": 0.041,
-    "fundamental": 0.1802,
-    "sentiment": 0.1933,
-    "macro": 0.2045
+    "momentum": 0.1154,
+    "trend": 0.278,
+    "reversal": 0.0303,
+    "volume": 0.0536,
+    "fundamental": 0.1616,
+    "sentiment": 0.1749,
+    "macro": 0.1862
   },
   "weight_bounds": {
     "min": 0.03,

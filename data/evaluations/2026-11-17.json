@@ -1,13 +1,34 @@
 {
   "date": "2026-11-17",
-  "n_positions": 0,
-  "hit_rate": null,
-  "avg_signed_return_pct": null,
-  "benchmark_return_pct": null,
-  "equity": 1000255.2,
-  "filled": [],
+  "n_positions": 1,
+  "hit_rate": 1.0,
+  "avg_signed_return_pct": 0.74,
+  "benchmark_return_pct": -0.936,
+  "equity": 1000666.16,
+  "filled": [
+    "VOLCAR-B.ST @ 10.85 (5943 st, gap -0.7%)"
+  ],
   "rejected": [],
   "closed_trades": [],
-  "detail": [],
-  "ic": {}
+  "detail": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 0.74,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": -0.11286468463462071,
+    "trend": -0.0324534592942484,
+    "reversal": -0.4145040288969159,
+    "volume": 0.12414559599888858,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": -0.06062795220894695
+  }
 }
