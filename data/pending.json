@@ -1,8 +1,35 @@
 {
-  "date": "2026-11-17",
-  "orders": [],
-  "filled": [
-    "VOLCAR-B.ST @ 10.85 (5943 st, gap -0.7%)"
-  ],
-  "rejected": []
+  "date": "2026-11-18",
+  "orders": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.439,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.942,
+        "volume": -0.247,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.5,
+      "shares": 6198,
+      "stop": 11.31,
+      "target": 9.15,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-18",
+      "atr14": 0.5381,
+      "stop_dist": 0.8071,
+      "target_dist": 1.3452,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 6198
+    }
+  ]
 }
