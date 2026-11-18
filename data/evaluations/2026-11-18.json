@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-18",
+  "n_positions": 1,
+  "hit_rate": 1.0,
+  "avg_signed_return_pct": 3.23,
+  "benchmark_return_pct": -0.441,
+  "equity": 1002270.77,
+  "filled": [],
+  "rejected": [
+    "VOLCAR-B.ST (redan exponering mot bolaget)"
+  ],
+  "closed_trades": [],
+  "detail": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 3.23,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": 0.07468741317032507,
+    "trend": 0.39233120311197556,
+    "reversal": -0.4291747707696583,
+    "volume": -0.02378438455126423,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.3791053070297305
+  }
+}
