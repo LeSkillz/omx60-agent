@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-19",
+  "n_positions": 3,
+  "hit_rate": 1.0,
+  "avg_signed_return_pct": 1.38,
+  "benchmark_return_pct": 0.475,
+  "equity": 1004633.07,
+  "filled": [
+    "HUSQ-B.ST @ 32.04 (3970 st, gap -1.1%)",
+    "AAK.ST @ 174.00 (864 st, gap -1.6%)"
+  ],
+  "rejected": [
+    "VOLCAR-B.ST (redan exponering mot bolaget)"
+  ],
+  "closed_trades": [],
+  "detail": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 1.47,
+      "hit": true
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 1.06,
+      "hit": true
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 1.61,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": 0.2007335781692671,
+    "trend": -0.05807491394985716,
+    "reversal": 0.061020340207601116,
+    "volume": 0.3819050800606876,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": -0.012615316235997695
+  }
+}
