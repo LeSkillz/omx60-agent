@@ -82,6 +82,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "ATCO-B.ST",
+      "name": "Atlas Copco B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
@@ -295,15 +300,10 @@
       "ticker": "HUSQ-B.ST",
       "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "AFRY.ST",
-      "name": "AFRY",
-      "sector": "Industri"
     }
   ],
   "excluded": [
-    "ATCO-B.ST",
+    "AFRY.ST",
     "DOM.ST",
     "FABG.ST",
     "INSTAL.ST",

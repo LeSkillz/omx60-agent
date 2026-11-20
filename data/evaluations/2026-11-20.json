@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-20",
+  "n_positions": 4,
+  "hit_rate": 1.0,
+  "avg_signed_return_pct": 3.447,
+  "benchmark_return_pct": -2.15,
+  "equity": 1013037.71,
+  "filled": [
+    "MTRS.ST @ 134.00 (510 st, gap -2.5%)"
+  ],
+  "rejected": [
+    "VOLCAR-B.ST (redan exponering mot bolaget)",
+    "HUSQ-B.ST (redan exponering mot bolaget)",
+    "AAK.ST (redan exponering mot bolaget)"
+  ],
+  "closed_trades": [],
+  "detail": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 5.39,
+      "hit": true
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 3.87,
+      "hit": true
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 2.07,
+      "hit": true
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": 2.46,
+      "hit": true
+    }
+  ],
+  "ic": {
+    "momentum": 0.14441846873173586,
+    "trend": 0.4721800116890708,
+    "reversal": -0.5112799532437171,
+    "volume": -0.21998831092928117,
+    "fundamental": NaN,
+    "sentiment": NaN,
+    "macro": NaN,
+    "score": 0.42402104032729404
+  }
+}
