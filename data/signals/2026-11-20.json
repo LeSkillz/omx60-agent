@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T14:13:48",
+  "weights_used": {
+    "momentum": 0.1589,
+    "trend": 0.3256,
+    "reversal": 0.03,
+    "volume": 0.0711,
+    "fundamental": 0.1252,
+    "sentiment": 0.1388,
+    "macro": 0.1503
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": [
+      "VOLCAR-B.ST (day, samma bolag som redan vald order)",
+      "HUSQ-B.ST (day, samma bolag som redan vald order)"
+    ]
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.549,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.749,
+        "volume": -0.36,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.27,
+      "shares": 6466,
+      "stop": 11.04,
+      "target": 8.97,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.421,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.55,
+        "trend": -0.833,
+        "reversal": 0.339,
+        "volume": -0.646,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 30.8,
+      "shares": 3932,
+      "stop": 32.08,
+      "target": 28.67,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.401,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.594,
+        "trend": -0.865,
+        "reversal": -0.025,
+        "volume": 0.369,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 130.7,
+      "shares": 510,
+      "stop": 140.54,
+      "target": 114.3,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.383,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.471,
+        "trend": -0.836,
+        "reversal": 0.147,
+        "volume": -0.02,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 170.4,
+      "shares": 884,
+      "stop": 175.56,
+      "target": 161.8,
+      "max_hold_days": 5,
+      "rationale": ""
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.549,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.749,
+        "volume": -0.36,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.27,
+      "shares": 6466,
+      "stop": 11.04,
+      "target": 8.97,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-20",
+      "atr14": 0.5179,
+      "stop_dist": 0.7768,
+      "target_dist": 1.2947,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 6466
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.421,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.55,
+        "trend": -0.833,
+        "reversal": 0.339,
+        "volume": -0.646,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 30.8,
+      "shares": 3932,
+      "stop": 32.08,
+      "target": 28.67,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-20",
+      "atr14": 0.8515,
+      "stop_dist": 1.2773,
+      "target_dist": 2.1288,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 3932
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "sector": "Industri",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.401,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.594,
+        "trend": -0.865,
+        "reversal": -0.025,
+        "volume": 0.369,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 130.7,
+      "shares": 510,
+      "stop": 140.54,
+      "target": 114.3,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-20",
+      "atr14": 6.56,
+      "stop_dist": 9.84,
+      "target_dist": 16.4,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 510
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.383,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.471,
+        "trend": -0.836,
+        "reversal": 0.147,
+        "volume": -0.02,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 170.4,
+      "shares": 884,
+      "stop": 175.56,
+      "target": 161.8,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-20",
+      "atr14": 3.4401,
+      "stop_dist": 5.1602,
+      "target_dist": 8.6003,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 884
+    }
+  ],
+  "top10": [
+    {
+      "index": "TELIA.ST",
+      "name": "Telia",
+      "score": 0.304,
+      "confidence": 0.471
+    },
+    {
+      "index": "SKA-B.ST",
+      "name": "Skanska B",
+      "score": 0.302,
+      "confidence": 0.471
+    },
+    {
+      "index": "TRUE-B.ST",
+      "name": "Truecaller B",
+      "score": 0.278,
+      "confidence": 0.471
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.267,
+      "confidence": 0.378
+    },
+    {
+      "index": "SECU-B.ST",
+      "name": "Securitas B",
+      "score": 0.264,
+      "confidence": 0.471
+    },
+    {
+      "index": "ESSITY-B.ST",
+      "name": "Essity B",
+      "score": 0.251,
+      "confidence": 0.471
+    },
+    {
+      "index": "EVO.ST",
+      "name": "Evolution",
+      "score": 0.244,
+      "confidence": 0.378
+    },
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.197,
+      "confidence": 0.471
+    },
+    {
+      "index": "HM-B.ST",
+      "name": "H&M B",
+      "score": 0.19,
+      "confidence": 0.285
+    },
+    {
+      "index": "SAVE.ST",
+      "name": "Nordnet",
+      "score": 0.189,
+      "confidence": 0.378
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "ALLEI.ST",
+      "name": "Alleima",
+      "score": -0.209,
+      "confidence": 0.285
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": -0.215,
+      "confidence": 0.378
+    },
+    {
+      "index": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "score": -0.241,
+      "confidence": 0.378
+    },
+    {
+      "index": "EQT.ST",
+      "name": "EQT",
+      "score": -0.26,
+      "confidence": 0.471
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.271,
+      "confidence": 0.471
+    },
+    {
+      "index": "ELUX-B.ST",
+      "name": "Electrolux B",
+      "score": -0.272,
+      "confidence": 0.378
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.344,
+      "confidence": 0.471
+    },
+    {
+      "index": "MTRS.ST",
+      "name": "Munters",
+      "score": -0.35,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.394,
+      "confidence": 0.471
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.488,
+      "confidence": 0.471
+    }
+  ]
+}
