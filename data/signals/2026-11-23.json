@@ -1,0 +1,476 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T16:17:46",
+  "weights_used": {
+    "momentum": 0.1816,
+    "trend": 0.3621,
+    "reversal": 0.0314,
+    "volume": 0.0535,
+    "fundamental": 0.1102,
+    "sentiment": 0.1245,
+    "macro": 0.1365
+  },
+  "coverage": {
+    "priced": 60,
+    "qualitative": 0,
+    "missing": [],
+    "deduped": [
+      "VOLCAR-B.ST (day, samma bolag som redan vald order)",
+      "HUSQ-B.ST (day, samma bolag som redan vald order)"
+    ]
+  },
+  "macro": {},
+  "day_trades": [],
+  "week_trades": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.609,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.754,
+        "volume": -0.546,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.34,
+      "shares": 6710,
+      "stop": 11.09,
+      "target": 9.08,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.448,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.51,
+        "trend": -0.831,
+        "reversal": 0.294,
+        "volume": -0.686,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 31.64,
+      "shares": 3862,
+      "stop": 32.95,
+      "target": 29.45,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.444,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.523,
+        "trend": -0.852,
+        "reversal": 0.502,
+        "volume": -0.257,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 171.1,
+      "shares": 888,
+      "stop": 176.11,
+      "target": 162.76,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Finans",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.385,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.479,
+        "trend": 0.729,
+        "reversal": -0.116,
+        "volume": 0.1,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 411.6,
+      "shares": 369,
+      "stop": 401.16,
+      "target": 429.0,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.376,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.42,
+        "trend": 0.73,
+        "reversal": -0.384,
+        "volume": 0.247,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 49.67,
+      "shares": 3059,
+      "stop": 48.4,
+      "target": 51.78,
+      "max_hold_days": 5,
+      "rationale": ""
+    },
+    {
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "sector": "Finans",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.371,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.396,
+        "trend": 0.73,
+        "reversal": -0.25,
+        "volume": 0.203,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 160.5,
+      "shares": 946,
+      "stop": 156.9,
+      "target": 166.5,
+      "max_hold_days": 5,
+      "rationale": ""
+    }
+  ],
+  "pending_orders": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.609,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -1.0,
+        "trend": -1.0,
+        "reversal": 0.754,
+        "volume": -0.546,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 10.34,
+      "shares": 6710,
+      "stop": 11.09,
+      "target": 9.08,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-23",
+      "atr14": 0.5032,
+      "stop_dist": 0.7548,
+      "target_dist": 1.2579,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 6710
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.448,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.51,
+        "trend": -0.831,
+        "reversal": 0.294,
+        "volume": -0.686,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 31.64,
+      "shares": 3862,
+      "stop": 32.95,
+      "target": 29.45,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-23",
+      "atr14": 0.8743,
+      "stop_dist": 1.3114,
+      "target_dist": 2.1857,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 3862
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "sector": "Dagligvaror",
+      "direction": "short",
+      "horizon": "week",
+      "score": -0.444,
+      "confidence": 0.471,
+      "components": {
+        "momentum": -0.523,
+        "trend": -0.852,
+        "reversal": 0.502,
+        "volume": -0.257,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 171.1,
+      "shares": 888,
+      "stop": 176.11,
+      "target": 162.76,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-23",
+      "atr14": 3.3373,
+      "stop_dist": 5.0059,
+      "target_dist": 8.3432,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 888
+    },
+    {
+      "ticker": "SWED-A.ST",
+      "name": "Swedbank A",
+      "sector": "Finans",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.385,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.479,
+        "trend": 0.729,
+        "reversal": -0.116,
+        "volume": 0.1,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 411.6,
+      "shares": 369,
+      "stop": 401.16,
+      "target": 429.0,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-23",
+      "atr14": 6.9612,
+      "stop_dist": 10.4419,
+      "target_dist": 17.4031,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 369
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.376,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.42,
+        "trend": 0.73,
+        "reversal": -0.384,
+        "volume": 0.247,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 49.67,
+      "shares": 3059,
+      "stop": 48.4,
+      "target": 51.78,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-23",
+      "atr14": 0.8437,
+      "stop_dist": 1.2655,
+      "target_dist": 2.1092,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 3059
+    },
+    {
+      "ticker": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "sector": "Finans",
+      "direction": "long",
+      "horizon": "week",
+      "score": 0.371,
+      "confidence": 0.471,
+      "components": {
+        "momentum": 0.396,
+        "trend": 0.73,
+        "reversal": -0.25,
+        "volume": 0.203,
+        "fundamental": 0.0,
+        "sentiment": 0.0,
+        "macro": 0.0
+      },
+      "ref_price": 160.5,
+      "shares": 946,
+      "stop": 156.9,
+      "target": 166.5,
+      "max_hold_days": 5,
+      "rationale": "",
+      "signal_date": "2026-11-23",
+      "atr14": 2.402,
+      "stop_dist": 3.6029,
+      "target_dist": 6.0049,
+      "order_type": "marknad vid oppning",
+      "indicative_shares": 946
+    }
+  ],
+  "top10": [
+    {
+      "index": "SWED-A.ST",
+      "name": "Swedbank A",
+      "score": 0.353,
+      "confidence": 0.471
+    },
+    {
+      "index": "TELIA.ST",
+      "name": "Telia",
+      "score": 0.342,
+      "confidence": 0.471
+    },
+    {
+      "index": "SHB-A.ST",
+      "name": "Handelsbanken A",
+      "score": 0.339,
+      "confidence": 0.471
+    },
+    {
+      "index": "SKA-B.ST",
+      "name": "Skanska B",
+      "score": 0.322,
+      "confidence": 0.471
+    },
+    {
+      "index": "GETI-B.ST",
+      "name": "Getinge B",
+      "score": 0.299,
+      "confidence": 0.378
+    },
+    {
+      "index": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "score": 0.293,
+      "confidence": 0.378
+    },
+    {
+      "index": "EVO.ST",
+      "name": "Evolution",
+      "score": 0.292,
+      "confidence": 0.378
+    },
+    {
+      "index": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "score": 0.28,
+      "confidence": 0.378
+    },
+    {
+      "index": "TREL-B.ST",
+      "name": "Trelleborg B",
+      "score": 0.278,
+      "confidence": 0.378
+    },
+    {
+      "index": "ESSITY-B.ST",
+      "name": "Essity B",
+      "score": 0.274,
+      "confidence": 0.471
+    }
+  ],
+  "bottom10": [
+    {
+      "index": "SAAB-B.ST",
+      "name": "Saab B",
+      "score": -0.222,
+      "confidence": 0.378
+    },
+    {
+      "index": "ABB.ST",
+      "name": "ABB",
+      "score": -0.231,
+      "confidence": 0.378
+    },
+    {
+      "index": "MTRS.ST",
+      "name": "Munters",
+      "score": -0.242,
+      "confidence": 0.471
+    },
+    {
+      "index": "TEL2-B.ST",
+      "name": "Tele2 B",
+      "score": -0.249,
+      "confidence": 0.471
+    },
+    {
+      "index": "ALLEI.ST",
+      "name": "Alleima",
+      "score": -0.25,
+      "confidence": 0.285
+    },
+    {
+      "index": "BOL.ST",
+      "name": "Boliden",
+      "score": -0.27,
+      "confidence": 0.378
+    },
+    {
+      "index": "HOLM-B.ST",
+      "name": "Holmen B",
+      "score": -0.314,
+      "confidence": 0.471
+    },
+    {
+      "index": "AAK.ST",
+      "name": "AAK",
+      "score": -0.402,
+      "confidence": 0.471
+    },
+    {
+      "index": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "score": -0.421,
+      "confidence": 0.471
+    },
+    {
+      "index": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "score": -0.549,
+      "confidence": 0.471
+    }
+  ]
+}

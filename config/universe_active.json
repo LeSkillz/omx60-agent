@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-23",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -22,6 +22,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "BOL.ST",
+      "name": "Boliden",
+      "sector": "Material"
+    },
+    {
       "ticker": "AZN.ST",
       "name": "AstraZeneca",
       "sector": "Halsovard"
@@ -30,11 +35,6 @@
       "ticker": "SAAB-B.ST",
       "name": "Saab B",
       "sector": "Industri"
-    },
-    {
-      "ticker": "BOL.ST",
-      "name": "Boliden",
-      "sector": "Material"
     },
     {
       "ticker": "SAND.ST",
@@ -112,24 +112,24 @@
       "sector": "Industri"
     },
     {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
     },
     {
-      "ticker": "EVO.ST",
-      "name": "Evolution",
-      "sector": "Sallankopsvaror"
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
+      "sector": "Industri"
     },
     {
       "ticker": "SKA-B.ST",
       "name": "Skanska B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "EVO.ST",
+      "name": "Evolution",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "SSAB-B.ST",
@@ -177,11 +177,6 @@
       "sector": "Industri"
     },
     {
-      "ticker": "LIFCO-B.ST",
-      "name": "Lifco B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "AAK.ST",
       "name": "AAK",
       "sector": "Dagligvaror"
@@ -190,6 +185,11 @@
       "ticker": "GETI-B.ST",
       "name": "Getinge B",
       "sector": "Halsovard"
+    },
+    {
+      "ticker": "LIFCO-B.ST",
+      "name": "Lifco B",
+      "sector": "Industri"
     },
     {
       "ticker": "BEIJ-B.ST",
@@ -212,11 +212,6 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SAGA-B.ST",
-      "name": "Sagax B",
-      "sector": "Fastighet"
-    },
-    {
       "ticker": "SAVE.ST",
       "name": "Nordnet",
       "sector": "Finans"
@@ -227,14 +222,14 @@
       "sector": "Industri"
     },
     {
+      "ticker": "SAGA-B.ST",
+      "name": "Sagax B",
+      "sector": "Fastighet"
+    },
+    {
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
-    },
-    {
-      "ticker": "VOLCAR-B.ST",
-      "name": "Volvo Car B",
-      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "SINCH.ST",
@@ -245,6 +240,11 @@
       "ticker": "EPI-B.ST",
       "name": "Epiroc B",
       "sector": "Industri"
+    },
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "LATO-B.ST",
