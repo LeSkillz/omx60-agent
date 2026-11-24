@@ -1,5 +1,5 @@
 {
-  "equity": 1013037.71,
+  "equity": 999844.85,
   "cash": 1410201.1997883331,
   "open_positions": [
     {
@@ -31,15 +31,15 @@
       },
       "rationale": "",
       "entry_cost": 64.48,
-      "last_close": 10.27,
-      "as_of": "2026-11-20",
-      "open_pnl": 3476.65,
-      "open_pnl_pct": 5.39,
-      "to_stop_pct": -13.88,
-      "to_target_pct": 7.94,
-      "days_left": 1,
-      "progress": 0.636,
-      "action": "Behall"
+      "last_close": 10.85,
+      "as_of": "2026-11-24",
+      "open_pnl": -0.0,
+      "open_pnl_pct": -0.0,
+      "to_stop_pct": -7.74,
+      "to_target_pct": 12.9,
+      "days_left": 0,
+      "progress": 0.375,
+      "action": "Stangs vid nasta stangning"
     },
     {
       "signal_date": "2026-11-19",
@@ -70,14 +70,14 @@
       },
       "rationale": "",
       "entry_cost": 127.2,
-      "last_close": 30.8,
-      "as_of": "2026-11-20",
-      "open_pnl": 4922.8,
-      "open_pnl_pct": 3.87,
-      "to_stop_pct": -8.12,
-      "to_target_pct": 2.79,
-      "days_left": 3,
-      "progress": 0.744,
+      "last_close": 32.04,
+      "as_of": "2026-11-24",
+      "open_pnl": -0.0,
+      "open_pnl_pct": -0.0,
+      "to_stop_pct": -3.93,
+      "to_target_pct": 6.55,
+      "days_left": 1,
+      "progress": 0.375,
       "action": "Behall"
     },
     {
@@ -109,14 +109,14 @@
       },
       "rationale": "",
       "entry_cost": 150.34,
-      "last_close": 170.4,
-      "as_of": "2026-11-20",
-      "open_pnl": 3110.41,
-      "open_pnl_pct": 2.07,
-      "to_stop_pct": -5.22,
-      "to_target_pct": 3.06,
-      "days_left": 3,
-      "progress": 0.63,
+      "last_close": 174.0,
+      "as_of": "2026-11-24",
+      "open_pnl": -0.0,
+      "open_pnl_pct": -0.0,
+      "to_stop_pct": -3.04,
+      "to_target_pct": 5.06,
+      "days_left": 1,
+      "progress": 0.375,
       "action": "Behall"
     },
     {
@@ -148,14 +148,14 @@
       },
       "rationale": "",
       "entry_cost": 68.34,
-      "last_close": 130.7,
-      "as_of": "2026-11-20",
-      "open_pnl": 1683.0,
-      "open_pnl_pct": 2.46,
-      "to_stop_pct": -10.05,
-      "to_target_pct": 10.02,
-      "days_left": 4,
-      "progress": 0.501,
+      "last_close": 134.0,
+      "as_of": "2026-11-24",
+      "open_pnl": -0.0,
+      "open_pnl_pct": -0.0,
+      "to_stop_pct": -7.34,
+      "to_target_pct": 12.24,
+      "days_left": 2,
+      "progress": 0.375,
       "action": "Behall"
     }
   ],
@@ -777,6 +777,12 @@
     {
       "date": "2026-11-20",
       "equity": 1013037.71,
+      "cash": 1410201.2,
+      "open_positions": 4
+    },
+    {
+      "date": "2026-11-24",
+      "equity": 999844.85,
       "cash": 1410201.2,
       "open_positions": 4
     }

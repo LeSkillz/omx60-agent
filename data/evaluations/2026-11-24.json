@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-24",
+  "n_positions": 4,
+  "hit_rate": 0.0,
+  "avg_signed_return_pct": 0.0,
+  "benchmark_return_pct": null,
+  "equity": 999844.85,
+  "filled": [],
+  "rejected": [],
+  "closed_trades": [],
+  "detail": [
+    {
+      "ticker": "VOLCAR-B.ST",
+      "name": "Volvo Car B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -0.0,
+      "hit": false
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -0.0,
+      "hit": false
+    },
+    {
+      "ticker": "AAK.ST",
+      "name": "AAK",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -0.0,
+      "hit": false
+    },
+    {
+      "ticker": "MTRS.ST",
+      "name": "Munters",
+      "direction": "short",
+      "horizon": "week",
+      "status": "oppen",
+      "signed_return_pct": -0.0,
+      "hit": false
+    }
+  ],
+  "ic": {}
+}
