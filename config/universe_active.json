@@ -42,14 +42,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "ASSA-B.ST",
-      "name": "Assa Abloy B",
-      "sector": "Industri"
-    },
-    {
       "ticker": "ERIC-B.ST",
       "name": "Ericsson B",
       "sector": "Teknik"
+    },
+    {
+      "ticker": "ASSA-B.ST",
+      "name": "Assa Abloy B",
+      "sector": "Industri"
     },
     {
       "ticker": "SWED-A.ST",
@@ -62,13 +62,13 @@
       "sector": "Finans"
     },
     {
-      "ticker": "SEB-A.ST",
-      "name": "SEB A",
+      "ticker": "EQT.ST",
+      "name": "EQT",
       "sector": "Finans"
     },
     {
-      "ticker": "EQT.ST",
-      "name": "EQT",
+      "ticker": "SEB-A.ST",
+      "name": "SEB A",
       "sector": "Finans"
     },
     {
@@ -82,6 +82,11 @@
       "sector": "Industri"
     },
     {
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon B",
+      "sector": "Teknik"
+    },
+    {
       "ticker": "ATCO-B.ST",
       "name": "Atlas Copco B",
       "sector": "Industri"
@@ -92,9 +97,9 @@
       "sector": "Dagligvaror"
     },
     {
-      "ticker": "HEXA-B.ST",
-      "name": "Hexagon B",
-      "sector": "Teknik"
+      "ticker": "HM-B.ST",
+      "name": "H&M B",
+      "sector": "Sallankopsvaror"
     },
     {
       "ticker": "ALFA.ST",
@@ -102,24 +107,19 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HM-B.ST",
-      "name": "H&M B",
-      "sector": "Sallankopsvaror"
-    },
-    {
       "ticker": "NIBE-B.ST",
       "name": "NIBE B",
+      "sector": "Industri"
+    },
+    {
+      "ticker": "SKF-B.ST",
+      "name": "SKF B",
       "sector": "Industri"
     },
     {
       "ticker": "TELIA.ST",
       "name": "Telia",
       "sector": "Telekom"
-    },
-    {
-      "ticker": "SKF-B.ST",
-      "name": "SKF B",
-      "sector": "Industri"
     },
     {
       "ticker": "SKA-B.ST",
@@ -152,13 +152,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "MTRS.ST",
-      "name": "Munters",
+      "ticker": "SECU-B.ST",
+      "name": "Securitas B",
       "sector": "Industri"
     },
     {
-      "ticker": "SECU-B.ST",
-      "name": "Securitas B",
+      "ticker": "MTRS.ST",
+      "name": "Munters",
       "sector": "Industri"
     },
     {
@@ -177,14 +177,14 @@
       "sector": "Industri"
     },
     {
+      "ticker": "BEIJ-B.ST",
+      "name": "Beijer Ref B",
+      "sector": "Industri"
+    },
+    {
       "ticker": "AAK.ST",
       "name": "AAK",
       "sector": "Dagligvaror"
-    },
-    {
-      "ticker": "GETI-B.ST",
-      "name": "Getinge B",
-      "sector": "Halsovard"
     },
     {
       "ticker": "LIFCO-B.ST",
@@ -192,9 +192,9 @@
       "sector": "Industri"
     },
     {
-      "ticker": "BEIJ-B.ST",
-      "name": "Beijer Ref B",
-      "sector": "Industri"
+      "ticker": "GETI-B.ST",
+      "name": "Getinge B",
+      "sector": "Halsovard"
     },
     {
       "ticker": "AZA.ST",
@@ -212,11 +212,6 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
-    },
-    {
       "ticker": "INDT.ST",
       "name": "Indutrade",
       "sector": "Industri"
@@ -230,6 +225,11 @@
       "ticker": "AXFO.ST",
       "name": "Axfood",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
     },
     {
       "ticker": "SINCH.ST",
@@ -252,14 +252,14 @@
       "sector": "Finans"
     },
     {
-      "ticker": "KINV-B.ST",
-      "name": "Kinnevik B",
-      "sector": "Finans"
-    },
-    {
       "ticker": "THULE.ST",
       "name": "Thule Group",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "KINV-B.ST",
+      "name": "Kinnevik B",
+      "sector": "Finans"
     },
     {
       "ticker": "LUND-B.ST",
@@ -282,13 +282,13 @@
       "sector": "Material"
     },
     {
-      "ticker": "ALLEI.ST",
-      "name": "Alleima",
+      "ticker": "BILL.ST",
+      "name": "Billerud",
       "sector": "Material"
     },
     {
-      "ticker": "BILL.ST",
-      "name": "Billerud",
+      "ticker": "ALLEI.ST",
+      "name": "Alleima",
       "sector": "Material"
     },
     {
