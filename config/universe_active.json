@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -202,11 +202,6 @@
       "sector": "Fastighet"
     },
     {
-      "ticker": "AZA.ST",
-      "name": "Avanza Bank",
-      "sector": "Finans"
-    },
-    {
       "ticker": "INDT.ST",
       "name": "Indutrade",
       "sector": "Industri"
@@ -300,17 +295,22 @@
       "ticker": "HUSQ-B.ST",
       "name": "Husqvarna B",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "VITR.ST",
+      "name": "Vitrolife",
+      "sector": "Halsovard"
     }
   ],
   "excluded": [
     "AFRY.ST",
+    "AZA.ST",
     "DOM.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
-    "VITR.ST",
     "WALL-B.ST",
     "WIHL.ST"
   ]
