@@ -82,14 +82,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "HEXA-B.ST",
-      "name": "Hexagon B",
-      "sector": "Teknik"
-    },
-    {
       "ticker": "ESSITY-B.ST",
       "name": "Essity B",
       "sector": "Dagligvaror"
+    },
+    {
+      "ticker": "HEXA-B.ST",
+      "name": "Hexagon B",
+      "sector": "Teknik"
     },
     {
       "ticker": "EPI-A.ST",
@@ -122,14 +122,14 @@
       "sector": "Industri"
     },
     {
-      "ticker": "TELIA.ST",
-      "name": "Telia",
-      "sector": "Telekom"
-    },
-    {
       "ticker": "EVO.ST",
       "name": "Evolution",
       "sector": "Sallankopsvaror"
+    },
+    {
+      "ticker": "TELIA.ST",
+      "name": "Telia",
+      "sector": "Telekom"
     },
     {
       "ticker": "CAST.ST",
@@ -142,13 +142,13 @@
       "sector": "Telekom"
     },
     {
-      "ticker": "SCA-B.ST",
-      "name": "SCA B",
+      "ticker": "SSAB-B.ST",
+      "name": "SSAB B",
       "sector": "Material"
     },
     {
-      "ticker": "SSAB-B.ST",
-      "name": "SSAB B",
+      "ticker": "SCA-B.ST",
+      "name": "SCA B",
       "sector": "Material"
     },
     {
@@ -192,14 +192,19 @@
       "sector": "Halsovard"
     },
     {
+      "ticker": "BALD-B.ST",
+      "name": "Balder B",
+      "sector": "Fastighet"
+    },
+    {
       "ticker": "LIFCO-B.ST",
       "name": "Lifco B",
       "sector": "Industri"
     },
     {
-      "ticker": "BALD-B.ST",
-      "name": "Balder B",
-      "sector": "Fastighet"
+      "ticker": "AZA.ST",
+      "name": "Avanza Bank",
+      "sector": "Finans"
     },
     {
       "ticker": "INDT.ST",
@@ -212,14 +217,14 @@
       "sector": "Sallankopsvaror"
     },
     {
-      "ticker": "SAVE.ST",
-      "name": "Nordnet",
-      "sector": "Finans"
-    },
-    {
       "ticker": "SAGA-B.ST",
       "name": "Sagax B",
       "sector": "Fastighet"
+    },
+    {
+      "ticker": "SAVE.ST",
+      "name": "Nordnet",
+      "sector": "Finans"
     },
     {
       "ticker": "AXFO.ST",
@@ -287,31 +292,26 @@
       "sector": "Fastighet"
     },
     {
+      "ticker": "WIHL.ST",
+      "name": "Wihlborgs",
+      "sector": "Fastighet"
+    },
+    {
       "ticker": "ALLEI.ST",
       "name": "Alleima",
       "sector": "Material"
-    },
-    {
-      "ticker": "HUSQ-B.ST",
-      "name": "Husqvarna B",
-      "sector": "Sallankopsvaror"
-    },
-    {
-      "ticker": "VITR.ST",
-      "name": "Vitrolife",
-      "sector": "Halsovard"
     }
   ],
   "excluded": [
     "AFRY.ST",
-    "AZA.ST",
     "DOM.ST",
+    "HUSQ-B.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",
     "SBB-B.ST",
     "STOR-B.ST",
-    "WALL-B.ST",
-    "WIHL.ST"
+    "VITR.ST",
+    "WALL-B.ST"
   ]
 }
