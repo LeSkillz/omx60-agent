@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "members": [
     {
       "ticker": "INVE-B.ST",
@@ -104,11 +104,6 @@
     {
       "ticker": "SKF-B.ST",
       "name": "SKF B",
-      "sector": "Industri"
-    },
-    {
-      "ticker": "ALFA.ST",
-      "name": "Alfa Laval",
       "sector": "Industri"
     },
     {
@@ -300,12 +295,17 @@
       "ticker": "ALLEI.ST",
       "name": "Alleima",
       "sector": "Material"
+    },
+    {
+      "ticker": "HUSQ-B.ST",
+      "name": "Husqvarna B",
+      "sector": "Sallankopsvaror"
     }
   ],
   "excluded": [
     "AFRY.ST",
+    "ALFA.ST",
     "DOM.ST",
-    "HUSQ-B.ST",
     "INSTAL.ST",
     "JM.ST",
     "NOLA-B.ST",

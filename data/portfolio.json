@@ -32,7 +32,7 @@
       "rationale": "",
       "entry_cost": 64.48,
       "last_close": 10.85,
-      "as_of": "2026-11-27",
+      "as_of": "2026-11-28",
       "open_pnl": -0.0,
       "open_pnl_pct": -0.0,
       "to_stop_pct": -7.74,
@@ -71,7 +71,7 @@
       "rationale": "",
       "entry_cost": 127.2,
       "last_close": 32.04,
-      "as_of": "2026-11-27",
+      "as_of": "2026-11-28",
       "open_pnl": -0.0,
       "open_pnl_pct": -0.0,
       "to_stop_pct": -3.93,
@@ -110,7 +110,7 @@
       "rationale": "",
       "entry_cost": 150.34,
       "last_close": 174.0,
-      "as_of": "2026-11-27",
+      "as_of": "2026-11-28",
       "open_pnl": -0.0,
       "open_pnl_pct": -0.0,
       "to_stop_pct": -3.04,
@@ -149,7 +149,7 @@
       "rationale": "",
       "entry_cost": 68.34,
       "last_close": 134.0,
-      "as_of": "2026-11-27",
+      "as_of": "2026-11-28",
       "open_pnl": -0.0,
       "open_pnl_pct": -0.0,
       "to_stop_pct": -7.34,
@@ -800,6 +800,12 @@
     },
     {
       "date": "2026-11-27",
+      "equity": 999844.85,
+      "cash": 1410201.2,
+      "open_positions": 4
+    },
+    {
+      "date": "2026-11-28",
       "equity": 999844.85,
       "cash": 1410201.2,
       "open_positions": 4
